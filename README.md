@@ -7,9 +7,8 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 * Você poderá consultar o Google, Stackoverflow ou algum projeto particular na sua máquina.
 * Você terá 45 minutos para completar seu teste, portanto, foque em nos mostrar sua linha de raciocínio, bem como aplicar todas os conceitos que você julga interessante mostrar.
 * É obrigatório o compartilhamento da tela enquanto o candidato inicia o teste prático.
-* Fique avontade para perguntar qualquer dúvida aos entrevistadores
-* Fique tranquilo, assim como você, também já passamos por essa etapa, é só pra saber se você manja mesmo :)
-* Boa sorte!
+* Fique à vontade para perguntar qualquer dúvida aos entrevistadores.
+* Fique tranquilo, respire, assim como você, também já passamos por essa etapa. Boa sorte! :)
 
 ## Setup do projeto
 * Angular CLI: 8.3.18
