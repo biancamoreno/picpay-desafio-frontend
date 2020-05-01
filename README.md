@@ -3,6 +3,7 @@ Primeiramente, obrigado pelo seu interesse em trabalhar na melhor plataforma de 
 Abaixo você encontrará todos as informações necessárias para iniciar o seu Test.
 
 ## Avisos antes de começar
+* Primeiro crie uma branch apartir da `develop` nesse padrão de nomenclatura: dd-mm-yy/nome-sobrenome (por exemplo, 30-04-20/julio-rodrigues)
 * Você poderá consultar o Google, Stackoverflow ou algum projeto particular na sua máquina.
 * Você terá 45 minutos para completar seu teste, portanto, foque em nos mostrar sua linha de raciocínio, bem como aplicar todas os conceitos que você julga interessante mostrar.
 * É obrigatório o compartilhamento da tela enquanto o candidato inicia o teste prático.
@@ -20,6 +21,7 @@ Angular: 8.2.14
 
 - na pasta src, rode este comando `ng serve` for a dev server. 
 - Rode aplicação na porta `http://localhost:4200/`
+
 
 ## Objetivo
 
