@@ -12,10 +12,9 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 * Boa sorte!
 
 ## Setup do projeto
-Angular CLI: 8.3.18
-Node: 10.15.3
-OS: darwin x64
-Angular: 8.2.14
+* Angular CLI: 8.3.18
+* Node: 10.15.3
+* Angular: 8.2.14
 
 ## Como Rodar?
 
