@@ -22,6 +22,11 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 - Na raiz do repositório, rode este comando `ng serve` para iniciar o servidor de desenvolvimento.
 - A Aplicação estará disponível na porta `http://localhost:4200/`
 
+## Como submeter?
+
+- Commite suas alterações de forma organizada
+- Abra uma pull request da sua branch para a master com a nomenclatura: Nome Sobrenome - dd-mm-yy
+
 ## Objetivo
 
 O objetivo é construir uma aplicação que simula o envio de dinheiro para uma outra pessoa, via cartão de crédito.
