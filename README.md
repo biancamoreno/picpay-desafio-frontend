@@ -33,6 +33,9 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 
 O objetivo é construir uma aplicação que simula o envio de dinheiro para uma outra pessoa, via cartão de crédito.
 
+## Fluxo das telas
+Na primeira tela terá uma listagem de usuários, onde a pessoa pode clicar em algum usuário da lista para realizar o pagamento. Quando clicado em um usuário é então aberto um modal de pagamento, contendo as informações do usuário de destino e a opção de selecionar um cartão de crédito. O usuário deve então digitar o valor, escolher o cartão e clicar em pagar. Para realização do pagamento deve-se chamar um endpoint de pagamento que aprovará/recusará a transação. E então deve-se mostrar na tela o modal de pagamento concluído com sucesso ou o de erro.
+
 ## Screenshots
 
 ### Lista de usuários
@@ -99,6 +102,8 @@ interface TransactionPayload {
 }
 ```
 
+_Obs: Por se tratar de um mock o endpoint sempre retornará o mesmo payload, sucesso no pagamento, independente do cartão_
+
 #
 
 ## Usuários
@@ -128,5 +133,7 @@ interface User {
 - Organização do código
 
 #
+
+Estamos sempre em busca de melhoria, por isso, caso tenha alguma sugestão fique a vontade pra compartilhar com a gente!
 
 Mais uma vez, boa sorte! :green_heart:
