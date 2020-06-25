@@ -1,0 +1,11 @@
+/*
+    Sass configuration file that imports global files
+*/
+
+@import 'reset';
+@import 'colors';
+@import 'typography';
+@import 'mixins';
+@import 'animations';
+@import 'setups';
+@import '../../../node_modules/aos/src/sass/aos';

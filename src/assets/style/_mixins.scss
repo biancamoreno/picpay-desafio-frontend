@@ -1,0 +1,76 @@
+/*
+    Mixin file - classes that contains methods for use by other classes
+*/
+
+$breakpoints: (
+    'mobile': 320px,
+    'tablet': 768px,
+    'desktop': 1025px,
+);
+$spaceamounts: (1, 3, 5, 8, 10, 12, 15, 16, 20, 25, 50, 100);
+$sides: (top, bottom, left, right);
+
+// medias for app responsive by breakpoints
+@mixin respond-to($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (min-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+}
+
+// margin and padding classes by values
+@each $space in $spaceamounts {
+  
+    // specific side and value of margin
+    @each $side in $sides {
+        .m-#{str-slice($side, 0, 1)}-#{$space} {
+          margin-#{$side}: #{$space}px;
+        }
+    
+        .p-#{str-slice($side, 0, 1)}-#{$space} {
+          padding-#{$side}: #{$space}px;
+        }
+    }
+  
+    // horizontal margin
+    .m-h-#{$space} {
+        margin-right: #{$space}px;
+        margin-left: #{$space}px;
+    }
+    
+    // vertical margin
+    .m-v-#{$space} {
+        margin-top: #{$space}px;
+        margin-bottom: #{$space}px;
+    }
+  
+    // full margin
+    .m-#{$space} {
+        margin: #{$space}px;
+    }
+  
+    // horizontal padding
+    .p-h-#{$space} {
+        padding-right: #{$space}px;
+        padding-left: #{$space}px;
+    }
+    
+    // vertical padding
+    .p-v-#{$space} {
+        padding-top: #{$space}px;
+        padding-bottom: #{$space}px;
+    }
+    
+    // full padding
+    .p-#{$space} {
+        padding: #{$space}px;
+    }
+  
+}
+
+@mixin ellipsis() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

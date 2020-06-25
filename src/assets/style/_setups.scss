@@ -1,0 +1,15 @@
+@import 'mixins';
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+@include respond-to('desktop') {
+    .container {
+        max-width: 1140px;
+    }
+}
