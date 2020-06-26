@@ -131,8 +131,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-sup {font-size:x-small; vertical-align:super;}
+sup {
+  font-size: x-small;
+  vertical-align: super;
+}
 
 @media (min-width: 768px) {
-  sup {font-size: small; vertical-align: super;}
+  sup {
+    font-size: small;
+    vertical-align: super;
+  }
 }

@@ -1,6 +1,16 @@
 {
   "name": "picpay-desafio-frontend",
   "version": "0.0.0",
+  "lint-staged": {
+    "*.{json,md,scss,yaml,yml,ts,js}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +19,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "compodoc": "npm compodoc -p tsconfig.app.json",
-    "doc": "npm compodoc -p tsconfig.app.json -n \"PicPay Desafio - Documentação\""
+    "doc": "npm compodoc -p tsconfig.app.json -n \"PicPay Desafio - Documentação\"",
+    "prettier": "prettier \"**/*.{json,md,scss,yaml,yml}\""
   },
   "private": true,
   "dependencies": {
@@ -36,6 +47,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
+    "husky": "4.2.5",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
@@ -43,9 +55,12 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
+    "lint-staged": "10.2.11",
+    "prettier": "2.0.5",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "~3.5.3"
   }
 }
