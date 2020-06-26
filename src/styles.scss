@@ -6,7 +6,7 @@
 
 html,
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -17,4 +17,35 @@ body {
       text-decoration: underline;
     }
   }
+}
+
+.title {
+  color: $primary;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+  @include respond-to('desktop') {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+.description {
+  color: $light-text;
+  font-size: 14px;
+  margin-bottom: 10px;
+
+  @include respond-to('desktop') {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }

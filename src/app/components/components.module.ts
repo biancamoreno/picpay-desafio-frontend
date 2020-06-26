@@ -7,10 +7,12 @@ import { DirectivesModule } from '../directives/directives.module';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './organisms/header/header.component';
 import { FooterComponent } from './organisms/footer/footer.component';
+import { ListComponent } from './molecules/list/list.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [LogoComponent, ButtonComponent, NavbarComponent, HeaderComponent, FooterComponent],
-  imports: [CommonModule, DirectivesModule, RouterModule],
-  exports: [LogoComponent, ButtonComponent, NavbarComponent, HeaderComponent, FooterComponent]
+  declarations: [LogoComponent, ButtonComponent, NavbarComponent, HeaderComponent, FooterComponent, ListComponent],
+  imports: [CommonModule, DirectivesModule, RouterModule, FormsModule],
+  exports: [LogoComponent, ButtonComponent, NavbarComponent, HeaderComponent, FooterComponent, ListComponent]
 })
 export class ComponentsModule {}

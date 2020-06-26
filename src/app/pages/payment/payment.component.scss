@@ -1,0 +1,9 @@
+@import 'src/assets/style/mixins';
+
+.list-users {
+  padding-top: 20px;
+
+  @include respond-to('desktop') {
+    padding-top: 40px;
+  }
+}

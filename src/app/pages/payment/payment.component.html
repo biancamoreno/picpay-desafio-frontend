@@ -1,1 +1,15 @@
-<p>payment works!</p>
+<section class="list-users">
+  <div class="container">
+    <h1 class="title">Pagar</h1>
+    <p class="description">Escolha uma pessoa para enviar um pagamento:</p>
+
+    <div class="list-users__pagination" *ngIf="users else loading">
+      <app-list [items]="users"></app-list>
+    </div>
+      
+    <ng-template #loading>
+      <div>Loading...</div>
+    </ng-template>
+    
+  </div>
+</section>
