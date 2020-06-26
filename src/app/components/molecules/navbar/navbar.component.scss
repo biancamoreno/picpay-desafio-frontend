@@ -10,12 +10,35 @@
 }
 
 .item {
+  margin-right: 10px;
+
+  @include respond-to('tablet') {
+    margin-right: 20px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__link {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
   &__social {
     border-radius: 50%;
     transition: 0.25s ease-in;
     height: 34px;
     width: 34px;
     display: inline-block;
+    margin-right: 5px;
+
+    &:last-child {
+      margin-right: 0;
+    }
 
     @include respond-to('desktop') {
       &:hover {
