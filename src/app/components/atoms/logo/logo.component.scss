@@ -1,8 +1,12 @@
 @import 'src/assets/style/colors';
 
-#svg {
+.logo {
   fill: $secondary;
   width: 120px;
   outline: none;
   cursor: pointer;
+
+  &.small {
+    width: 80px;
+  }
 }

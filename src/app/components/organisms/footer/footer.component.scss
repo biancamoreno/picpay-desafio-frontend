@@ -1,0 +1,17 @@
+@import 'src/assets/style/mixins';
+@import 'src/assets/style/colors';
+
+.footer {
+  width: 100%;
+  padding: 10px 0;
+  background-color: $dark;
+
+  @include respond-to(tablet) {
+    padding: 15px 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
