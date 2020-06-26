@@ -2,10 +2,13 @@
 @import 'src/assets/style/mixins';
 
 .navbar {
+  padding: 0;
+
   &__list {
     list-style: none;
     display: flex;
     align-items: center;
+    margin-bottom: 0;
   }
 }
 

@@ -1,5 +1,5 @@
 @import 'src/assets/style/config';
-
+@import 'node_modules/bootstrap/scss/bootstrap';
 * {
   box-sizing: border-box;
 }
@@ -21,7 +21,7 @@ body {
 
 .title {
   color: $primary;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 10px;
 
   @include respond-to('desktop') {
@@ -32,11 +32,10 @@ body {
 
 .description {
   color: $light-text;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 10px;
 
   @include respond-to('desktop') {
-    font-size: 16px;
     margin-bottom: 15px;
   }
 }

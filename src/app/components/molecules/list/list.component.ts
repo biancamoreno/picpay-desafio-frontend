@@ -1,7 +1,4 @@
-import { Component, OnInit, Input, ViewChild } from '@angular/core';
-import { PageEvent } from '@angular/material/paginator';
-import { MatPaginator } from '@angular/material';
-import { MatTableDataSource } from '@angular/material';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-list',

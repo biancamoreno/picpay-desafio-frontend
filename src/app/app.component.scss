@@ -5,7 +5,7 @@
   min-height: calc(100vh - 108px);
 
   @include respond-to('desktop') {
-    min-height: calc(100vh - 144px);
+    min-height: calc(100vh - 138px);
   }
 }
 

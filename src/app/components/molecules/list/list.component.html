@@ -1,52 +1,28 @@
-<div class="users">
-  <div class="user">
-    <img src="https://randomuser.me/api/portraits/men/9.jpg" />
-    <div class="info-wrapper">
-      <div class="user-name">
-        Nome do Usuário X
-      </div>
-
-      <div class="user-id-username">
-        ID: X - Username: @usuarioX
-      </div>
+<ul class="list">
+  <li class="list__item" *ngFor="let item of items | angularPaginator: { currentPage: currentPage }; let i = index">
+    <div class="list__item__infos info">
+      <img class="info__img" [src]="item.img" />
+      <p class="info__text">
+        <span class="info__text__name">
+          {{ item.name }}
+        </span>
+        <span class="info__text__id">
+          ID: {{ item.id }}
+        </span>
+        <span class="info__text__username">
+          Username: {{ item.username }}
+        </span>
+      </p>
     </div>
 
-    <button type="button" class="pay-button">
-      Pagar
-    </button>
-  </div>
+    <app-button [text]="'Pagar'" [outline]="true" class="list__item__btn"></app-button>
+  </li>
+</ul>
 
-  <div class="user">
-    <img src="https://randomuser.me/api/portraits/men/12.jpg" />
-    <div class="info-wrapper">
-      <div class="user-name">
-        Nome do Usuário X
-      </div>
-
-      <div class="user-id-username">
-        ID: X - Username: @usuarioX
-      </div>
-    </div>
-
-    <button type="button" class="pay-button">
-      Pagar
-    </button>
-  </div>
-
-  <div class="user">
-    <img src="https://randomuser.me/api/portraits/men/13.jpg" />
-    <div class="info-wrapper">
-      <div class="user-name">
-        Nome do Usuário X
-      </div>
-
-      <div class="user-id-username">
-        ID: X - Username: @usuarioX
-      </div>
-    </div>
-
-    <button type="button" class="pay-button">
-      Pagar
-    </button>
-  </div>
-</div>
+<angular-paginator [boundaryLinks]="false" [directionLinks]="true" maxSize="10" [rotate]="true"
+  [boundaryLinkNumbers]="false" [forceEllipses]="false" size="sm" id="ANGULAR_PAGINATOR_DEFAULT" firstText="Primeira"
+  previousText="Anterior" nextText="Próxima" lastText="Última" screenReaderFirstText="Primeira"
+  screenReaderPreviousText="Anterior" screenReaderNextText="Próxima" screenReaderLastText="Última"
+  screenReaderPageText="Página" screenReaderCurrentPageText="" screenReaderPaginationLabel="Paginação"
+  className="ANGULAR_PAGINATOR_DEFAULT" [autoHide]="false" [disabled]="false" (pageChange)="currentPage = $event">
+</angular-paginator>

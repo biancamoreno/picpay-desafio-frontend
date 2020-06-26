@@ -9,10 +9,11 @@ import { HeaderComponent } from './organisms/header/header.component';
 import { FooterComponent } from './organisms/footer/footer.component';
 import { ListComponent } from './molecules/list/list.component';
 import { FormsModule } from '@angular/forms';
+import { AngularPaginatorModule } from 'angular-paginator';
 
 @NgModule({
   declarations: [LogoComponent, ButtonComponent, NavbarComponent, HeaderComponent, FooterComponent, ListComponent],
-  imports: [CommonModule, DirectivesModule, RouterModule, FormsModule],
+  imports: [CommonModule, DirectivesModule, RouterModule, FormsModule, AngularPaginatorModule],
   exports: [LogoComponent, ButtonComponent, NavbarComponent, HeaderComponent, FooterComponent, ListComponent]
 })
 export class ComponentsModule {}
