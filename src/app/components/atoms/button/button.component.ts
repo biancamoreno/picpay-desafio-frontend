@@ -6,12 +6,17 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./button.component.scss']
 })
 export class ButtonComponent implements OnInit {
-  @Input() type: string = this.type ? this.type : 'button';
-  @Input() text: string = this.text ? this.text : 'Enviar';
-  @Input() outline: boolean = this.outline ? this.outline : false;
-  @Input() status: string = this.status ? this.status : '';
+  @Input() type: string;
+  @Input() text: string;
+  @Input() outline: boolean;
+  @Input() status: string;
 
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.type = this.type ? this.type : 'button';
+    this.text = this.text ? this.text : 'Enviar';
+    this.outline = this.outline ? this.outline : false;
+    this.status = this.status ? this.status : '';
+  }
 }
