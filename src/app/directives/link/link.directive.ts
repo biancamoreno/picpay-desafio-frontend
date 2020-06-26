@@ -13,7 +13,6 @@ export class LinkDirective implements OnInit {
 
   private changeStyle(color: string = '#0d9855') {
     this._elemento.nativeElement.style.color = this.textColor ? this.textColor : color;
-    this._elemento.nativeElement.style.textDecoration = 'underline';
-    this._elemento.nativeElement.style.cursor = 'pointerc';
+    this._elemento.nativeElement.style.cursor = 'pointer';
   }
 }
