@@ -1,0 +1,15 @@
+@import 'src/assets/style/mixins';
+
+.header {
+  width: 100%;
+  padding: 10px 0;
+
+  @include respond-to(tablet) {
+    padding: 20px 0;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
