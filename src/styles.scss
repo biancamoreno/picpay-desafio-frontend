@@ -12,7 +12,9 @@ body {
 }
 
 [link] {
-  &:hover {
-    text-decoration: underline;
+  @include respond-to('desktop') {
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

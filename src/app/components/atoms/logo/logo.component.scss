@@ -1,10 +1,15 @@
 @import 'src/assets/style/colors';
+@import 'src/assets/style/mixins';
 
 .logo {
   fill: $secondary;
-  width: 120px;
+  width: 100px;
   outline: none;
   cursor: pointer;
+
+  @include respond-to('tablet') {
+    width: 120px;
+  }
 
   &.small {
     width: 80px;

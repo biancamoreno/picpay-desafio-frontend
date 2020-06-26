@@ -1,7 +1,27 @@
+@import 'src/assets/style/colors';
+@import 'src/assets/style/mixins';
+
 .navbar {
   &__list {
     list-style: none;
     display: flex;
     align-items: center;
+  }
+}
+
+.item {
+  &__social {
+    border-radius: 50%;
+    transition: 0.25s ease-in;
+    height: 34px;
+    width: 34px;
+    display: inline-block;
+
+    @include respond-to('desktop') {
+      &:hover {
+        transition: 0.25s ease-in;
+        background-color: rgba($primary, 0.1);
+      }
+    }
   }
 }

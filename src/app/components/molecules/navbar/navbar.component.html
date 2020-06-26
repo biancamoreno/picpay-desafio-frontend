@@ -1,11 +1,15 @@
 <nav class="navbar">
   <ul class="navbar__list">
-    <li class="m-r-10">
-      <a link [routerLink]="['/pagar']" routerLinkActive="router-link-active" >Pagar</a>
+    <li class="m-r-10 navbar__list__item item">
+      <a link class="m-r-10" [routerLink]="['/']" routerLinkActive="router-link-active">Sobre</a>
+      <a link [routerLink]="['/pagar']" routerLinkActive="router-link-active">Pagar</a>
     </li>
-    <li>
-      <a href="https://www.linkedin.com/company/picpay" target="_blank">
+    <li class="navbar__list__item item">
+      <a href="https://www.linkedin.com/company/picpay" target="_blank" class="m-r-5 item__social">
         <img src="https://picpay.com/static/images/ico-lk.png" width="34px" alt="Linkedin" />
+      </a>
+      <a href="https://www.youtube.com/user/PicPay" target="_blank" class="item__social">
+        <img src="https://picpay.com/static/images/ico-yt.png" width="34px" alt="Youtube" />
       </a>
     </li>
   </ul>

@@ -1,4 +1,5 @@
 @import 'src/assets/style/colors';
+@import 'src/assets/style/mixins';
 
 .btn {
   border: 0;
@@ -17,8 +18,10 @@
   &:not(.outline) {
     background: $primary;
 
-    &:hover {
-      background: $secondary;
+    @include respond-to('desktop') {
+      &:hover {
+        background: $secondary;
+      }
     }
   }
 
@@ -26,9 +29,11 @@
     border: 2px solid $primary;
     color: $primary;
 
-    &:hover {
-      background: $primary;
-      color: #fff;
+    @include respond-to('desktop') {
+      &:hover {
+        background: $primary;
+        color: #fff;
+      }
     }
   }
 }

@@ -3,13 +3,25 @@
 .header {
   width: 100%;
   padding: 10px 0;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
 
-  @include respond-to(tablet) {
+  @include respond-to('tablet') {
     padding: 20px 0;
   }
 
   .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+}
+
+::ng-deep {
+  .header {
+    @include respond-to('tablet') {
+      .logo {
+        width: 100px;
+      }
+    }
   }
 }
