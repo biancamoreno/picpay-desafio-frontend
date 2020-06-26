@@ -1,3 +1,5 @@
+@import 'src/assets/style/config';
+
 * {
   box-sizing: border-box;
 }
@@ -7,4 +9,10 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+}
+
+[link] {
+  &:hover {
+    text-decoration: underline;
+  }
 }

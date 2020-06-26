@@ -2,11 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ComponentsModule } from 'src/app/components/components.module';
 import { AppComponent } from './app.component';
-import { LinkDirective } from './directives/link.directive';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-  declarations: [AppComponent, LinkDirective],
-  imports: [BrowserModule, ComponentsModule],
+  declarations: [AppComponent],
+  imports: [BrowserModule, RouterModule, AppRoutingModule, ComponentsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
