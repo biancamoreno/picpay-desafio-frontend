@@ -40,11 +40,17 @@ body {
   }
 }
 
-html,
-body {
-  height: 100%;
+// FORM MATERIAL
+
+.mat-input-element {
+  caret-color: $secondary;
+  text-align: left;
 }
-body {
-  margin: 0;
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
+
+.mat-form-field.mat-focused .mat-form-field-label {
+  color: $secondary;
+}
+
+.mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: $secondary;
 }

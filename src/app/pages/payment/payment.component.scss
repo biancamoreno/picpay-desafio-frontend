@@ -1,9 +1,41 @@
 @import 'src/assets/style/mixins';
+@import 'src/assets/style/colors';
 
 .list-users {
   padding-top: 20px;
 
   @include respond-to('desktop') {
     padding-top: 40px;
+  }
+}
+
+// MODAL TRANSACTION
+
+::ng-deep {
+  .transaction-dialog {
+    max-width: 100vw !important;
+    width: 100%;
+    height: 100%;
+
+    .mat-dialog-container {
+      border-radius: 0;
+      padding: 0;
+      background: #fff;
+
+      .mat-dialog-title {
+        color: #fff;
+        background-color: rgba(25, 25, 25, 0.8);
+        padding: 20px;
+
+        & > span {
+          color: $primary;
+        }
+      }
+    }
+
+    .transaction-form {
+      padding: 20px;
+      box-sizing: border-box;
+    }
   }
 }

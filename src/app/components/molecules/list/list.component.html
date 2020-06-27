@@ -15,7 +15,7 @@
       </p>
     </div>
 
-    <app-button [text]="'Pagar'" [outline]="true" class="list__item__btn"></app-button>
+    <app-button [text]="'Pagar'" [outline]="true" class="list__item__btn" (btnClick)="clickItem(item)"></app-button>
   </li>
 </ul>
 

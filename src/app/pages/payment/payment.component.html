@@ -4,7 +4,7 @@
     <p class="description">Escolha uma pessoa para enviar um pagamento:</p>
 
     <div class="list-users__pagination m-t-30" *ngIf="users else loading">
-      <app-list [items]="users"></app-list>
+      <app-list [items]="users" (itemSelected)="handleItem($event)"></app-list>
     </div>
       
     <ng-template #loading>

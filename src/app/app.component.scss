@@ -2,7 +2,7 @@
 
 .content {
   width: 100%;
-  min-height: calc(100vh - 108px);
+  min-height: calc(100vh - 101px);
 
   @include respond-to('desktop') {
     min-height: calc(100vh - 138px);
