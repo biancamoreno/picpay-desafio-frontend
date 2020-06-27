@@ -1,20 +1,39 @@
-<p mat-dialog-title>Pagamento para <span>{{ data.name }}</span></p>
+<p mat-dialog-title>
+  Pagamento para <span>{{ data.user.name }}</span>
+  <mat-icon class="close-modal" (click)="closeModal()">close</mat-icon>
+</p>
+
 <div mat-dialog-content>
-  <form class="transaction-form" [formGroup]="transactionForm" (ngSubmit)="onSubmit()" *ngIf="transactionForm">
+  <form class="transaction-form" id="transactionForm" [formGroup]="transactionForm" *ngIf="transactionForm">
+    <fieldset class="description">Insira os dados para efetuar o pagamento:</fieldset>
+
     <mat-form-field class="example-full-width">
-      <mat-label>Valor</mat-label>
-      <input type="tel" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }" matInput formControlName="valuePayment" [errorStateMatcher]="matcher"
-      placeholder="R$ 0,00">
-      <mat-error *ngIf="transactionForm.controls['valuePayment'].hasError('invalid') && !transactionForm.controls['valuePayment'].hasError('required')">
+      <mat-label>*Valor</mat-label>
+      <input type="tel" name="paymentValue" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"
+        matInput formControlName="paymentValue" [errorStateMatcher]="matcher" placeholder="R$ 0,00">
+      <mat-error *ngIf="transactionForm.controls['paymentValue'].hasError('invalid') &&
+        !transactionForm.controls['paymentValue'].hasError('required')">
         Insira um valor correto
       </mat-error>
-      <mat-error *ngIf="transactionForm.controls['valuePayment'].hasError('required')">
+      <mat-error *ngIf="transactionForm.controls['paymentValue'].hasError('required')">
         O valor é <strong>obrigatório</strong>
       </mat-error>
     </mat-form-field>
+
+    <mat-form-field class="select example-full-width">
+      <mat-label>*Cartão de Crédito</mat-label>
+      <mat-select formControlName="creditCard" name="creditCard">
+        <mat-option value="" disabled>Selecione</mat-option>
+        <mat-option *ngFor="let card of cards" [value]="card.card_number.slice(-4)">
+          Cartão final {{ card.card_number.slice(-4) }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
   </form>
+
 </div>
 <div mat-dialog-actions>
-  <button mat-button (click)="onNoClick()">No Thanks</button>
-  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Ok</button>
+  <app-button [type]="submit" class="app-button" [text]="'Pagar'" [disabled]="transactionForm.invalid || loading"
+    [status]="loading ? 'loading' : ''" (click)="onSubmit()"></app-button>
 </div>

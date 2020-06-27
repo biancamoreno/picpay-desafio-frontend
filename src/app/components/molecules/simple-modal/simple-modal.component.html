@@ -1,0 +1,5 @@
+<p mat-dialog-title>{{ data.title }}</p>
+<div mat-dialog-content [innerHTML]="data.text"></div>
+<div mat-dialog-actions>
+  <app-button class="app-button" [text]="data.btn" (click)="closeModal()"></app-button>
+</div>

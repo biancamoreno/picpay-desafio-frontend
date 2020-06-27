@@ -6,10 +6,11 @@
     <div class="list-users__pagination m-t-30" *ngIf="users else loading">
       <app-list [items]="users" (itemSelected)="handleItem($event)"></app-list>
     </div>
-      
+
     <ng-template #loading>
-      <div>Loading...</div>
+      <div class="loading-page">
+        <img class="loading-page__loader" alt="loading" src="../../../assets/images/loading-green.gif" />
+      </div>
     </ng-template>
-    
   </div>
 </section>

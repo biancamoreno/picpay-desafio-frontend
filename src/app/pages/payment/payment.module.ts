@@ -5,9 +5,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { ComponentsModule } from 'src/app/components/components.module';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
-import { ErrorStateMatcher, ShowOnDirtyErrorStateMatcher } from '@angular/material/core';
+import { ErrorStateMatcher, ShowOnDirtyErrorStateMatcher, MatOptionModule } from '@angular/material/core';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { CurrencyMaskModule } from 'ng2-currency-mask';
+import { MatSelectModule } from '@angular/material';
+import { MatIconModule } from '@angular/material/icon';
 
 const routes: Routes = [
   {
@@ -26,7 +28,10 @@ const routes: Routes = [
     ComponentsModule,
     MatDialogModule,
     MatInputModule,
-    CurrencyMaskModule
+    CurrencyMaskModule,
+    MatOptionModule,
+    MatSelectModule,
+    MatIconModule
   ],
   entryComponents: [DialogTransaction],
   providers: [{ provide: ErrorStateMatcher, useClass: ShowOnDirtyErrorStateMatcher }]
