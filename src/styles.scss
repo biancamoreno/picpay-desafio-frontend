@@ -59,10 +59,10 @@ body {
 
 .mat-input-element {
   caret-color: $secondary;
-  text-align: left !important;
 }
 
-.mat-form-field.mat-focused .mat-form-field-label {
+.mat-form-field.mat-focused .mat-form-field-label,
+.mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
   color: $secondary;
 }
 

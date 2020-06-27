@@ -46,8 +46,8 @@ export class PaymentComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result => {
       if (result) {
         this.textFeedback = result.success
-          ? 'O pagamento foi concluído com sucesso!'
-          : 'O pagamento <strong>não</strong> foi concluído com sucesso.';
+          ? '<mat-icon>done</mat-icon> O pagamento foi concluído com sucesso!'
+          : '<mat-icon>error</mat-icon> O pagamento <strong>não</strong> foi concluído com sucesso.';
         this.openFeedbackDialog(result);
       }
     });
@@ -99,7 +99,7 @@ export class DialogTransaction {
   ) {
     /** Formulário de pagamento e validações */
     this.transactionForm = this._formBuilder.group({
-      paymentValue: ['', [Validators.required]],
+      paymentValue: [0, [Validators.required]],
       creditCard: ['', [Validators.required]]
     });
   }
@@ -124,6 +124,10 @@ export class DialogTransaction {
     });
   }
 
+  onBlur(e): void {
+    this.transactionForm.controls[e.target.name].markAsTouched;
+  }
+
   clearForm(): void {
     this.transactionForm.reset();
     this.transactionForm.markAsUntouched();
@@ -131,17 +135,6 @@ export class DialogTransaction {
     Object.keys(this.transactionForm.controls).forEach(name => {
       let control = this.transactionForm.controls[name];
       control.setErrors({ invalid: null });
-    });
-  }
-
-  /** Reset nos campos e status do formulário */
-  markFormGroupTouched(formGroup: FormGroup): void {
-    (<any>Object).values(formGroup.controls).forEach(control => {
-      control.markAsTouched();
-
-      if (control.controls) {
-        this.markFormGroupTouched(control);
-      }
     });
   }
 }
