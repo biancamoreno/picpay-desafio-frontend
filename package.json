@@ -18,8 +18,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "compodoc": "npm compodoc -p tsconfig.app.json",
-    "doc": "npm compodoc -p tsconfig.app.json -n \"PicPay Desafio - Documentação\"",
+    "compodoc": "compodoc -p tsconfig.json -s",
+    "doc": "compodoc -p tsconfig.json -n \"PicPay Desafio - Documentação\" -s",
     "prettier": "prettier \"**/*.{json,md,scss,yaml,yml}\""
   },
   "private": true,

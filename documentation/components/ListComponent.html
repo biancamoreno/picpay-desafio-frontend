@@ -1,0 +1,622 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>PicPay Desafio - Documentação</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">PicPay Desafio - Documentação</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>ListComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/molecules/list/list.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-list</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./list.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./list.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#clickItem">clickItem</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#items">items</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#itemSelected">itemSelected</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor()</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/app/components/molecules/list/list.component.ts:10</a></div>
+                            </td>
+                        </tr>
+
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="items"></a>
+                        <b>items</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Array&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="9" class="link-to-prism">src/app/components/molecules/list/list.component.ts:9</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="itemSelected"></a>
+                        <b>itemSelected</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/app/components/molecules/list/list.component.ts:10</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="clickItem"></a>
+                    <span class="name">
+                        <b>
+                            clickItem
+                        </b>
+                        <a href="#clickItem"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>clickItem(item: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="16"
+                            class="link-to-prism">src/app/components/molecules/list/list.component.ts:16</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>item</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="14"
+                            class="link-to-prism">src/app/components/molecules/list/list.component.ts:14</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, Input, Output, EventEmitter } from &#x27;@angular/core&#x27;;
+
+@Component({
+  selector: &#x27;app-list&#x27;,
+  templateUrl: &#x27;./list.component.html&#x27;,
+  styleUrls: [&#x27;./list.component.scss&#x27;]
+})
+export class ListComponent implements OnInit {
+  @Input() items: Array&lt;any&gt;;
+  @Output() itemSelected &#x3D; new EventEmitter&lt;{ data: any }&gt;();
+
+  constructor() {}
+
+  ngOnInit() {}
+
+  clickItem(item: any) {
+    this.itemSelected.emit({ data: item });
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;ul class&#x3D;&quot;list&quot;&gt;
+  &lt;li class&#x3D;&quot;list__item&quot; *ngFor&#x3D;&quot;let item of items | angularPaginator: { currentPage: currentPage }; let i &#x3D; index&quot;&gt;
+    &lt;div class&#x3D;&quot;list__item__infos info&quot;&gt;
+      &lt;img class&#x3D;&quot;info__img&quot; [src]&#x3D;&quot;item.img&quot; /&gt;
+      &lt;p class&#x3D;&quot;info__text&quot;&gt;
+        &lt;span class&#x3D;&quot;info__text__name&quot;&gt;
+          {{ item.name }}
+        &lt;/span&gt;
+        &lt;span class&#x3D;&quot;info__text__id&quot;&gt;
+          ID: {{ item.id }}
+        &lt;/span&gt;
+        &lt;span class&#x3D;&quot;info__text__username&quot;&gt;
+          Username: {{ item.username }}
+        &lt;/span&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;app-button [text]&#x3D;&quot;&#x27;Pagar&#x27;&quot; [outline]&#x3D;&quot;true&quot; class&#x3D;&quot;list__item__btn&quot; (btnClick)&#x3D;&quot;clickItem(item)&quot;&gt;&lt;/app-button&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;angular-paginator [boundaryLinks]&#x3D;&quot;false&quot; [directionLinks]&#x3D;&quot;true&quot; maxSize&#x3D;&quot;10&quot; [rotate]&#x3D;&quot;true&quot;
+  [boundaryLinkNumbers]&#x3D;&quot;false&quot; [forceEllipses]&#x3D;&quot;false&quot; size&#x3D;&quot;sm&quot; id&#x3D;&quot;ANGULAR_PAGINATOR_DEFAULT&quot; firstText&#x3D;&quot;Primeira&quot;
+  previousText&#x3D;&quot;Anterior&quot; nextText&#x3D;&quot;Próxima&quot; lastText&#x3D;&quot;Última&quot; screenReaderFirstText&#x3D;&quot;Primeira&quot;
+  screenReaderPreviousText&#x3D;&quot;Anterior&quot; screenReaderNextText&#x3D;&quot;Próxima&quot; screenReaderLastText&#x3D;&quot;Última&quot;
+  screenReaderPageText&#x3D;&quot;Página&quot; screenReaderCurrentPageText&#x3D;&quot;&quot; screenReaderPaginationLabel&#x3D;&quot;Paginação&quot;
+  className&#x3D;&quot;ANGULAR_PAGINATOR_DEFAULT&quot; [autoHide]&#x3D;&quot;false&quot; [disabled]&#x3D;&quot;false&quot; (pageChange)&#x3D;&quot;currentPage &#x3D; $event&quot;&gt;
+&lt;/angular-paginator&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./list.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &#x27;src/assets/style/colors&#x27;;
+@import &#x27;src/assets/style/mixins&#x27;;
+
+.list {
+  justify-content: center;
+
+  @include respond-to(&#x27;desktop&#x27;) {
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+  }
+
+  &amp;__item {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $light-border;
+    margin-top: 20px;
+    padding-top: 20px;
+
+    &amp;:first-child {
+      padding-top: 0;
+      border: 0;
+      margin-top: 0;
+    }
+
+    @include respond-to(&#x27;desktop&#x27;) {
+      margin-top: 30px;
+      padding-top: 30px;
+
+      &amp;:nth-child(2) {
+        padding-top: 0;
+        border: 0;
+        margin-top: 0;
+      }
+    }
+
+    &amp;__infos {
+      display: flex;
+    }
+
+    &amp;__btn {
+      min-width: 86px;
+
+      @include respond-to(&#x27;desktop&#x27;) {
+        min-width: 120px;
+        width: 120px;
+      }
+    }
+  }
+}
+
+::ng-deep {
+  .pagination {
+    justify-content: center;
+    margin: 30px 0;
+
+    @include respond-to(&#x27;desktop&#x27;) {
+      margin: 50px 0 70px;
+    }
+  }
+}
+
+.info {
+  &amp;__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  &amp;__text {
+    display: block;
+
+    &amp; &gt; span {
+      display: block;
+    }
+
+    &amp;__name {
+      color: $dark;
+      font-weight: 500;
+      font-size: 16px;
+
+      @include respond-to(&#x27;desktop&#x27;) {
+        font-size: 18px;
+      }
+    }
+
+    &amp;__id,
+    &amp;__username {
+      color: $light-text;
+      font-size: 12px;
+
+      @include respond-to(&#x27;desktop&#x27;) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><ul class="list">  <li class="list__item" *ngFor="let item of items | angularPaginator: { currentPage: currentPage }; let i = index">    <div class="list__item__infos info">      <img class="info__img" [src]="item.img" />      <p class="info__text">        <span class="info__text__name">          {{ item.name }}        </span>        <span class="info__text__id">          ID: {{ item.id }}        </span>        <span class="info__text__username">          Username: {{ item.username }}        </span>      </p>    </div>    <app-button [text]="\'Pagar\'" [outline]="true" class="list__item__btn" (btnClick)="clickItem(item)"></app-button>  </li></ul><angular-paginator [boundaryLinks]="false" [directionLinks]="true" maxSize="10" [rotate]="true"  [boundaryLinkNumbers]="false" [forceEllipses]="false" size="sm" id="ANGULAR_PAGINATOR_DEFAULT" firstText="Primeira"  previousText="Anterior" nextText="Próxima" lastText="Última" screenReaderFirstText="Primeira"  screenReaderPreviousText="Anterior" screenReaderNextText="Próxima" screenReaderLastText="Última"  screenReaderPageText="Página" screenReaderCurrentPageText="" screenReaderPaginationLabel="Paginação"  className="ANGULAR_PAGINATOR_DEFAULT" [autoHide]="false" [disabled]="false" (pageChange)="currentPage = $event"></angular-paginator></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];
+    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];
+    var ACTUAL_COMPONENT = {'name': 'ListComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'ListComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

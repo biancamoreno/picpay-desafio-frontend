@@ -1,4 +1,13867 @@
 var COMPODOC_SEARCH_INDEX = {
-    "index": {"version":"2.3.8","fields":["title","body"],"fieldVectors":[["title/components/AppComponent.html",[0,0.848,1,0.635]],["body/components/AppComponent.html",[0,0.863,1,0.74,2,1.635,3,0.688,4,0.563,5,1.017,6,1.017,7,1.017,8,1.017,9,0.428,10,0.743,11,1.017,12,2.051,13,2.051,14,1.499,15,1.635,16,2.051,17,1.635,18,1.635,19,0.688,20,1.635,21,2.575,22,0.563,23,0.108,24,0.743,25,0.743,26,0.563,27,1.195,28,1.195,29,1.195,30,1.195,31,0.743,32,1.017,33,0.563,34,0.563,35,0.563,36,0.231,37,2.197,38,2.197,39,3.316,40,2.01,41,2.01,42,2.75,43,2.197,44,2.197,45,1.195,46,1.195,47,2.01,48,1.635,49,1.635,50,1.635,51,1.195,52,1.717,53,2.35,54,2.35,55,1.717,56,1.635,57,1.017,58,1.017,59,1.717,60,2.575,61,1.017,62,1.017,63,1.017,64,1.017,65,1.017,66,2.051,67,1.017,68,1.017,69,2.378,70,2.575,71,2.051,72,1.635,73,2.051,74,2.051,75,2.575,76,1.017,77,1.017,78,2.051,79,2.051,80,2.051,81,1.635,82,2.35,83,0.743,84,2.891,85,2.35,86,1.017,87,2.75,88,1.635,89,2.35,90,1.017,91,2.575,92,2.35,93,2.051,94,1.017,95,1.635,96,1.017,97,1.017,98,2.378,99,1.017,100,1.017,101,2.01,102,1.017,103,1.017,104,1.635,105,1.017,106,2.35,107,1.017,108,1.017,109,1.017,110,1.017,111,1.017,112,1.017,113,1.017,114,1.017,115,1.017,116,0.743,117,2.575,118,1.017,119,1.017,120,2.575,121,1.017,122,1.017,123,2.35,124,1.635,125,1.017,126,1.017,127,1.017,128,1.017,129,2.051,130,2.051,131,2.051,132,2.051,133,1.635,134,0.743,135,1.017,136,1.017,137,0.563,138,1.635,139,1.195,140,1.017,141,2.35,142,1.017,143,1.195,144,1.017,145,1.017,146,0.027,147,0.044,148,0.027]],["title/modules/AppModule.html",[149,1.115,150,0.848]],["body/modules/AppModule.html",[1,1.232,3,0.972,4,1.278,9,0.972,23,0.108,33,1.82,34,1.278,35,1.278,36,0.524,137,1.278,146,0.062,147,0.08,148,0.062,149,1.278,150,1.575,151,1.278,152,0.972,153,2.403,154,2.403,155,2.173,156,1.688,157,1.688,158,1.688,159,1.688,160,2.173,161,1.688,162,1.688,163,2.31,164,2.974,165,1.688,166,0.972,167,2.974,168,2.31,169,2.31]],["title/classes/AppPage.html",[36,0.458,170,1.115]],["body/classes/AppPage.html",[3,1.063,4,1.397,9,1.063,14,1.845,19,1.063,23,0.107,31,2.299,33,1.397,35,1.397,36,0.573,101,1.845,139,1.845,146,0.068,147,0.085,148,0.068,166,1.063,170,1.741,171,2.525,172,1.845,173,3.146,174,3.588,175,3.588,176,2.525,177,3.146,178,2.525,179,2.525,180,3.146,181,2.525,182,3.146,183,2.525,184,2.525]],["title/coverage.html",[185,1.986]],["body/coverage.html",[0,1.08,1,0.808,9,1.08,10,1.874,22,1.419,23,0.105,36,0.582,69,2.761,146,0.069,147,0.086,148,0.069,170,1.419,172,1.874,185,1.874,186,2.565,187,2.565,188,2.565,189,2.565,190,2.565,191,1.874,192,3.608,193,2.322,194,3.608,195,1.874,196,2.322,197,1.874,198,1.874,199,1.874,200,2.565,201,2.565]],["title/dependencies.html",[152,1.016,202,1.699]],["body/dependencies.html",[23,0.108,34,1.465,146,0.072,147,0.088,148,0.072,152,1.115,165,2.368,166,1.364,203,2.648,204,3.893,205,2.648,206,2.648,207,2.648,208,2.648,209,2.648,210,2.648,211,2.648,212,2.648,213,2.648,214,2.648,215,2.648]],["title/index.html",[19,0.715,216,1.699,217,1.699]],["body/index.html",[3,0.394,23,0.1,24,1.803,26,0.846,27,0.684,28,0.684,29,0.684,30,0.684,37,1.118,38,1.636,40,1.118,41,0.684,43,1.118,44,2.203,45,2.266,46,1.803,47,1.803,51,2.666,52,2.534,55,1.417,59,1.118,83,0.684,98,1.803,134,0.684,143,0.684,146,0.025,147,0.041,148,0.025,199,0.684,218,0.936,219,0.936,220,0.936,221,1.529,222,0.936,223,2.467,224,0.936,225,2.794,226,0.936,227,0.936,228,0.936,229,0.936,230,0.936,231,2.648,232,0.936,233,0.936,234,1.529,235,0.936,236,1.939,237,2.239,238,0.936,239,0.936,240,0.936,241,0.936,242,0.936,243,1.529,244,1.939,245,1.939,246,1.529,247,1.939,248,0.936,249,1.529,250,1.529,251,0.936,252,1.529,253,1.529,254,0.936,255,1.529,256,0.936,257,0.936,258,0.936,259,0.936,260,0.936,261,1.529,262,0.936,263,0.936,264,0.936,265,0.936,266,2.648,267,1.529,268,0.936,269,2.239,270,1.529,271,0.936,272,1.529,273,1.529,274,1.529,275,0.936,276,1.529,277,2.239,278,0.936,279,0.936,280,0.936,281,0.936,282,0.936,283,0.936,284,0.936,285,1.529,286,1.529,287,1.529,288,0.936,289,0.936,290,1.939,291,1.529,292,0.936,293,0.936,294,0.936,295,0.936,296,0.936,297,0.936,298,0.936,299,0.936,300,1.939,301,0.936,302,0.936,303,0.936,304,0.936,305,0.936,306,1.529,307,1.529,308,0.936,309,1.529,310,0.936,311,0.936,312,0.936,313,0.936,314,0.936,315,0.936,316,0.936,317,0.936,318,0.936,319,1.529,320,0.936,321,0.936,322,0.936,323,0.936,324,0.936,325,0.936,326,0.936,327,0.936,328,0.936,329,0.936,330,1.939,331,0.936,332,0.936,333,0.936,334,0.936,335,0.936,336,0.936,337,0.936,338,0.936,339,0.936,340,0.936,341,0.936,342,0.936,343,0.936,344,0.936,345,1.529,346,0.936,347,1.529,348,0.936,349,0.936,350,0.936,351,0.936,352,1.529,353,0.936,354,1.529,355,0.936,356,0.936,357,0.936,358,0.936,359,1.529,360,1.529,361,1.939,362,0.936,363,0.936,364,1.529,365,1.529,366,0.936,367,0.936,368,0.936,369,2.648,370,1.939,371,0.936,372,0.936,373,0.936,374,0.936,375,0.936,376,2.467,377,0.936,378,1.939,379,0.936,380,0.936,381,0.936,382,0.936,383,1.939,384,0.936,385,2.239,386,0.936,387,1.939,388,0.936,389,1.529,390,1.529,391,0.936,392,1.529,393,0.936,394,0.936,395,0.936,396,0.936,397,0.936,398,0.936,399,1.939,400,1.939,401,0.936,402,1.939,403,0.936,404,1.939,405,0.936,406,0.936,407,0.936,408,0.936,409,0.936,410,0.936,411,0.936,412,0.936,413,0.936,414,0.936,415,1.529,416,0.936,417,1.939,418,1.529,419,0.936,420,2.239,421,0.936,422,0.936,423,0.936,424,0.936,425,0.936,426,0.936,427,1.529,428,0.936,429,0.936,430,0.936,431,0.936,432,0.936,433,0.936,434,0.936,435,1.529,436,0.936,437,0.936,438,0.936,439,0.936,440,0.936,441,0.936,442,0.936,443,0.936,444,0.936,445,0.936,446,0.936,447,0.936,448,0.936,449,0.936,450,0.936,451,0.936,452,0.936,453,0.936,454,0.936]],["title/modules.html",[151,1.504]],["body/modules.html",[23,0.095,146,0.082,147,0.095,148,0.082,150,1.276,151,1.677,166,1.276,455,3.031,456,3.031,457,3.031]],["title/overview.html",[458,1.986]],["body/overview.html",[0,1.124,1,1.217,23,0.099,36,0.606,116,2.568,137,1.478,146,0.072,147,0.088,148,0.072,149,1.802,150,1.579,152,1.124,153,1.951,154,1.951,155,1.951,156,1.951,157,1.951,158,1.951,159,1.951,160,2.38,161,1.951,162,1.951,458,1.951]],["title/miscellaneous/variables.html",[459,1.241,460,1.764]],["body/miscellaneous/variables.html",[19,1.075,22,1.907,23,0.107,25,2.518,26,1.907,146,0.069,147,0.086,148,0.069,191,1.867,193,2.633,195,1.867,196,1.867,197,2.316,198,2.316,459,1.867,460,1.867,461,3.169,462,2.555,463,2.555,464,2.555,465,3.169,466,2.555,467,3.169,468,3.169,469,2.555]]],"invertedIndex":[["",{"_index":23,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{},"coverage.html":{},"dependencies.html":{},"index.html":{},"modules.html":{},"overview.html":{},"miscellaneous/variables.html":{}}}],["0",{"_index":69,"title":{},"body":{"components/AppComponent.html":{},"coverage.html":{}}}],["0.5",{"_index":113,"title":{},"body":{"components/AppComponent.html":{}}}],["0.83",{"_index":64,"title":{},"body":{"components/AppComponent.html":{}}}],["0.9.1",{"_index":215,"title":{},"body":{"dependencies.html":{}}}],["0/1",{"_index":194,"title":{},"body":{"coverage.html":{}}}],["0/2",{"_index":190,"title":{},"body":{"coverage.html":{}}}],["0/3",{"_index":189,"title":{},"body":{"coverage.html":{}}}],["01/18",{"_index":405,"title":{},"body":{"index.html":{}}}],["01/20",{"_index":409,"title":{},"body":{"index.html":{}}}],["0123",{"_index":49,"title":{},"body":{"components/AppComponent.html":{}}}],["04",{"_index":280,"title":{},"body":{"index.html":{}}}],["0px",{"_index":72,"title":{},"body":{"components/AppComponent.html":{}}}],["1",{"_index":116,"title":{},"body":{"components/AppComponent.html":{},"overview.html":{}}}],["1.10.0",{"_index":213,"title":{},"body":{"dependencies.html":{}}}],["10.15.3",{"_index":313,"title":{},"body":{"index.html":{}}}],["100",{"_index":66,"title":{},"body":{"components/AppComponent.html":{}}}],["100vh",{"_index":107,"title":{},"body":{"components/AppComponent.html":{}}}],["100vw",{"_index":108,"title":{},"body":{"components/AppComponent.html":{}}}],["1111111111111111",{"_index":401,"title":{},"body":{"index.html":{}}}],["123",{"_index":408,"title":{},"body":{"index.html":{}}}],["12px",{"_index":136,"title":{},"body":{"components/AppComponent.html":{}}}],["16px",{"_index":93,"title":{},"body":{"components/AppComponent.html":{}}}],["1d1e2a",{"_index":65,"title":{},"body":{"components/AppComponent.html":{}}}],["1px",{"_index":70,"title":{},"body":{"components/AppComponent.html":{}}}],["20/meu",{"_index":281,"title":{},"body":{"index.html":{}}}],["20px",{"_index":76,"title":{},"body":{"components/AppComponent.html":{}}}],["24px",{"_index":124,"title":{},"body":{"components/AppComponent.html":{}}}],["30",{"_index":279,"title":{},"body":{"index.html":{}}}],["32px",{"_index":117,"title":{},"body":{"components/AppComponent.html":{}}}],["3c3e64",{"_index":63,"title":{},"body":{"components/AppComponent.html":{}}}],["40px",{"_index":77,"title":{},"body":{"components/AppComponent.html":{}}}],["4111111111111234",{"_index":407,"title":{},"body":{"index.html":{}}}],["420px",{"_index":118,"title":{},"body":{"components/AppComponent.html":{}}}],["4488",{"_index":412,"title":{},"body":{"index.html":{}}}],["474971",{"_index":119,"title":{},"body":{"components/AppComponent.html":{}}}],["48px",{"_index":132,"title":{},"body":{"components/AppComponent.html":{}}}],["4bb8c751c989",{"_index":414,"title":{},"body":{"index.html":{}}}],["50",{"_index":86,"title":{},"body":{"components/AppComponent.html":{}}}],["500",{"_index":122,"title":{},"body":{"components/AppComponent.html":{}}}],["6.4.0",{"_index":211,"title":{},"body":{"dependencies.html":{}}}],["63d3",{"_index":411,"title":{},"body":{"index.html":{}}}],["6px",{"_index":131,"title":{},"body":{"components/AppComponent.html":{}}}],["789",{"_index":403,"title":{},"body":{"index.html":{}}}],["8.2.13",{"_index":204,"title":{},"body":{"dependencies.html":{}}}],["8.2.14",{"_index":314,"title":{},"body":{"index.html":{}}}],["8.3.18",{"_index":311,"title":{},"body":{"index.html":{}}}],["80px",{"_index":88,"title":{},"body":{"components/AppComponent.html":{}}}],["8px",{"_index":133,"title":{},"body":{"components/AppComponent.html":{}}}],["abaixo",{"_index":230,"title":{},"body":{"index.html":{}}}],["aberto",{"_index":371,"title":{},"body":{"index.html":{}}}],["abra",{"_index":341,"title":{},"body":{"index.html":{}}}],["absolute",{"_index":114,"title":{},"body":{"components/AppComponent.html":{}}}],["account",{"_index":264,"title":{},"body":{"index.html":{}}}],["actual_component",{"_index":145,"title":{},"body":{"components/AppComponent.html":{}}}],["algum",{"_index":286,"title":{},"body":{"index.html":{}}}],["alguma",{"_index":447,"title":{},"body":{"index.html":{}}}],["align",{"_index":80,"title":{},"body":{"components/AppComponent.html":{}}}],["alterações",{"_index":338,"title":{},"body":{"index.html":{}}}],["angular",{"_index":309,"title":{},"body":{"index.html":{}}}],["angular/animations",{"_index":203,"title":{},"body":{"dependencies.html":{}}}],["angular/common",{"_index":205,"title":{},"body":{"dependencies.html":{}}}],["angular/compiler",{"_index":206,"title":{},"body":{"dependencies.html":{}}}],["angular/core",{"_index":34,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"dependencies.html":{}}}],["angular/forms",{"_index":207,"title":{},"body":{"dependencies.html":{}}}],["angular/platform",{"_index":165,"title":{},"body":{"modules/AppModule.html":{},"dependencies.html":{}}}],["angular/router",{"_index":209,"title":{},"body":{"dependencies.html":{}}}],["antes",{"_index":239,"title":{},"body":{"index.html":{}}}],["aos",{"_index":295,"title":{},"body":{"index.html":{}}}],["aplicação",{"_index":330,"title":{},"body":{"index.html":{}}}],["app",{"_index":13,"title":{},"body":{"components/AppComponent.html":{}}}],["app.component",{"_index":168,"title":{},"body":{"modules/AppModule.html":{}}}],["app.component.html",{"_index":18,"title":{},"body":{"components/AppComponent.html":{}}}],["app.component.scss",{"_index":16,"title":{},"body":{"components/AppComponent.html":{}}}],["appcomponent",{"_index":1,"title":{"components/AppComponent.html":{}},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"coverage.html":{},"overview.html":{}}}],["appmodule",{"_index":150,"title":{"modules/AppModule.html":{}},"body":{"modules/AppModule.html":{},"modules.html":{},"overview.html":{}}}],["apppage",{"_index":170,"title":{"classes/AppPage.html":{}},"body":{"classes/AppPage.html":{},"coverage.html":{}}}],["aprovar",{"_index":396,"title":{},"body":{"index.html":{}}}],["aprovará/recusar",{"_index":386,"title":{},"body":{"index.html":{}}}],["assim",{"_index":299,"title":{},"body":{"index.html":{}}}],["authentication",{"_index":257,"title":{},"body":{"index.html":{}}}],["auto",{"_index":96,"title":{},"body":{"components/AppComponent.html":{}}}],["avisos",{"_index":238,"title":{},"body":{"index.html":{}}}],["backdrop",{"_index":99,"title":{},"body":{"components/AppComponent.html":{}}}],["backdrop.hidden",{"_index":109,"title":{},"body":{"components/AppComponent.html":{}}}],["backdrop:after",{"_index":111,"title":{},"body":{"components/AppComponent.html":{}}}],["backend",{"_index":397,"title":{},"body":{"index.html":{}}}],["background",{"_index":60,"title":{},"body":{"components/AppComponent.html":{}}}],["bf8d",{"_index":413,"title":{},"body":{"index.html":{}}}],["boa",{"_index":306,"title":{},"body":{"index.html":{}}}],["bootstrap",{"_index":154,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["border",{"_index":84,"title":{},"body":{"components/AppComponent.html":{}}}],["botão",{"_index":377,"title":{},"body":{"index.html":{}}}],["box",{"_index":67,"title":{},"body":{"components/AppComponent.html":{}}}],["branch",{"_index":267,"title":{},"body":{"index.html":{}}}],["browse",{"_index":457,"title":{},"body":{"modules.html":{}}}],["browser",{"_index":166,"title":{},"body":{"modules/AppModule.html":{},"classes/AppPage.html":{},"dependencies.html":{},"modules.html":{}}}],["browser.get(browser.baseurl",{"_index":181,"title":{},"body":{"classes/AppPage.html":{}}}],["browsermodule",{"_index":164,"title":{},"body":{"modules/AppModule.html":{}}}],["busca",{"_index":443,"title":{},"body":{"index.html":{}}}],["button",{"_index":95,"title":{},"body":{"components/AppComponent.html":{}}}],["card",{"_index":399,"title":{},"body":{"index.html":{}}}],["card_number",{"_index":400,"title":{},"body":{"index.html":{}}}],["cards",{"_index":134,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["cartão",{"_index":46,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["cartões",{"_index":392,"title":{},"body":{"index.html":{}}}],["caso",{"_index":445,"title":{},"body":{"index.html":{}}}],["ccc",{"_index":130,"title":{},"body":{"components/AppComponent.html":{}}}],["cddc39",{"_index":126,"title":{},"body":{"components/AppComponent.html":{}}}],["center",{"_index":82,"title":{},"body":{"components/AppComponent.html":{}}}],["chamar",{"_index":384,"title":{},"body":{"index.html":{}}}],["chave",{"_index":260,"title":{},"body":{"index.html":{}}}],["class",{"_index":36,"title":{"classes/AppPage.html":{}},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{},"coverage.html":{},"overview.html":{}}}],["classes",{"_index":171,"title":{},"body":{"classes/AppPage.html":{}}}],["cli",{"_index":310,"title":{},"body":{"index.html":{}}}],["clicado",{"_index":368,"title":{},"body":{"index.html":{}}}],["clicar",{"_index":364,"title":{},"body":{"index.html":{}}}],["cluster_appmodule",{"_index":157,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["cluster_appmodule_bootstrap",{"_index":159,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["cluster_appmodule_declarations",{"_index":158,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["color",{"_index":73,"title":{},"body":{"components/AppComponent.html":{}}}],["column",{"_index":103,"title":{},"body":{"components/AppComponent.html":{}}}],["com",{"_index":47,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["comando",{"_index":319,"title":{},"body":{"index.html":{}}}],["começar",{"_index":240,"title":{},"body":{"index.html":{}}}],["commite",{"_index":336,"title":{},"body":{"index.html":{}}}],["como",{"_index":300,"title":{},"body":{"index.html":{}}}],["compartilhar",{"_index":450,"title":{},"body":{"index.html":{}}}],["component",{"_index":0,"title":{"components/AppComponent.html":{}},"body":{"components/AppComponent.html":{},"coverage.html":{},"overview.html":{}}}],["component_template",{"_index":142,"title":{},"body":{"components/AppComponent.html":{}}}],["components",{"_index":2,"title":{},"body":{"components/AppComponent.html":{}}}],["concluido",{"_index":54,"title":{},"body":{"components/AppComponent.html":{}}}],["concluído",{"_index":389,"title":{},"body":{"index.html":{}}}],["configurar",{"_index":259,"title":{},"body":{"index.html":{}}}],["construir",{"_index":346,"title":{},"body":{"index.html":{}}}],["consultar",{"_index":282,"title":{},"body":{"index.html":{}}}],["conta",{"_index":248,"title":{},"body":{"index.html":{}}}],["contendo",{"_index":372,"title":{},"body":{"index.html":{}}}],["content",{"_index":101,"title":{},"body":{"components/AppComponent.html":{},"classes/AppPage.html":{}}}],["context",{"_index":197,"title":{},"body":{"coverage.html":{},"miscellaneous/variables.html":{}}}],["coverage",{"_index":185,"title":{"coverage.html":{}},"body":{"coverage.html":{}}}],["crie",{"_index":265,"title":{},"body":{"index.html":{}}}],["crédito",{"_index":354,"title":{},"body":{"index.html":{}}}],["cvv",{"_index":402,"title":{},"body":{"index.html":{}}}],["código",{"_index":441,"title":{},"body":{"index.html":{}}}],["da",{"_index":269,"title":{},"body":{"index.html":{}}}],["das",{"_index":356,"title":{},"body":{"index.html":{}}}],["dd",{"_index":273,"title":{},"body":{"index.html":{}}}],["de",{"_index":51,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["declarations",{"_index":153,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["default",{"_index":25,"title":{},"body":{"components/AppComponent.html":{},"miscellaneous/variables.html":{}}}],["defined",{"_index":31,"title":{},"body":{"components/AppComponent.html":{},"classes/AppPage.html":{}}}],["dependencies",{"_index":152,"title":{"dependencies.html":{}},"body":{"modules/AppModule.html":{},"dependencies.html":{},"overview.html":{}}}],["dependências",{"_index":317,"title":{},"body":{"index.html":{}}}],["desafio",{"_index":27,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["desenvolvimento",{"_index":329,"title":{},"body":{"index.html":{}}}],["destination",{"_index":421,"title":{},"body":{"index.html":{}}}],["destination_user_id",{"_index":422,"title":{},"body":{"index.html":{}}}],["destino",{"_index":373,"title":{},"body":{"index.html":{}}}],["deve",{"_index":378,"title":{},"body":{"index.html":{}}}],["diferenciais",{"_index":432,"title":{},"body":{"index.html":{}}}],["digitar",{"_index":379,"title":{},"body":{"index.html":{}}}],["dinheiro",{"_index":350,"title":{},"body":{"index.html":{}}}],["direction",{"_index":102,"title":{},"body":{"components/AppComponent.html":{}}}],["directive",{"_index":140,"title":{},"body":{"components/AppComponent.html":{}}}],["directives",{"_index":144,"title":{},"body":{"components/AppComponent.html":{}}}],["display",{"_index":78,"title":{},"body":{"components/AppComponent.html":{}}}],["disponível",{"_index":332,"title":{},"body":{"index.html":{}}}],["documentation",{"_index":186,"title":{},"body":{"coverage.html":{}}}],["dom",{"_index":7,"title":{},"body":{"components/AppComponent.html":{}}}],["dynamic",{"_index":208,"title":{},"body":{"dependencies.html":{}}}],["dúvida",{"_index":294,"title":{},"body":{"index.html":{}}}],["e",{"_index":376,"title":{},"body":{"index.html":{}}}],["e2e",{"_index":434,"title":{},"body":{"index.html":{}}}],["e2e/src/app.po.ts",{"_index":172,"title":{},"body":{"classes/AppPage.html":{},"coverage.html":{}}}],["e2e/src/app.po.ts:4",{"_index":178,"title":{},"body":{"classes/AppPage.html":{}}}],["e2e/src/app.po.ts:8",{"_index":176,"title":{},"body":{"classes/AppPage.html":{}}}],["element",{"_index":139,"title":{},"body":{"components/AppComponent.html":{},"classes/AppPage.html":{}}}],["element(by.css('app",{"_index":183,"title":{},"body":{"classes/AppPage.html":{}}}],["em",{"_index":223,"title":{},"body":{"index.html":{}}}],["encontrar",{"_index":232,"title":{},"body":{"index.html":{}}}],["end",{"_index":30,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["endpoint",{"_index":385,"title":{},"body":{"index.html":{}}}],["entrega",{"_index":241,"title":{},"body":{"index.html":{}}}],["então",{"_index":370,"title":{},"body":{"index.html":{}}}],["envio",{"_index":349,"title":{},"body":{"index.html":{}}}],["environment",{"_index":193,"title":{},"body":{"coverage.html":{},"miscellaneous/variables.html":{}}}],["erro",{"_index":390,"title":{},"body":{"index.html":{}}}],["escolher",{"_index":381,"title":{},"body":{"index.html":{}}}],["essa",{"_index":304,"title":{},"body":{"index.html":{}}}],["estamos",{"_index":442,"title":{},"body":{"index.html":{}}}],["estar",{"_index":331,"title":{},"body":{"index.html":{}}}],["este",{"_index":325,"title":{},"body":{"index.html":{}}}],["estilo",{"_index":436,"title":{},"body":{"index.html":{}}}],["etapa",{"_index":305,"title":{},"body":{"index.html":{}}}],["exemplo",{"_index":278,"title":{},"body":{"index.html":{}}}],["exibir",{"_index":393,"title":{},"body":{"index.html":{}}}],["expiry_date",{"_index":404,"title":{},"body":{"index.html":{}}}],["export",{"_index":35,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{}}}],["exports",{"_index":156,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["factor",{"_index":245,"title":{},"body":{"index.html":{}}}],["false",{"_index":469,"title":{},"body":{"miscellaneous/variables.html":{}}}],["fff",{"_index":74,"title":{},"body":{"components/AppComponent.html":{}}}],["ffffff",{"_index":71,"title":{},"body":{"components/AppComponent.html":{}}}],["file",{"_index":9,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{},"coverage.html":{}}}],["final",{"_index":48,"title":{},"body":{"components/AppComponent.html":{}}}],["fique",{"_index":290,"title":{},"body":{"index.html":{}}}],["fixed",{"_index":105,"title":{},"body":{"components/AppComponent.html":{}}}],["flex",{"_index":79,"title":{},"body":{"components/AppComponent.html":{}}}],["fluxo",{"_index":355,"title":{},"body":{"index.html":{}}}],["foi",{"_index":53,"title":{},"body":{"components/AppComponent.html":{}}}],["font",{"_index":120,"title":{},"body":{"components/AppComponent.html":{}}}],["forma",{"_index":339,"title":{},"body":{"index.html":{}}}],["formulários",{"_index":438,"title":{},"body":{"index.html":{}}}],["front",{"_index":29,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["gente",{"_index":451,"title":{},"body":{"index.html":{}}}],["getting",{"_index":216,"title":{"index.html":{}},"body":{}}],["gettitletext",{"_index":174,"title":{},"body":{"classes/AppPage.html":{}}}],["github",{"_index":249,"title":{},"body":{"index.html":{}}}],["github/adding",{"_index":262,"title":{},"body":{"index.html":{}}}],["github/configuring",{"_index":256,"title":{},"body":{"index.html":{}}}],["google",{"_index":283,"title":{},"body":{"index.html":{}}}],["gradient(186.5deg",{"_index":62,"title":{},"body":{"components/AppComponent.html":{}}}],["green_heart",{"_index":454,"title":{},"body":{"index.html":{}}}],["habilitado",{"_index":246,"title":{},"body":{"index.html":{}}}],["height",{"_index":87,"title":{},"body":{"components/AppComponent.html":{}}}],["html",{"_index":138,"title":{},"body":{"components/AppComponent.html":{}}}],["http://localhost:4200",{"_index":334,"title":{},"body":{"index.html":{}}}],["https://help.github.com/pt/github/authenticating",{"_index":255,"title":{},"body":{"index.html":{}}}],["https://run.mocky.io/v3/533cd5d7",{"_index":410,"title":{},"body":{"index.html":{}}}],["https://www.mocky.io/v2/5d531c4f2e0000620081ddce",{"_index":431,"title":{},"body":{"index.html":{}}}],["id",{"_index":40,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["identifier",{"_index":187,"title":{},"body":{"coverage.html":{}}}],["img",{"_index":83,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["import",{"_index":33,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{}}}],["imports",{"_index":169,"title":{},"body":{"modules/AppModule.html":{}}}],["independente",{"_index":430,"title":{},"body":{"index.html":{}}}],["index",{"_index":19,"title":{"index.html":{}},"body":{"components/AppComponent.html":{},"classes/AppPage.html":{},"miscellaneous/variables.html":{}}}],["info",{"_index":3,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{},"index.html":{}}}],["informações",{"_index":234,"title":{},"body":{"index.html":{}}}],["iniciar",{"_index":236,"title":{},"body":{"index.html":{}}}],["input",{"_index":128,"title":{},"body":{"components/AppComponent.html":{}}}],["instale",{"_index":316,"title":{},"body":{"index.html":{}}}],["install",{"_index":321,"title":{},"body":{"index.html":{}}}],["interesse",{"_index":222,"title":{},"body":{"index.html":{}}}],["interface",{"_index":418,"title":{},"body":{"index.html":{}}}],["invalid",{"_index":406,"title":{},"body":{"index.html":{}}}],["isso",{"_index":444,"title":{},"body":{"index.html":{}}}],["items",{"_index":81,"title":{},"body":{"components/AppComponent.html":{}}}],["j",{"_index":302,"title":{},"body":{"index.html":{}}}],["justify",{"_index":100,"title":{},"body":{"components/AppComponent.html":{}}}],["key",{"_index":263,"title":{},"body":{"index.html":{}}}],["left",{"_index":92,"title":{},"body":{"components/AppComponent.html":{}}}],["legend",{"_index":137,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"overview.html":{}}}],["linear",{"_index":61,"title":{},"body":{"components/AppComponent.html":{}}}],["list",{"_index":57,"title":{},"body":{"components/AppComponent.html":{}}}],["lista",{"_index":365,"title":{},"body":{"index.html":{}}}],["listagem",{"_index":360,"title":{},"body":{"index.html":{}}}],["mais",{"_index":452,"title":{},"body":{"index.html":{}}}],["margin",{"_index":91,"title":{},"body":{"components/AppComponent.html":{}}}],["master",{"_index":270,"title":{},"body":{"index.html":{}}}],["matching",{"_index":147,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{},"coverage.html":{},"dependencies.html":{},"index.html":{},"modules.html":{},"overview.html":{},"miscellaneous/variables.html":{}}}],["melhor",{"_index":226,"title":{},"body":{"index.html":{}}}],["melhoria",{"_index":435,"title":{},"body":{"index.html":{}}}],["mesmo",{"_index":429,"title":{},"body":{"index.html":{}}}],["metadata",{"_index":11,"title":{},"body":{"components/AppComponent.html":{}}}],["methods",{"_index":173,"title":{},"body":{"classes/AppPage.html":{}}}],["miscellaneous",{"_index":459,"title":{"miscellaneous/variables.html":{}},"body":{"miscellaneous/variables.html":{}}}],["mm",{"_index":274,"title":{},"body":{"index.html":{}}}],["mock",{"_index":426,"title":{},"body":{"index.html":{}}}],["modal",{"_index":98,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["module",{"_index":149,"title":{"modules/AppModule.html":{}},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["modules",{"_index":151,"title":{"modules.html":{}},"body":{"modules/AppModule.html":{},"modules.html":{}}}],["mostrar",{"_index":388,"title":{},"body":{"index.html":{}}}],["mundo",{"_index":229,"title":{},"body":{"index.html":{}}}],["máquina",{"_index":289,"title":{},"body":{"index.html":{}}}],["máscaras",{"_index":439,"title":{},"body":{"index.html":{}}}],["método",{"_index":415,"title":{},"body":{"index.html":{}}}],["na",{"_index":225,"title":{},"body":{"index.html":{}}}],["name",{"_index":143,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["navigateto",{"_index":175,"title":{},"body":{"classes/AppPage.html":{}}}],["necessárias",{"_index":235,"title":{},"body":{"index.html":{}}}],["nesse",{"_index":253,"title":{},"body":{"index.html":{}}}],["new",{"_index":199,"title":{},"body":{"coverage.html":{},"index.html":{}}}],["ng",{"_index":326,"title":{},"body":{"index.html":{}}}],["ngmodule",{"_index":167,"title":{},"body":{"modules/AppModule.html":{}}}],["node",{"_index":312,"title":{},"body":{"index.html":{}}}],["nome",{"_index":37,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["nomenclatura",{"_index":272,"title":{},"body":{"index.html":{}}}],["none",{"_index":110,"title":{},"body":{"components/AppComponent.html":{}}}],["npm",{"_index":320,"title":{},"body":{"index.html":{}}}],["number",{"_index":420,"title":{},"body":{"index.html":{}}}],["não",{"_index":56,"title":{},"body":{"components/AppComponent.html":{}}}],["o",{"_index":52,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["object",{"_index":467,"title":{},"body":{"miscellaneous/variables.html":{}}}],["objetivo",{"_index":345,"title":{},"body":{"index.html":{}}}],["obrigado",{"_index":219,"title":{},"body":{"index.html":{}}}],["obs",{"_index":424,"title":{},"body":{"index.html":{}}}],["onde",{"_index":362,"title":{},"body":{"index.html":{}}}],["opção",{"_index":374,"title":{},"body":{"index.html":{}}}],["organizada",{"_index":340,"title":{},"body":{"index.html":{}}}],["organização",{"_index":440,"title":{},"body":{"index.html":{}}}],["ou",{"_index":285,"title":{},"body":{"index.html":{}}}],["out",{"_index":162,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["outra",{"_index":351,"title":{},"body":{"index.html":{}}}],["overview",{"_index":458,"title":{"overview.html":{}},"body":{"overview.html":{}}}],["package",{"_index":202,"title":{"dependencies.html":{}},"body":{}}],["padding",{"_index":75,"title":{},"body":{"components/AppComponent.html":{}}}],["padrão",{"_index":271,"title":{},"body":{"index.html":{}}}],["pagamento",{"_index":44,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["pagamentos",{"_index":228,"title":{},"body":{"index.html":{}}}],["pagar",{"_index":43,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["para",{"_index":45,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["particular",{"_index":288,"title":{},"body":{"index.html":{}}}],["partir",{"_index":268,"title":{},"body":{"index.html":{}}}],["passamos",{"_index":303,"title":{},"body":{"index.html":{}}}],["passo",{"_index":252,"title":{},"body":{"index.html":{}}}],["pay",{"_index":94,"title":{},"body":{"components/AppComponent.html":{}}}],["payload",{"_index":417,"title":{},"body":{"index.html":{}}}],["payment",{"_index":97,"title":{},"body":{"components/AppComponent.html":{}}}],["pelo",{"_index":220,"title":{},"body":{"index.html":{}}}],["perguntar",{"_index":292,"title":{},"body":{"index.html":{}}}],["pessoa",{"_index":352,"title":{},"body":{"index.html":{}}}],["picpay",{"_index":28,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["plataforma",{"_index":227,"title":{},"body":{"index.html":{}}}],["pode",{"_index":363,"title":{},"body":{"index.html":{}}}],["poder",{"_index":250,"title":{},"body":{"index.html":{}}}],["por",{"_index":277,"title":{},"body":{"index.html":{}}}],["porta",{"_index":333,"title":{},"body":{"index.html":{}}}],["position",{"_index":104,"title":{},"body":{"components/AppComponent.html":{}}}],["post",{"_index":416,"title":{},"body":{"index.html":{}}}],["pra",{"_index":449,"title":{},"body":{"index.html":{}}}],["precisa",{"_index":258,"title":{},"body":{"index.html":{}}}],["precisar",{"_index":242,"title":{},"body":{"index.html":{}}}],["primeira",{"_index":358,"title":{},"body":{"index.html":{}}}],["primeiramente",{"_index":218,"title":{},"body":{"index.html":{}}}],["production",{"_index":468,"title":{},"body":{"miscellaneous/variables.html":{}}}],["projeto",{"_index":287,"title":{},"body":{"index.html":{}}}],["promise",{"_index":182,"title":{},"body":{"classes/AppPage.html":{}}}],["properties",{"_index":20,"title":{},"body":{"components/AppComponent.html":{}}}],["protractor",{"_index":179,"title":{},"body":{"classes/AppPage.html":{}}}],["providers",{"_index":155,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["pull",{"_index":342,"title":{},"body":{"index.html":{}}}],["qualquer",{"_index":293,"title":{},"body":{"index.html":{}}}],["quando",{"_index":367,"title":{},"body":{"index.html":{}}}],["que",{"_index":347,"title":{},"body":{"index.html":{}}}],["radius",{"_index":85,"title":{},"body":{"components/AppComponent.html":{}}}],["raiz",{"_index":322,"title":{},"body":{"index.html":{}}}],["realizar",{"_index":366,"title":{},"body":{"index.html":{}}}],["realização",{"_index":382,"title":{},"body":{"index.html":{}}}],["recibo",{"_index":50,"title":{},"body":{"components/AppComponent.html":{}}}],["recrutadores",{"_index":296,"title":{},"body":{"index.html":{}}}],["repositório",{"_index":323,"title":{},"body":{"index.html":{}}}],["request",{"_index":343,"title":{},"body":{"index.html":{}}}],["require",{"_index":198,"title":{},"body":{"coverage.html":{},"miscellaneous/variables.html":{}}}],["require.context",{"_index":464,"title":{},"body":{"miscellaneous/variables.html":{}}}],["reset",{"_index":161,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}],["respire",{"_index":298,"title":{},"body":{"index.html":{}}}],["result",{"_index":146,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{},"coverage.html":{},"dependencies.html":{},"index.html":{},"modules.html":{},"overview.html":{},"miscellaneous/variables.html":{}}}],["results",{"_index":148,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{},"coverage.html":{},"dependencies.html":{},"index.html":{},"modules.html":{},"overview.html":{},"miscellaneous/variables.html":{}}}],["retornar",{"_index":428,"title":{},"body":{"index.html":{}}}],["return",{"_index":180,"title":{},"body":{"classes/AppPage.html":{}}}],["returns",{"_index":177,"title":{},"body":{"classes/AppPage.html":{}}}],["rgba(0",{"_index":112,"title":{},"body":{"components/AppComponent.html":{}}}],["rodar",{"_index":315,"title":{},"body":{"index.html":{}}}],["rode",{"_index":324,"title":{},"body":{"index.html":{}}}],["root",{"_index":14,"title":{},"body":{"components/AppComponent.html":{},"classes/AppPage.html":{}}}],["rxjs",{"_index":210,"title":{},"body":{"dependencies.html":{}}}],["screenshots",{"_index":391,"title":{},"body":{"index.html":{}}}],["se",{"_index":383,"title":{},"body":{"index.html":{}}}],["selecionar",{"_index":375,"title":{},"body":{"index.html":{}}}],["select",{"_index":135,"title":{},"body":{"components/AppComponent.html":{}}}],["selector",{"_index":12,"title":{},"body":{"components/AppComponent.html":{}}}],["sempre",{"_index":427,"title":{},"body":{"index.html":{}}}],["serve",{"_index":327,"title":{},"body":{"index.html":{}}}],["servidor",{"_index":328,"title":{},"body":{"index.html":{}}}],["setup",{"_index":308,"title":{},"body":{"index.html":{}}}],["seu",{"_index":221,"title":{},"body":{"index.html":{}}}],["shadow",{"_index":68,"title":{},"body":{"components/AppComponent.html":{}}}],["simula",{"_index":348,"title":{},"body":{"index.html":{}}}],["size",{"_index":123,"title":{},"body":{"components/AppComponent.html":{}}}],["sobrenome",{"_index":276,"title":{},"body":{"index.html":{}}}],["solid",{"_index":129,"title":{},"body":{"components/AppComponent.html":{}}}],["sorte",{"_index":307,"title":{},"body":{"index.html":{}}}],["source",{"_index":4,"title":{},"body":{"components/AppComponent.html":{},"modules/AppModule.html":{},"classes/AppPage.html":{}}}],["span",{"_index":125,"title":{},"body":{"components/AppComponent.html":{}}}],["span')).gettext",{"_index":184,"title":{},"body":{"classes/AppPage.html":{}}}],["spec\\.ts",{"_index":466,"title":{},"body":{"miscellaneous/variables.html":{}}}],["src/.../environment.prod.ts",{"_index":462,"title":{},"body":{"miscellaneous/variables.html":{}}}],["src/.../environment.ts",{"_index":463,"title":{},"body":{"miscellaneous/variables.html":{}}}],["src/.../test.ts",{"_index":461,"title":{},"body":{"miscellaneous/variables.html":{}}}],["src/app/app.component.ts",{"_index":10,"title":{},"body":{"components/AppComponent.html":{},"coverage.html":{}}}],["src/app/app.component.ts:9",{"_index":32,"title":{},"body":{"components/AppComponent.html":{}}}],["src/app/app.module.ts",{"_index":163,"title":{},"body":{"modules/AppModule.html":{}}}],["src/environments/environment.prod.ts",{"_index":191,"title":{},"body":{"coverage.html":{},"miscellaneous/variables.html":{}}}],["src/environments/environment.ts",{"_index":195,"title":{},"body":{"coverage.html":{},"miscellaneous/variables.html":{}}}],["src/test.ts",{"_index":196,"title":{},"body":{"coverage.html":{},"miscellaneous/variables.html":{}}}],["ssh",{"_index":261,"title":{},"body":{"index.html":{}}}],["stackoverflow",{"_index":284,"title":{},"body":{"index.html":{}}}],["started",{"_index":217,"title":{"index.html":{}},"body":{}}],["statements",{"_index":188,"title":{},"body":{"coverage.html":{}}}],["string",{"_index":24,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["styles",{"_index":6,"title":{},"body":{"components/AppComponent.html":{}}}],["styleurls",{"_index":15,"title":{},"body":{"components/AppComponent.html":{}}}],["sua",{"_index":247,"title":{},"body":{"index.html":{}}}],["suas",{"_index":337,"title":{},"body":{"index.html":{}}}],["submeter",{"_index":335,"title":{},"body":{"index.html":{}}}],["sucesso",{"_index":55,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["sugestão",{"_index":448,"title":{},"body":{"index.html":{}}}],["support",{"_index":455,"title":{},"body":{"modules.html":{}}}],["svg",{"_index":456,"title":{},"body":{"modules.html":{}}}],["table",{"_index":201,"title":{},"body":{"coverage.html":{}}}],["tablesort(document.getelementbyid('coverage",{"_index":200,"title":{},"body":{"coverage.html":{}}}],["também",{"_index":301,"title":{},"body":{"index.html":{}}}],["tela",{"_index":359,"title":{},"body":{"index.html":{}}}],["telas",{"_index":357,"title":{},"body":{"index.html":{}}}],["template",{"_index":5,"title":{},"body":{"components/AppComponent.html":{}}}],["templateurl",{"_index":17,"title":{},"body":{"components/AppComponent.html":{}}}],["tenha",{"_index":446,"title":{},"body":{"index.html":{}}}],["ter",{"_index":243,"title":{},"body":{"index.html":{}}}],["teste",{"_index":237,"title":{},"body":{"index.html":{}}}],["text",{"_index":127,"title":{},"body":{"components/AppComponent.html":{}}}],["title",{"_index":21,"title":{},"body":{"components/AppComponent.html":{}}}],["todos",{"_index":233,"title":{},"body":{"index.html":{}}}],["top",{"_index":106,"title":{},"body":{"components/AppComponent.html":{}}}],["trabalhar",{"_index":224,"title":{},"body":{"index.html":{}}}],["tranquilo",{"_index":297,"title":{},"body":{"index.html":{}}}],["transaction",{"_index":423,"title":{},"body":{"index.html":{}}}],["transactionpayload",{"_index":419,"title":{},"body":{"index.html":{}}}],["transação",{"_index":387,"title":{},"body":{"index.html":{}}}],["tratar",{"_index":425,"title":{},"body":{"index.html":{}}}],["tree",{"_index":8,"title":{},"body":{"components/AppComponent.html":{}}}],["true",{"_index":465,"title":{},"body":{"miscellaneous/variables.html":{}}}],["tslib",{"_index":212,"title":{},"body":{"dependencies.html":{}}}],["tutorial",{"_index":254,"title":{},"body":{"index.html":{}}}],["two",{"_index":244,"title":{},"body":{"index.html":{}}}],["type",{"_index":22,"title":{},"body":{"components/AppComponent.html":{},"coverage.html":{},"miscellaneous/variables.html":{}}}],["um",{"_index":369,"title":{},"body":{"index.html":{}}}],["uma",{"_index":266,"title":{},"body":{"index.html":{}}}],["unitário",{"_index":433,"title":{},"body":{"index.html":{}}}],["usando",{"_index":318,"title":{},"body":{"index.html":{}}}],["user",{"_index":59,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["username",{"_index":41,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["users",{"_index":58,"title":{},"body":{"components/AppComponent.html":{}}}],["usuariox",{"_index":42,"title":{},"body":{"components/AppComponent.html":{}}}],["usuário",{"_index":38,"title":{},"body":{"components/AppComponent.html":{},"index.html":{}}}],["usuários",{"_index":361,"title":{},"body":{"index.html":{}}}],["vai",{"_index":395,"title":{},"body":{"index.html":{}}}],["valid",{"_index":398,"title":{},"body":{"index.html":{}}}],["validação",{"_index":437,"title":{},"body":{"index.html":{}}}],["valor",{"_index":380,"title":{},"body":{"index.html":{}}}],["value",{"_index":26,"title":{},"body":{"components/AppComponent.html":{},"index.html":{},"miscellaneous/variables.html":{}}}],["var",{"_index":141,"title":{},"body":{"components/AppComponent.html":{}}}],["variable",{"_index":192,"title":{},"body":{"coverage.html":{}}}],["variables",{"_index":460,"title":{"miscellaneous/variables.html":{}},"body":{"miscellaneous/variables.html":{}}}],["ver",{"_index":251,"title":{},"body":{"index.html":{}}}],["vez",{"_index":453,"title":{},"body":{"index.html":{}}}],["via",{"_index":353,"title":{},"body":{"index.html":{}}}],["voc",{"_index":231,"title":{},"body":{"index.html":{}}}],["vontade",{"_index":291,"title":{},"body":{"index.html":{}}}],["válido",{"_index":394,"title":{},"body":{"index.html":{}}}],["weight",{"_index":121,"title":{},"body":{"components/AppComponent.html":{}}}],["width",{"_index":89,"title":{},"body":{"components/AppComponent.html":{}}}],["wrapper",{"_index":90,"title":{},"body":{"components/AppComponent.html":{}}}],["x",{"_index":39,"title":{},"body":{"components/AppComponent.html":{}}}],["yy",{"_index":344,"title":{},"body":{"index.html":{}}}],["yy/nome",{"_index":275,"title":{},"body":{"index.html":{}}}],["z",{"_index":115,"title":{},"body":{"components/AppComponent.html":{}}}],["zone.js",{"_index":214,"title":{},"body":{"dependencies.html":{}}}],["zoom",{"_index":160,"title":{},"body":{"modules/AppModule.html":{},"overview.html":{}}}]],"pipeline":["stemmer"]},
-    "store": {"components/AppComponent.html":{"url":"components/AppComponent.html","title":"component - AppComponent","body":"\n                   \n\n\n\n\n\n  Components\n  AppComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/app.component.ts\n\n\n\n\n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-root\n            \n\n            \n                styleUrls\n                ./app.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./app.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                title\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n\n\n\n\n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            title\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         string\n\n                        \n                    \n                    \n                        \n                            Default value : 'Desafio Picpay Front-end'\n                        \n                    \n                        \n                            \n                                    Defined in src/app/app.component.ts:9\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  title = 'Desafio Picpay Front-end';\n}\n\n    \n\n    \n        \n  \n    \n    \n      \n        Nome do Usuário X\n      \n\n      \n        ID: X - Username: @usuarioX\n      \n    \n\n    \n      Pagar\n    \n  \n\n  \n    \n    \n      \n        Nome do Usuário X\n      \n\n      \n        ID: X - Username: @usuarioX\n      \n    \n\n    \n      Pagar\n    \n  \n\n  \n    \n    \n      \n        Nome do Usuário X\n      \n\n      \n        ID: X - Username: @usuarioX\n      \n    \n\n    \n      Pagar\n    \n  \n\n\n\n  \n    Pagamento para Nome do Usuário\n\n    \n      \n\n      \n        \n          Cartão com final 0123\n        \n      \n\n      \n        Pagar\n      \n    \n  \n\n  \n    \n      Recibo de pagamento\n    \n\n    \n      O pagamento foi concluido com sucesso.\n      O pagamento não foi concluido com sucesso.\n    \n  \n\n\n    \n\n    \n                \n                    ./app.component.scss\n                \n                /* List of Users */\n\n.user {\n  background: linear-gradient(186.5deg, #3c3e64 0.83%, #1d1e2a 100%);\n  box-shadow: 0 1px 0 #ffffff, 0px -1px 0px #ffffff;\n  color: #fff;\n  padding: 20px 40px;\n\n  display: flex;\n  align-items: center;\n}\n\n.user > img {\n  border-radius: 50%;\n  height: 80px;\n  width: 80px;\n}\n\n.user > .info-wrapper {\n  margin-left: 16px;\n}\n\n.user > .pay-button {\n  margin-left: auto;\n}\n\n/* Payment Modal */\n.modal-backdrop {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n\n  position: fixed;\n  top: 0;\n  left: 0;\n\n  height: 100vh;\n  width: 100vw;\n}\n\n.modal-backdrop.hidden {\n  display: none;\n}\n\n.modal-backdrop:after {\n  content: \"\";\n\n  background: rgba(0, 0, 0, 0.5);\n\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  z-index: -1;\n}\n\n.modal {\n  background: #fff;\n  margin: 32px 0;\n  width: 420px;\n}\n\n.modal > .title {\n  background: #474971;\n  color: #ffffff;\n  font-weight: 500;\n  font-size: 16px;\n  padding: 16px 24px;\n}\n\n.modal > .title > span {\n  color: #cddc39;\n}\n\n.modal > .content {\n  padding: 32px;\n  text-align: center;\n}\n\n.modal > .content > input {\n  border: 1px solid #ccc;\n  border-radius: 6px;\n  font-size: 32px;\n  height: 48px;\n  padding: 0 8px;\n}\n\n.modal > .content > .cards > select {\n  background: #fff;\n  border: 1px solid #ccc;\n  border-radius: 6px;\n  font-size: 32px;\n  height: 48px;\n  margin-top: 12px;\n}\n\n.modal > .content > button {\n  border: 1px solid #ccc;\n  border-radius: 6px;\n  font-size: 32px;\n  height: 48px;\n  padding: 0 8px;\n  margin-top: 24px;\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '                        Nome do Usuário X                    ID: X - Username: @usuarioX                    Pagar                              Nome do Usuário X                    ID: X - Username: @usuarioX                    Pagar                              Nome do Usuário X                    ID: X - Username: @usuarioX                    Pagar            Pagamento para Nome do Usuário                                  Cartão com final 0123                            Pagar                        Recibo de pagamento              O pagamento foi concluido com sucesso.      O pagamento não foi concluido com sucesso.      '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'}];\n    var DIRECTIVES = [];\n    var ACTUAL_COMPONENT = {'name': 'AppComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"},"modules/AppModule.html":{"url":"modules/AppModule.html","title":"module - AppModule","body":"\n                   \n\n\n\n\n    Modules\n    AppModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppModule\n\n\n\ncluster_AppModule_declarations\n\n\n\ncluster_AppModule_bootstrap\n\n\n\n\nAppComponent\n\nAppComponent\n\n\n\nAppModule\n\nAppModule\n\nAppModule -->\n\nAppComponent->AppModule\n\n\n\n\n\nAppComponent \n\nAppComponent \n\nAppComponent  -->\n\nAppModule->AppComponent \n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/app.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            AppComponent\n                        \n                    \n                \n                \n                    Bootstrap\n                    \n                        \n                            AppComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { BrowserModule } from '@angular/platform-browser';\nimport { NgModule } from '@angular/core';\n\nimport { AppComponent } from './app.component';\n\n@NgModule({\n  declarations: [\n    AppComponent\n  ],\n  imports: [\n    BrowserModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n\n    \n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"},"classes/AppPage.html":{"url":"classes/AppPage.html","title":"class - AppPage","body":"\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  AppPage\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            e2e/src/app.po.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                getTitleText\n                            \n                            \n                                navigateTo\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n\n\n            \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            getTitleText\n                        \n                        \n                    \n                \n            \n            \n                \ngetTitleText()\n                \n            \n\n\n            \n                \n                    Defined in e2e/src/app.po.ts:8\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         any\n\n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            navigateTo\n                        \n                        \n                    \n                \n            \n            \n                \nnavigateTo()\n                \n            \n\n\n            \n                \n                    Defined in e2e/src/app.po.ts:4\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         any\n\n                    \n                \n            \n        \n    \n\n\n\n\n\n\n    \n\n\n    \n        import { browser, by, element } from 'protractor';\n\nexport class AppPage {\n  navigateTo() {\n    return browser.get(browser.baseUrl) as Promise;\n  }\n\n  getTitleText() {\n    return element(by.css('app-root .content span')).getText() as Promise;\n  }\n}\n\n    \n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"},"coverage.html":{"url":"coverage.html","title":"coverage - coverage","body":"\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n    Documentation coverage\n\n\n\n    \n\n\n\n    \n        \n            File\n            Type\n            Identifier\n            Statements\n        \n    \n    \n        \n            \n                \n                e2e/src/app.po.ts\n            \n            class\n            AppPage\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/app.component.ts\n            \n            component\n            AppComponent\n            \n                0 %\n                (0/2)\n            \n        \n        \n            \n                \n                src/environments/environment.prod.ts\n            \n            variable\n            environment\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/environments/environment.ts\n            \n            variable\n            environment\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/test.ts\n            \n            variable\n            context\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/test.ts\n            \n            variable\n            require\n            \n                0 %\n                (0/1)\n            \n        \n    \n\n\n\n\n\n    new Tablesort(document.getElementById('coverage-table'));\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"},"dependencies.html":{"url":"dependencies.html","title":"package-dependencies - dependencies","body":"\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n        Dependencies\n    \n    \n        \n            @angular/animations : ~8.2.13\n        \n            @angular/common : ~8.2.13\n        \n            @angular/compiler : ~8.2.13\n        \n            @angular/core : ~8.2.13\n        \n            @angular/forms : ~8.2.13\n        \n            @angular/platform-browser : ~8.2.13\n        \n            @angular/platform-browser-dynamic : ~8.2.13\n        \n            @angular/router : ~8.2.13\n        \n            rxjs : ~6.4.0\n        \n            tslib : ^1.10.0\n        \n            zone.js : ~0.9.1\n    \n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"},"index.html":{"url":"index.html","title":"getting-started - index","body":"\n                   \n\nDesafio Front-end PicPay\nPrimeiramente, obrigado pelo seu interesse em trabalhar na melhor plataforma de pagamentos do mundo!\nAbaixo você encontrará todos as informações necessárias para iniciar o seu teste.\nAvisos antes de começar\n\nPara a entrega do teste você precisará ter two factor habilitado na sua conta do GitHub, você poderá ver o passo a passo nesse tutorial: https://help.github.com/pt/github/authenticating-to-github/configuring-two-factor-authentication\nCom two factor habilitado, você precisa configurar a chave SSH: https://help.github.com/pt/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account\nPara iniciar o teste, crie uma branch a partir da master nesse padrão de nomenclatura: dd-mm-yy/nome-sobrenome (por exemplo, 30-04-20/meu-nome)\nVocê poderá consultar o Google, Stackoverflow ou algum projeto particular na sua máquina.\nFique à vontade para perguntar qualquer dúvida aos recrutadores.\nFique tranquilo, respire, assim como você, também já passamos por essa etapa. Boa sorte! :)\n\nSetup do projeto\n\nAngular CLI: 8.3.18\nNode: 10.15.3\nAngular: 8.2.14\n\nComo Rodar?\n\nInstale as dependências usando o comando npm install\nNa raiz do repositório, rode este comando ng serve para iniciar o servidor de desenvolvimento.\nA Aplicação estará disponível na porta http://localhost:4200/\n\nComo submeter?\n\nCommite suas alterações de forma organizada\nAbra uma pull request da sua branch para a master com a nomenclatura: Nome Sobrenome - dd-mm-yy\n\nObjetivo\nO objetivo é construir uma aplicação que simula o envio de dinheiro para uma outra pessoa, via cartão de crédito.\nFluxo das telas\nNa primeira tela terá uma listagem de usuários, onde a pessoa pode clicar em algum usuário da lista para realizar o pagamento. Quando clicado em um usuário é então aberto um modal de pagamento, contendo as informações do usuário de destino, a opção de selecionar um cartão de crédito e um botão de pagar. O usuário deve então digitar o valor, escolher o cartão e clicar em pagar. Para realização do pagamento deve-se chamar um endpoint de pagamento que aprovará/recusará a transação. E então deve-se mostrar na tela o modal de pagamento concluído com sucesso ou o de erro.\nScreenshots\nLista de usuários\n\n\nModal de pagamento e listagem de cartões\n\n\nModal de pagamento concluído com sucesso\n\n\nModal de erro no pagamento\n\n\n#\nCartões para exibir\nO cartão válido vai aprovar a transação no backend;\nlet cards = [\n  // valid card\n  {\n    card_number: '1111111111111111',\n    cvv: 789,\n    expiry_date: '01/18',\n  },\n  // invalid card\n  {\n    card_number: '4111111111111234',\n    cvv: 123,\n    expiry_date: '01/20',\n  },\n];#\nTransação\nEndpoint: https://run.mocky.io/v3/533cd5d7-63d3-4488-bf8d-4bb8c751c989\nMétodo: POST\n// Payload:\n\ninterface TransactionPayload {\n  // Card Info\n  card_number: string;\n  cvv: number;\n  expiry_date: string;\n\n  // Destination User ID\n  destination_user_id: number;\n\n  // Value of the Transaction\n  value: number;\n}Obs: Por se tratar de um mock o endpoint sempre retornará o mesmo payload, sucesso no pagamento, independente do cartão\n#\nUsuários\nEndpoint: https://www.mocky.io/v2/5d531c4f2e0000620081ddce\nMétodo: GET\n// Payload:\n\ninterface User {\n  id: number;\n  name: string;\n  img: string;\n  username: string;\n}#\nDiferenciais\n\nTeste unitário / E2E\nMelhoria no estilo da aplicação\nValidação de formulários e máscaras\nOrganização do código\n\n#\nEstamos sempre em busca de melhoria, por isso, caso tenha alguma sugestão fique a vontade pra compartilhar com a gente!\nMais uma vez, boa sorte! :green_heart:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"},"modules.html":{"url":"modules.html","title":"modules - modules","body":"\n                   \n\n\n\n\n    Modules\n\n\n    \n            \n                \n                    \n                        AppModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n    \n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"},"overview.html":{"url":"overview.html","title":"overview - overview","body":"\n                   \n\n\n\n    Overview\n\n  \n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppModule\n\n\n\ncluster_AppModule_declarations\n\n\n\ncluster_AppModule_bootstrap\n\n\n\n\nAppComponent\n\nAppComponent\n\n\n\nAppModule\n\nAppModule\n\nAppModule -->\n\nAppComponent->AppModule\n\n\n\n\n\nAppComponent \n\nAppComponent \n\nAppComponent  -->\n\nAppModule->AppComponent \n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n  \n\n    \n        \n            \n                \n                    \n                    \n                        1 Module\n                    \n                \n            \n        \n        \n            \n                \n                    \n                    1 Component\n                \n            \n        \n        \n            \n                \n                    \n                    1 Class\n                \n            \n        \n    \n\n\n \n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"},"miscellaneous/variables.html":{"url":"miscellaneous/variables.html","title":"miscellaneous-variables - variables","body":"\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n  Miscellaneous\n  Variables\n\n\n\n    Index\n    \n        \n            \n                \n                    \n                        \n                            context   (src/.../test.ts)\n                        \n                        \n                            environment   (src/.../environment.prod.ts)\n                        \n                        \n                            environment   (src/.../environment.ts)\n                        \n                        \n                            require   (src/.../test.ts)\n                        \n                    \n                \n            \n        \n    \n\n\n    src/test.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            context\n                            \n                        \n                    \n                \n                    \n                        \n                            Default value : require.context('./', true, /\\.spec\\.ts$/)\n                        \n                    \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            require\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         any\n\n                        \n                    \n\n\n            \n        \n\n    src/environments/environment.prod.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            environment\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         object\n\n                        \n                    \n                    \n                        \n                            Default value : {\n  production: true\n}\n                        \n                    \n\n\n            \n        \n\n    src/environments/environment.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            environment\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         object\n\n                        \n                    \n                    \n                        \n                            Default value : {\n  production: false\n}\n                        \n                    \n\n\n            \n        \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"}}
-}
+  index: {
+    version: '2.3.8',
+    fields: ['title', 'body'],
+    fieldVectors: [
+      ['title/components/AppComponent.html', [0, 0.208, 1, 0.747]],
+      [
+        'body/components/AppComponent.html',
+        [
+          0,
+          0.335,
+          1,
+          1.281,
+          2,
+          1.409,
+          3,
+          0.269,
+          4,
+          0.317,
+          5,
+          1.158,
+          6,
+          1.269,
+          7,
+          1.158,
+          8,
+          1.158,
+          9,
+          0.269,
+          10,
+          2.742,
+          11,
+          1.058,
+          12,
+          1.632,
+          13,
+          1.611,
+          14,
+          2.493,
+          15,
+          1.287,
+          16,
+          4.95,
+          17,
+          1.287,
+          18,
+          4.402,
+          19,
+          0.475,
+          20,
+          1.543,
+          21,
+          2.527,
+          22,
+          1.201,
+          23,
+          1.068,
+          24,
+          4.402,
+          25,
+          0.66,
+          26,
+          0.035,
+          27,
+          0.966,
+          28,
+          1.529,
+          29,
+          1.391,
+          30,
+          3.652,
+          31,
+          3.652,
+          32,
+          3.652,
+          33,
+          3.652,
+          34,
+          0.475,
+          35,
+          0.317,
+          36,
+          3.157,
+          37,
+          0.317,
+          38,
+          0.179,
+          39,
+          3.305,
+          40,
+          1.269,
+          41,
+          1.529,
+          42,
+          1.269,
+          43,
+          1.687,
+          44,
+          3.157,
+          45,
+          2.248,
+          46,
+          4.402,
+          47,
+          3.305,
+          48,
+          1.269,
+          49,
+          1.269,
+          50,
+          1.872,
+          51,
+          3.305,
+          52,
+          0.729,
+          53,
+          1.543,
+          54,
+          1.409,
+          55,
+          0.802,
+          56,
+          1.85,
+          57,
+          1.158,
+          58,
+          0.988,
+          59,
+          1.158,
+          60,
+          0.802,
+          61,
+          1.158,
+          62,
+          0.729,
+          63,
+          1.058,
+          64,
+          1.158,
+          65,
+          0.802,
+          66,
+          1.158,
+          67,
+          0.802,
+          68,
+          1.158,
+          69,
+          0.802,
+          70,
+          1.158,
+          71,
+          0.802,
+          72,
+          1.158,
+          73,
+          0.802,
+          74,
+          1.158,
+          75,
+          0.729,
+          76,
+          1.158,
+          77,
+          0.66,
+          78,
+          0.966,
+          79,
+          0.881,
+          80,
+          1.058,
+          81,
+          0.729,
+          82,
+          1.058,
+          83,
+          1.158,
+          84,
+          0.019,
+          85,
+          0.025,
+          86,
+          0.019
+        ]
+      ],
+      ['title/modules/AppModule.html', [87, 1.078, 88, 1.949]],
+      [
+        'body/modules/AppModule.html',
+        [
+          1,
+          1.503,
+          3,
+          0.304,
+          4,
+          0.358,
+          9,
+          0.304,
+          13,
+          0.993,
+          26,
+          0.036,
+          34,
+          0.577,
+          35,
+          0.358,
+          37,
+          0.358,
+          38,
+          0.202,
+          52,
+          0.821,
+          84,
+          0.021,
+          85,
+          0.027,
+          86,
+          0.021,
+          87,
+          1.305,
+          88,
+          3.845,
+          89,
+          1.568,
+          90,
+          1.723,
+          91,
+          2.97,
+          92,
+          2.678,
+          93,
+          2.109,
+          94,
+          1.901,
+          95,
+          3.089,
+          96,
+          3.089,
+          97,
+          3.089,
+          98,
+          3.089,
+          99,
+          3.308,
+          100,
+          2.695,
+          101,
+          2.109,
+          102,
+          2.109,
+          103,
+          3.724,
+          104,
+          2.695,
+          105,
+          4.759,
+          106,
+          3.948,
+          107,
+          2.358,
+          108,
+          2.695,
+          109,
+          2.43,
+          110,
+          3.089,
+          111,
+          3.724,
+          112,
+          3.014,
+          113,
+          2.109,
+          114,
+          3.724,
+          115,
+          4.759,
+          116,
+          2.358,
+          117,
+          4.759,
+          118,
+          3.724
+        ]
+      ],
+      ['title/classes/AppPage.html', [38, 0.167, 119, 2.207]],
+      [
+        'body/classes/AppPage.html',
+        [
+          3,
+          0.352,
+          4,
+          0.415,
+          9,
+          0.352,
+          14,
+          2.448,
+          19,
+          0.622,
+          23,
+          1.267,
+          26,
+          0.035,
+          34,
+          0.415,
+          37,
+          0.415,
+          38,
+          0.235,
+          54,
+          1.384,
+          84,
+          0.024,
+          85,
+          0.029,
+          86,
+          0.024,
+          107,
+          2.738,
+          119,
+          3.745,
+          120,
+          4.323,
+          121,
+          3.586,
+          122,
+          1.392,
+          123,
+          5.827,
+          124,
+          5.827,
+          125,
+          4.323,
+          126,
+          1.392,
+          127,
+          4.323,
+          128,
+          4.323,
+          129,
+          3.307,
+          130,
+          4.323,
+          131,
+          5.221,
+          132,
+          4.323,
+          133,
+          4.323
+        ]
+      ],
+      ['title/modules/AppRoutingModule.html', [87, 1.078, 99, 1.742]],
+      [
+        'body/modules/AppRoutingModule.html',
+        [
+          3,
+          0.341,
+          4,
+          0.402,
+          9,
+          0.341,
+          26,
+          0.036,
+          34,
+          0.492,
+          35,
+          0.402,
+          37,
+          0.402,
+          38,
+          0.227,
+          84,
+          0.023,
+          85,
+          0.029,
+          86,
+          0.023,
+          89,
+          1.762,
+          94,
+          2.137,
+          99,
+          2.9,
+          104,
+          2.371,
+          108,
+          2.9,
+          112,
+          3.243,
+          113,
+          2.371,
+          134,
+          4.186,
+          135,
+          4.186,
+          136,
+          3.133,
+          137,
+          2.371,
+          138,
+          4.78,
+          139,
+          5.532,
+          140,
+          3.243,
+          141,
+          4.186,
+          142,
+          4.186,
+          143,
+          4.186,
+          144,
+          4.186,
+          145,
+          4.186,
+          146,
+          4.186
+        ]
+      ],
+      ['title/components/ButtonComponent.html', [0, 0.208, 60, 0.747]],
+      [
+        'body/components/ButtonComponent.html',
+        [
+          0,
+          0.271,
+          1,
+          0.545,
+          2,
+          1.071,
+          3,
+          0.183,
+          4,
+          0.215,
+          5,
+          0.786,
+          6,
+          0.861,
+          7,
+          0.786,
+          8,
+          0.786,
+          9,
+          0.183,
+          11,
+          0.718,
+          12,
+          1.529,
+          13,
+          1.494,
+          15,
+          0.978,
+          17,
+          0.978,
+          19,
+          0.323,
+          22,
+          0.972,
+          23,
+          1.316,
+          25,
+          1.082,
+          26,
+          0.036,
+          27,
+          1.456,
+          34,
+          0.385,
+          35,
+          0.215,
+          37,
+          0.215,
+          38,
+          0.122,
+          40,
+          0.861,
+          41,
+          1.038,
+          42,
+          1.537,
+          43,
+          2.044,
+          45,
+          1.709,
+          48,
+          1.285,
+          49,
+          1.285,
+          50,
+          1.896,
+          52,
+          0.495,
+          53,
+          1.173,
+          54,
+          1.071,
+          55,
+          0.545,
+          56,
+          1.556,
+          57,
+          0.786,
+          58,
+          0.799,
+          59,
+          0.786,
+          60,
+          1.078,
+          61,
+          0.786,
+          62,
+          0.495,
+          63,
+          0.718,
+          64,
+          0.786,
+          65,
+          0.545,
+          66,
+          0.786,
+          67,
+          0.545,
+          68,
+          0.786,
+          69,
+          0.545,
+          70,
+          0.786,
+          71,
+          0.545,
+          72,
+          0.786,
+          73,
+          0.545,
+          74,
+          0.786,
+          75,
+          0.495,
+          76,
+          0.786,
+          77,
+          0.448,
+          78,
+          0.656,
+          79,
+          0.598,
+          80,
+          0.718,
+          81,
+          0.495,
+          82,
+          0.718,
+          83,
+          0.786,
+          84,
+          0.013,
+          85,
+          0.019,
+          86,
+          0.013,
+          122,
+          0.892,
+          126,
+          0.892,
+          147,
+          1.861,
+          148,
+          0.978,
+          149,
+          1.17,
+          150,
+          2.872,
+          151,
+          4.004,
+          152,
+          3.348,
+          153,
+          1.298,
+          154,
+          4.44,
+          155,
+          2.12,
+          156,
+          4.004,
+          157,
+          3.683,
+          158,
+          2.044,
+          159,
+          2.097,
+          160,
+          2.777,
+          161,
+          4.004,
+          162,
+          3.348,
+          163,
+          2.812,
+          164,
+          2.244,
+          165,
+          2.244,
+          166,
+          2.244,
+          167,
+          2.244,
+          168,
+          2.244,
+          169,
+          3.322,
+          170,
+          2.244,
+          171,
+          0.978,
+          172,
+          2.244,
+          173,
+          3.155,
+          174,
+          2.777,
+          175,
+          1.421,
+          176,
+          4.004,
+          177,
+          4.004,
+          178,
+          1.861,
+          179,
+          4.004,
+          180,
+          1.038,
+          181,
+          4.004,
+          182,
+          2.244,
+          183,
+          1.038,
+          184,
+          1.145,
+          185,
+          2.812,
+          186,
+          1.403,
+          187,
+          2.401,
+          188,
+          2.777,
+          189,
+          2.389,
+          190,
+          4.004,
+          191,
+          2.244,
+          192,
+          1.038,
+          193,
+          3.348,
+          194,
+          2.777,
+          195,
+          2.401,
+          196,
+          2.401,
+          197,
+          1.861,
+          198,
+          2.244,
+          199,
+          1.609,
+          200,
+          2.244,
+          201,
+          1.145,
+          202,
+          1.549,
+          203,
+          1.861,
+          204,
+          1.861,
+          205,
+          1.861,
+          206,
+          1.861,
+          207,
+          1.609,
+          208,
+          2.812,
+          209,
+          4.004,
+          210,
+          2.244,
+          211,
+          4.44,
+          212,
+          2.244,
+          213,
+          1.609,
+          214,
+          1.609,
+          215,
+          2.244,
+          216,
+          4.019,
+          217,
+          3.348,
+          218,
+          2.244,
+          219,
+          2.244,
+          220,
+          2.244,
+          221,
+          2.244,
+          222,
+          2.244,
+          223,
+          5.162,
+          224,
+          2.777,
+          225,
+          2.401,
+          226,
+          1.861
+        ]
+      ],
+      ['title/modules/ComponentsModule.html', [87, 1.078, 109, 1.571]],
+      [
+        'body/modules/ComponentsModule.html',
+        [
+          3,
+          0.22,
+          4,
+          0.259,
+          9,
+          0.22,
+          26,
+          0.036,
+          34,
+          0.58,
+          35,
+          0.259,
+          37,
+          0.259,
+          38,
+          0.146,
+          52,
+          0.594,
+          60,
+          1.427,
+          65,
+          1.427,
+          67,
+          1.427,
+          69,
+          1.427,
+          71,
+          1.427,
+          73,
+          1.427,
+          77,
+          1.192,
+          84,
+          0.015,
+          85,
+          0.021,
+          86,
+          0.015,
+          87,
+          0.944,
+          89,
+          1.134,
+          90,
+          1.246,
+          91,
+          2.518,
+          92,
+          1.375,
+          93,
+          2.165,
+          94,
+          2.27,
+          100,
+          2.165,
+          101,
+          1.525,
+          102,
+          1.525,
+          104,
+          2.165,
+          108,
+          2.165,
+          109,
+          3.194,
+          112,
+          2.422,
+          113,
+          1.525,
+          227,
+          2.234,
+          228,
+          2.234,
+          229,
+          2.234,
+          230,
+          2.234,
+          231,
+          3.007,
+          232,
+          2.693,
+          233,
+          3.172,
+          234,
+          2.742,
+          235,
+          1.706,
+          236,
+          2.693,
+          237,
+          2.693,
+          238,
+          2.693,
+          239,
+          2.693,
+          240,
+          2.693,
+          241,
+          2.693,
+          242,
+          2.693,
+          243,
+          3.172,
+          244,
+          1.375,
+          245,
+          3.824,
+          246,
+          1.932,
+          247,
+          2.234,
+          248,
+          2.693,
+          249,
+          1.246,
+          250,
+          1.706,
+          251,
+          1.952,
+          252,
+          1.952,
+          253,
+          1.375,
+          254,
+          3.172,
+          255,
+          1.246,
+          256,
+          3.172,
+          257,
+          2.234,
+          258,
+          3.172,
+          259,
+          3.172
+        ]
+      ],
+      ['title/interfaces/DialogData.html', [260, 0.899, 261, 1.295]],
+      [
+        'body/interfaces/DialogData.html',
+        [
+          0,
+          0.273,
+          3,
+          0.185,
+          4,
+          0.218,
+          9,
+          0.185,
+          12,
+          0.9,
+          13,
+          0.605,
+          15,
+          0.663,
+          17,
+          0.987,
+          19,
+          0.326,
+          20,
+          1.183,
+          21,
+          1.159,
+          22,
+          0.551,
+          25,
+          0.891,
+          26,
+          0.036,
+          27,
+          1.618,
+          34,
+          0.498,
+          35,
+          0.218,
+          37,
+          0.387,
+          38,
+          0.183,
+          58,
+          0.891,
+          62,
+          0.5,
+          63,
+          1.528,
+          75,
+          0.5,
+          77,
+          0.453,
+          78,
+          0.663,
+          79,
+          1.272,
+          84,
+          0.019,
+          85,
+          0.019,
+          86,
+          0.013,
+          137,
+          1.285,
+          148,
+          0.663,
+          149,
+          0.987,
+          153,
+          0.663,
+          158,
+          1.159,
+          159,
+          0.955,
+          171,
+          1.556,
+          180,
+          1.562,
+          184,
+          1.159,
+          186,
+          0.795,
+          208,
+          1.437,
+          244,
+          1.159,
+          249,
+          1.05,
+          250,
+          1.437,
+          251,
+          1.724,
+          252,
+          1.159,
+          253,
+          1.159,
+          255,
+          1.05,
+          260,
+          0.663,
+          261,
+          1.697,
+          262,
+          1.437,
+          263,
+          1.437,
+          264,
+          2.066,
+          265,
+          2.279,
+          266,
+          2.066,
+          267,
+          2.058,
+          268,
+          1.285,
+          269,
+          1.562,
+          270,
+          1.627,
+          271,
+          2.421,
+          272,
+          2.421,
+          273,
+          1.627,
+          274,
+          2.421,
+          275,
+          1.724,
+          276,
+          1.627,
+          277,
+          1.159,
+          278,
+          1.627,
+          279,
+          1.627,
+          280,
+          1.627,
+          281,
+          1.627,
+          282,
+          1.627,
+          283,
+          1.05,
+          284,
+          1.627,
+          285,
+          1.697,
+          286,
+          1.627,
+          287,
+          2.283,
+          288,
+          1.159,
+          289,
+          1.627,
+          290,
+          1.627,
+          291,
+          1.627,
+          292,
+          1.627,
+          293,
+          1.627,
+          294,
+          1.627,
+          295,
+          1.912,
+          296,
+          1.627,
+          297,
+          2.421,
+          298,
+          2.553,
+          299,
+          2.421,
+          300,
+          2.058,
+          301,
+          1.421,
+          302,
+          1.627,
+          303,
+          1.437,
+          304,
+          1.627,
+          305,
+          2.828,
+          306,
+          2.421,
+          307,
+          2.553,
+          308,
+          1.627,
+          309,
+          1.627,
+          310,
+          2.421,
+          311,
+          1.627,
+          312,
+          2.828,
+          313,
+          2.828,
+          314,
+          2.421,
+          315,
+          2.138,
+          316,
+          2.138,
+          317,
+          1.627,
+          318,
+          1.627,
+          319,
+          1.627,
+          320,
+          1.627,
+          321,
+          1.627,
+          322,
+          1.285,
+          323,
+          1.627,
+          324,
+          1.627,
+          325,
+          1.627,
+          326,
+          1.627,
+          327,
+          1.627,
+          328,
+          1.437,
+          329,
+          1.437,
+          330,
+          2.138,
+          331,
+          2.138,
+          332,
+          1.437,
+          333,
+          2.138,
+          334,
+          1.437,
+          335,
+          2.138,
+          336,
+          1.437,
+          337,
+          2.138,
+          338,
+          1.437,
+          339,
+          1.437,
+          340,
+          1.437,
+          341,
+          1.285,
+          342,
+          1.627,
+          343,
+          1.627,
+          344,
+          1.627,
+          345,
+          1.437,
+          346,
+          1.627,
+          347,
+          1.627,
+          348,
+          1.627,
+          349,
+          2.891,
+          350,
+          2.421,
+          351,
+          1.627,
+          352,
+          1.285,
+          353,
+          1.285,
+          354,
+          1.627,
+          355,
+          2.421,
+          356,
+          1.437,
+          357,
+          2.421,
+          358,
+          1.627,
+          359,
+          1.627,
+          360,
+          1.437,
+          361,
+          1.627,
+          362,
+          1.627,
+          363,
+          1.437,
+          364,
+          1.627,
+          365,
+          1.627,
+          366,
+          1.627,
+          367,
+          1.627,
+          368,
+          1.627,
+          369,
+          1.627,
+          370,
+          1.627,
+          371,
+          1.627,
+          372,
+          1.627,
+          373,
+          1.437,
+          374,
+          1.627,
+          375,
+          2.138,
+          376,
+          1.437,
+          377,
+          1.627,
+          378,
+          1.627,
+          379,
+          1.627,
+          380,
+          1.627,
+          381,
+          1.627,
+          382,
+          1.627,
+          383,
+          1.627,
+          384,
+          1.627,
+          385,
+          1.627,
+          386,
+          1.627,
+          387,
+          1.627,
+          388,
+          1.627
+        ]
+      ],
+      [
+        'title/interfaces/DialogData-1.html',
+        [260, 0.752, 261, 1.083, 389, 2.133]
+      ],
+      [
+        'body/interfaces/DialogData-1.html',
+        [
+          0,
+          0.321,
+          3,
+          0.303,
+          4,
+          0.357,
+          9,
+          0.303,
+          12,
+          0.99,
+          13,
+          0.99,
+          15,
+          1.086,
+          17,
+          1.086,
+          19,
+          0.534,
+          20,
+          1.665,
+          21,
+          2.819,
+          25,
+          1.139,
+          26,
+          0.036,
+          27,
+          1.809,
+          34,
+          0.456,
+          35,
+          0.357,
+          37,
+          0.456,
+          38,
+          0.202,
+          77,
+          0.741,
+          78,
+          1.531,
+          79,
+          0.99,
+          84,
+          0.021,
+          85,
+          0.027,
+          86,
+          0.021,
+          148,
+          1.086,
+          149,
+          1.389,
+          153,
+          1.086,
+          158,
+          2.819,
+          159,
+          2.325,
+          163,
+          3.318,
+          171,
+          1.086,
+          184,
+          2.819,
+          249,
+          1.719,
+          251,
+          2.426,
+          252,
+          1.897,
+          255,
+          1.719,
+          260,
+          1.086,
+          261,
+          2.206,
+          262,
+          2.353,
+          268,
+          2.104,
+          277,
+          1.897,
+          285,
+          1.564,
+          295,
+          2.104,
+          300,
+          1.897,
+          322,
+          3.127,
+          341,
+          2.104,
+          352,
+          2.104,
+          353,
+          2.104,
+          390,
+          2.665,
+          391,
+          3.082,
+          392,
+          3.082,
+          393,
+          3.082
+        ]
+      ],
+      ['title/components/DialogTransaction.html', [0, 0.208, 62, 0.678]],
+      [
+        'body/components/DialogTransaction.html',
+        [
+          0,
+          0.257,
+          1,
+          0.405,
+          2,
+          0.853,
+          3,
+          0.136,
+          4,
+          0.16,
+          5,
+          0.585,
+          7,
+          0.585,
+          8,
+          0.585,
+          9,
+          0.136,
+          11,
+          0.534,
+          12,
+          1.451,
+          13,
+          1.357,
+          15,
+          0.488,
+          17,
+          0.972,
+          19,
+          0.24,
+          20,
+          0.934,
+          21,
+          0.852,
+          22,
+          0.647,
+          23,
+          1.235,
+          25,
+          0.827,
+          26,
+          0.036,
+          27,
+          1.109,
+          28,
+          1.233,
+          29,
+          1.122,
+          34,
+          0.445,
+          35,
+          0.16,
+          37,
+          0.319,
+          38,
+          0.145,
+          52,
+          0.368,
+          53,
+          0.934,
+          54,
+          0.853,
+          55,
+          0.405,
+          56,
+          1.33,
+          57,
+          0.585,
+          58,
+          0.882,
+          59,
+          0.585,
+          60,
+          0.405,
+          61,
+          0.585,
+          62,
+          0.836,
+          63,
+          1.542,
+          64,
+          0.585,
+          65,
+          0.405,
+          66,
+          0.585,
+          67,
+          0.405,
+          68,
+          0.585,
+          69,
+          0.405,
+          70,
+          0.585,
+          71,
+          0.405,
+          72,
+          0.585,
+          73,
+          0.405,
+          74,
+          0.585,
+          75,
+          0.587,
+          76,
+          0.585,
+          77,
+          0.532,
+          78,
+          0.779,
+          79,
+          1.236,
+          80,
+          0.534,
+          81,
+          0.368,
+          82,
+          0.534,
+          83,
+          0.585,
+          84,
+          0.015,
+          85,
+          0.015,
+          86,
+          0.009,
+          122,
+          0.71,
+          126,
+          1.011,
+          137,
+          0.945,
+          148,
+          0.488,
+          149,
+          0.779,
+          153,
+          0.488,
+          158,
+          0.852,
+          159,
+          0.703,
+          171,
+          1.546,
+          180,
+          1.538,
+          184,
+          0.852,
+          186,
+          0.585,
+          208,
+          2.105,
+          244,
+          0.852,
+          249,
+          0.773,
+          250,
+          1.057,
+          251,
+          2.117,
+          252,
+          0.852,
+          253,
+          0.852,
+          255,
+          0.773,
+          260,
+          0.488,
+          261,
+          1.746,
+          263,
+          1.057,
+          264,
+          0.773,
+          265,
+          0.852,
+          266,
+          0.773,
+          267,
+          0.852,
+          268,
+          0.945,
+          269,
+          1.233,
+          270,
+          1.197,
+          271,
+          1.911,
+          272,
+          2.721,
+          273,
+          1.197,
+          274,
+          2.384,
+          275,
+          1.937,
+          276,
+          1.197,
+          277,
+          0.852,
+          278,
+          1.197,
+          279,
+          1.197,
+          280,
+          1.197,
+          281,
+          1.197,
+          282,
+          1.197,
+          283,
+          0.773,
+          284,
+          1.197,
+          285,
+          1.952,
+          286,
+          1.197,
+          287,
+          1.883,
+          288,
+          0.852,
+          289,
+          1.197,
+          290,
+          1.197,
+          291,
+          1.197,
+          292,
+          1.197,
+          293,
+          1.197,
+          294,
+          1.197,
+          295,
+          2.348,
+          296,
+          1.197,
+          297,
+          1.911,
+          298,
+          2.626,
+          299,
+          1.911,
+          300,
+          2.368,
+          301,
+          1.122,
+          302,
+          1.197,
+          303,
+          1.057,
+          304,
+          1.197,
+          305,
+          2.799,
+          306,
+          1.911,
+          307,
+          2.105,
+          308,
+          1.197,
+          309,
+          1.197,
+          310,
+          1.911,
+          311,
+          1.197,
+          312,
+          3.05,
+          313,
+          3.05,
+          314,
+          1.911,
+          315,
+          1.687,
+          316,
+          1.687,
+          317,
+          1.197,
+          318,
+          1.197,
+          319,
+          1.197,
+          320,
+          1.197,
+          321,
+          1.197,
+          322,
+          0.945,
+          323,
+          1.197,
+          324,
+          1.197,
+          325,
+          1.197,
+          326,
+          1.911,
+          327,
+          2.384,
+          328,
+          2.105,
+          329,
+          1.687,
+          330,
+          2.403,
+          331,
+          2.403,
+          332,
+          1.687,
+          333,
+          2.403,
+          334,
+          1.687,
+          335,
+          2.403,
+          336,
+          1.687,
+          337,
+          2.105,
+          338,
+          1.687,
+          339,
+          1.687,
+          340,
+          1.687,
+          341,
+          1.509,
+          342,
+          2.384,
+          343,
+          2.384,
+          344,
+          1.197,
+          345,
+          1.687,
+          346,
+          1.197,
+          347,
+          1.197,
+          348,
+          1.197,
+          349,
+          2.384,
+          350,
+          1.911,
+          351,
+          1.197,
+          352,
+          2.149,
+          353,
+          0.945,
+          354,
+          2.721,
+          355,
+          1.911,
+          356,
+          1.057,
+          357,
+          1.911,
+          358,
+          1.197,
+          359,
+          1.197,
+          360,
+          1.057,
+          361,
+          1.197,
+          362,
+          2.384,
+          363,
+          2.105,
+          364,
+          1.197,
+          365,
+          1.197,
+          366,
+          1.197,
+          367,
+          1.197,
+          368,
+          1.197,
+          369,
+          1.197,
+          370,
+          1.911,
+          371,
+          1.197,
+          372,
+          1.197,
+          373,
+          1.057,
+          374,
+          1.197,
+          375,
+          3.05,
+          376,
+          1.057,
+          377,
+          1.197,
+          378,
+          1.197,
+          379,
+          1.197,
+          380,
+          2.721,
+          381,
+          1.197,
+          382,
+          1.197,
+          383,
+          1.197,
+          384,
+          1.197,
+          385,
+          1.197,
+          386,
+          1.197,
+          387,
+          1.197,
+          388,
+          1.197,
+          394,
+          1.385,
+          395,
+          2.664,
+          396,
+          1.385,
+          397,
+          1.67,
+          398,
+          1.122,
+          399,
+          1.122,
+          400,
+          1.67,
+          401,
+          1.67,
+          402,
+          1.67,
+          403,
+          1.67,
+          404,
+          1.67,
+          405,
+          1.197,
+          406,
+          1.67,
+          407,
+          1.67,
+          408,
+          1.67,
+          409,
+          1.67,
+          410,
+          2.721,
+          411,
+          2.664,
+          412,
+          2.664,
+          413,
+          3.795,
+          414,
+          2.664,
+          415,
+          2.664,
+          416,
+          2.664,
+          417,
+          1.911,
+          418,
+          2.21,
+          419,
+          2.664,
+          420,
+          3.148,
+          421,
+          2.21,
+          422,
+          2.664,
+          423,
+          2.664
+        ]
+      ],
+      ['title/modules/DirectivesModule.html', [87, 1.078, 231, 1.742]],
+      [
+        'body/modules/DirectivesModule.html',
+        [
+          3,
+          0.337,
+          4,
+          0.397,
+          9,
+          0.337,
+          26,
+          0.035,
+          34,
+          0.528,
+          35,
+          0.397,
+          37,
+          0.397,
+          38,
+          0.224,
+          52,
+          0.911,
+          81,
+          1.384,
+          84,
+          0.023,
+          85,
+          0.028,
+          86,
+          0.023,
+          87,
+          1.448,
+          89,
+          1.739,
+          90,
+          1.912,
+          91,
+          3.114,
+          92,
+          2.109,
+          93,
+          2.34,
+          94,
+          2.808,
+          100,
+          2.876,
+          101,
+          2.34,
+          102,
+          2.34,
+          104,
+          2.34,
+          108,
+          2.876,
+          231,
+          3.44,
+          234,
+          3.643,
+          235,
+          2.617,
+          424,
+          3.427,
+          425,
+          3.427,
+          426,
+          3.427,
+          427,
+          4.132,
+          428,
+          4.132
+        ]
+      ],
+      ['title/components/FooterComponent.html', [0, 0.208, 65, 0.747]],
+      [
+        'body/components/FooterComponent.html',
+        [
+          0,
+          0.334,
+          1,
+          0.8,
+          2,
+          1.407,
+          3,
+          0.269,
+          4,
+          0.317,
+          5,
+          1.156,
+          6,
+          1.266,
+          7,
+          1.156,
+          8,
+          1.156,
+          9,
+          0.269,
+          11,
+          1.056,
+          12,
+          1.631,
+          13,
+          1.611,
+          15,
+          1.285,
+          17,
+          1.285,
+          19,
+          0.474,
+          22,
+          1.2,
+          23,
+          1.067,
+          26,
+          0.035,
+          34,
+          0.475,
+          35,
+          0.317,
+          37,
+          0.317,
+          38,
+          0.179,
+          40,
+          1.266,
+          41,
+          1.526,
+          42,
+          1.266,
+          43,
+          1.684,
+          48,
+          1.266,
+          49,
+          1.266,
+          52,
+          0.727,
+          53,
+          1.541,
+          54,
+          1.407,
+          55,
+          0.8,
+          56,
+          1.848,
+          57,
+          1.156,
+          58,
+          0.987,
+          59,
+          1.156,
+          60,
+          0.8,
+          61,
+          1.156,
+          62,
+          0.727,
+          63,
+          1.056,
+          64,
+          1.156,
+          65,
+          1.28,
+          66,
+          1.156,
+          67,
+          0.8,
+          68,
+          1.156,
+          69,
+          0.8,
+          70,
+          1.156,
+          71,
+          0.8,
+          72,
+          1.156,
+          73,
+          0.8,
+          74,
+          1.156,
+          75,
+          0.727,
+          76,
+          1.156,
+          77,
+          0.658,
+          78,
+          0.964,
+          79,
+          0.879,
+          80,
+          1.056,
+          81,
+          0.727,
+          82,
+          1.056,
+          83,
+          1.156,
+          84,
+          0.019,
+          85,
+          0.025,
+          86,
+          0.019,
+          122,
+          1.172,
+          126,
+          0.879,
+          148,
+          1.285,
+          149,
+          1.445,
+          153,
+          1.541,
+          171,
+          0.964,
+          183,
+          1.526,
+          186,
+          1.541,
+          189,
+          1.526,
+          192,
+          2.034,
+          202,
+          1.526,
+          216,
+          2.365,
+          429,
+          2.736,
+          430,
+          4.945,
+          431,
+          4.945,
+          432,
+          4.396,
+          433,
+          3.298,
+          434,
+          3.298,
+          435,
+          1.868,
+          436,
+          2.736,
+          437,
+          1.684,
+          438,
+          3.298,
+          439,
+          2.089,
+          440,
+          1.684,
+          441,
+          1.684,
+          442,
+          1.868
+        ]
+      ],
+      ['title/components/HeaderComponent.html', [0, 0.208, 67, 0.747]],
+      [
+        'body/components/HeaderComponent.html',
+        [
+          0,
+          0.326,
+          1,
+          0.759,
+          2,
+          1.358,
+          3,
+          0.255,
+          4,
+          0.3,
+          5,
+          1.097,
+          6,
+          1.201,
+          7,
+          1.097,
+          8,
+          1.097,
+          9,
+          0.255,
+          11,
+          1.002,
+          12,
+          1.619,
+          13,
+          1.596,
+          15,
+          1.24,
+          17,
+          1.24,
+          19,
+          0.45,
+          22,
+          1.169,
+          23,
+          1.03,
+          26,
+          0.036,
+          34,
+          0.407,
+          35,
+          0.3,
+          37,
+          0.3,
+          38,
+          0.17,
+          40,
+          1.201,
+          41,
+          1.448,
+          42,
+          1.629,
+          43,
+          1.597,
+          48,
+          1.629,
+          49,
+          1.629,
+          52,
+          0.69,
+          53,
+          1.487,
+          54,
+          1.358,
+          55,
+          0.759,
+          56,
+          1.809,
+          57,
+          1.097,
+          58,
+          0.961,
+          59,
+          1.097,
+          60,
+          0.759,
+          61,
+          1.097,
+          62,
+          0.69,
+          63,
+          1.002,
+          64,
+          1.097,
+          65,
+          0.759,
+          66,
+          1.097,
+          67,
+          1.253,
+          68,
+          1.097,
+          69,
+          0.759,
+          70,
+          1.097,
+          71,
+          0.759,
+          72,
+          1.097,
+          73,
+          0.759,
+          74,
+          1.097,
+          75,
+          0.69,
+          76,
+          1.097,
+          77,
+          0.624,
+          78,
+          0.914,
+          79,
+          0.834,
+          80,
+          1.002,
+          81,
+          0.69,
+          82,
+          1.002,
+          83,
+          1.097,
+          84,
+          0.018,
+          85,
+          0.024,
+          86,
+          0.018,
+          122,
+          1.131,
+          126,
+          0.834,
+          148,
+          1.24,
+          149,
+          1.407,
+          153,
+          1.509,
+          171,
+          0.914,
+          186,
+          1.95,
+          192,
+          1.964,
+          201,
+          1.597,
+          202,
+          1.448,
+          435,
+          1.772,
+          437,
+          2.166,
+          439,
+          1.982,
+          440,
+          1.597,
+          441,
+          1.597,
+          442,
+          1.772,
+          443,
+          2.595,
+          444,
+          5.163,
+          445,
+          4.815,
+          446,
+          4.243,
+          447,
+          3.129,
+          448,
+          3.129,
+          449,
+          2.595,
+          450,
+          3.129,
+          451,
+          2.595,
+          452,
+          2.595,
+          453,
+          3.129,
+          454,
+          3.129,
+          455,
+          1.772,
+          456,
+          2.595,
+          457,
+          2.595,
+          458,
+          1.982,
+          459,
+          1.772,
+          460,
+          1.982,
+          461,
+          2.595,
+          462,
+          2.595
+        ]
+      ],
+      ['title/directives/LinkDirective.html', [55, 0.747, 81, 0.678]],
+      [
+        'body/directives/LinkDirective.html',
+        [
+          3,
+          0.299,
+          4,
+          0.352,
+          9,
+          0.299,
+          11,
+          1.173,
+          12,
+          1.255,
+          19,
+          0.527,
+          22,
+          0.889,
+          23,
+          1.333,
+          25,
+          1.039,
+          26,
+          0.036,
+          27,
+          1.661,
+          28,
+          1.696,
+          29,
+          1.542,
+          34,
+          0.352,
+          35,
+          0.352,
+          37,
+          0.352,
+          38,
+          0.199,
+          55,
+          1.143,
+          58,
+          0.94,
+          80,
+          1.173,
+          81,
+          1.038,
+          82,
+          1.507,
+          84,
+          0.021,
+          85,
+          0.026,
+          86,
+          0.021,
+          122,
+          1.255,
+          126,
+          1.255,
+          148,
+          1.376,
+          149,
+          1.521,
+          153,
+          1.605,
+          155,
+          2.983,
+          171,
+          1.376,
+          173,
+          2.983,
+          189,
+          2.179,
+          207,
+          2.628,
+          283,
+          1.696,
+          285,
+          2.191,
+          287,
+          2.947,
+          398,
+          1.983,
+          399,
+          1.983,
+          463,
+          3.039,
+          464,
+          3.907,
+          465,
+          4.317,
+          466,
+          3.664,
+          467,
+          5.494,
+          468,
+          4.71,
+          469,
+          4.71,
+          470,
+          3.907,
+          471,
+          3.664,
+          472,
+          3.907,
+          473,
+          3.664,
+          474,
+          3.039,
+          475,
+          3.664,
+          476,
+          3.907,
+          477,
+          3.664
+        ]
+      ],
+      ['title/components/ListComponent.html', [0, 0.208, 69, 0.747]],
+      [
+        'body/components/ListComponent.html',
+        [
+          0,
+          0.269,
+          1,
+          0.539,
+          2,
+          1.064,
+          3,
+          0.271,
+          4,
+          0.213,
+          5,
+          1.165,
+          6,
+          0.853,
+          7,
+          0.779,
+          8,
+          0.779,
+          9,
+          0.181,
+          11,
+          0.711,
+          12,
+          1.526,
+          13,
+          1.49,
+          15,
+          0.971,
+          17,
+          0.971,
+          19,
+          0.319,
+          22,
+          0.966,
+          23,
+          1.148,
+          25,
+          0.794,
+          26,
+          0.036,
+          34,
+          0.382,
+          35,
+          0.213,
+          37,
+          0.213,
+          38,
+          0.121,
+          40,
+          0.853,
+          41,
+          1.842,
+          42,
+          1.696,
+          44,
+          2.383,
+          45,
+          1.134,
+          48,
+          1.905,
+          49,
+          1.905,
+          50,
+          2.811,
+          52,
+          0.49,
+          53,
+          1.165,
+          54,
+          1.064,
+          55,
+          0.539,
+          56,
+          1.548,
+          57,
+          0.779,
+          58,
+          0.882,
+          59,
+          0.779,
+          60,
+          0.539,
+          61,
+          0.779,
+          62,
+          0.49,
+          63,
+          0.711,
+          64,
+          0.779,
+          65,
+          0.539,
+          66,
+          0.779,
+          67,
+          0.539,
+          68,
+          0.779,
+          69,
+          1.072,
+          70,
+          0.779,
+          71,
+          0.539,
+          72,
+          0.779,
+          73,
+          0.539,
+          74,
+          0.779,
+          75,
+          0.49,
+          76,
+          0.779,
+          77,
+          0.443,
+          78,
+          0.649,
+          79,
+          0.592,
+          80,
+          0.711,
+          81,
+          0.49,
+          82,
+          0.711,
+          83,
+          0.779,
+          84,
+          0.012,
+          85,
+          0.019,
+          86,
+          0.012,
+          122,
+          0.886,
+          126,
+          0.886,
+          148,
+          0.971,
+          149,
+          1.163,
+          153,
+          1.291,
+          155,
+          2.104,
+          159,
+          0.935,
+          160,
+          2.756,
+          169,
+          3.302,
+          171,
+          0.971,
+          173,
+          2.104,
+          174,
+          2.756,
+          175,
+          1.407,
+          183,
+          1.028,
+          185,
+          2.995,
+          186,
+          1.854,
+          187,
+          1.593,
+          189,
+          1.538,
+          192,
+          2.045,
+          194,
+          1.843,
+          195,
+          3.392,
+          196,
+          3.169,
+          197,
+          1.843,
+          202,
+          1.538,
+          213,
+          3.95,
+          226,
+          1.843,
+          264,
+          1.538,
+          266,
+          1.538,
+          300,
+          1.134,
+          398,
+          0.935,
+          399,
+          0.935,
+          435,
+          1.258,
+          436,
+          1.843,
+          440,
+          2.415,
+          441,
+          1.697,
+          442,
+          2.254,
+          452,
+          1.843,
+          455,
+          1.882,
+          456,
+          1.843,
+          457,
+          1.843,
+          458,
+          2.521,
+          459,
+          1.258,
+          460,
+          1.407,
+          478,
+          1.843,
+          479,
+          2.855,
+          480,
+          3.981,
+          481,
+          3.323,
+          482,
+          3.323,
+          483,
+          3.981,
+          484,
+          3.323,
+          485,
+          3.323,
+          486,
+          2.222,
+          487,
+          3.323,
+          488,
+          2.222,
+          489,
+          2.756,
+          490,
+          2.222,
+          491,
+          2.222,
+          492,
+          3.323,
+          493,
+          3.323,
+          494,
+          3.323,
+          495,
+          3.323,
+          496,
+          1.843,
+          497,
+          2.222,
+          498,
+          2.222,
+          499,
+          2.222,
+          500,
+          2.222,
+          501,
+          2.222,
+          502,
+          3.35,
+          503,
+          2.383,
+          504,
+          2.222,
+          505,
+          3.323,
+          506,
+          2.222,
+          507,
+          1.843,
+          508,
+          3.302,
+          509,
+          2.222,
+          510,
+          2.222,
+          511,
+          2.222,
+          512,
+          2.222,
+          513,
+          2.222,
+          514,
+          2.756,
+          515,
+          2.222,
+          516,
+          2.222,
+          517,
+          2.222,
+          518,
+          2.756,
+          519,
+          1.843,
+          520,
+          1.593,
+          521,
+          2.222,
+          522,
+          2.756,
+          523,
+          2.222,
+          524,
+          2.222,
+          525,
+          2.222,
+          526,
+          2.222,
+          527,
+          2.222,
+          528,
+          2.222,
+          529,
+          2.222,
+          530,
+          2.222
+        ]
+      ],
+      ['title/components/LogoComponent.html', [0, 0.208, 71, 0.747]],
+      [
+        'body/components/LogoComponent.html',
+        [
+          0,
+          0.301,
+          1,
+          0.656,
+          2,
+          1.227,
+          3,
+          0.22,
+          4,
+          0.26,
+          5,
+          0.947,
+          6,
+          1.037,
+          7,
+          0.947,
+          8,
+          0.947,
+          9,
+          0.22,
+          11,
+          0.865,
+          12,
+          1.582,
+          13,
+          1.554,
+          15,
+          1.12,
+          17,
+          1.12,
+          19,
+          0.389,
+          20,
+          1.343,
+          22,
+          1.081,
+          23,
+          1.356,
+          25,
+          1.021,
+          26,
+          0.036,
+          27,
+          1.598,
+          28,
+          1.251,
+          29,
+          1.138,
+          34,
+          0.465,
+          35,
+          0.368,
+          37,
+          0.26,
+          38,
+          0.147,
+          40,
+          1.037,
+          42,
+          1.71,
+          48,
+          1.037,
+          49,
+          1.037,
+          52,
+          0.596,
+          53,
+          1.343,
+          54,
+          1.227,
+          55,
+          0.656,
+          56,
+          1.699,
+          57,
+          0.947,
+          58,
+          0.967,
+          59,
+          0.947,
+          60,
+          0.656,
+          61,
+          0.947,
+          62,
+          0.596,
+          63,
+          0.865,
+          64,
+          0.947,
+          65,
+          0.656,
+          66,
+          0.947,
+          67,
+          0.656,
+          68,
+          0.947,
+          69,
+          0.656,
+          70,
+          0.947,
+          71,
+          1.176,
+          72,
+          0.947,
+          73,
+          0.656,
+          74,
+          0.947,
+          75,
+          0.596,
+          76,
+          0.947,
+          77,
+          0.539,
+          78,
+          0.79,
+          79,
+          0.72,
+          80,
+          0.865,
+          81,
+          0.596,
+          82,
+          0.865,
+          83,
+          0.947,
+          84,
+          0.015,
+          85,
+          0.022,
+          86,
+          0.015,
+          122,
+          1.022,
+          126,
+          1.187,
+          148,
+          1.12,
+          149,
+          1.302,
+          153,
+          1.417,
+          155,
+          2.427,
+          157,
+          2.242,
+          163,
+          2.427,
+          171,
+          1.302,
+          173,
+          3.07,
+          180,
+          1.774,
+          183,
+          1.251,
+          189,
+          1.774,
+          206,
+          2.242,
+          207,
+          1.938,
+          225,
+          1.938,
+          287,
+          2.522,
+          398,
+          1.138,
+          399,
+          1.138,
+          405,
+          1.938,
+          437,
+          1.38,
+          461,
+          4.409,
+          462,
+          2.242,
+          464,
+          3.18,
+          465,
+          3.695,
+          470,
+          3.18,
+          472,
+          3.18,
+          474,
+          2.242,
+          476,
+          3.18,
+          514,
+          2.242,
+          518,
+          2.242,
+          531,
+          2.242,
+          532,
+          4.454,
+          533,
+          3.833,
+          534,
+          4.847,
+          535,
+          4.454,
+          536,
+          4.847,
+          537,
+          3.833,
+          538,
+          2.702,
+          539,
+          2.702,
+          540,
+          2.702,
+          541,
+          2.702,
+          542,
+          2.702,
+          543,
+          2.702,
+          544,
+          3.833,
+          545,
+          3.833,
+          546,
+          2.702,
+          547,
+          3.833,
+          548,
+          2.702,
+          549,
+          2.702,
+          550,
+          2.242
+        ]
+      ],
+      ['title/components/NavbarComponent.html', [0, 0.208, 73, 0.747]],
+      [
+        'body/components/NavbarComponent.html',
+        [
+          0,
+          0.285,
+          1,
+          0.594,
+          2,
+          1.143,
+          3,
+          0.2,
+          4,
+          0.235,
+          5,
+          0.858,
+          6,
+          0.94,
+          7,
+          0.858,
+          8,
+          0.858,
+          9,
+          0.2,
+          11,
+          0.784,
+          12,
+          1.554,
+          13,
+          1.522,
+          15,
+          1.043,
+          17,
+          1.043,
+          19,
+          0.352,
+          20,
+          1.251,
+          22,
+          1.023,
+          23,
+          1.124,
+          25,
+          0.712,
+          26,
+          0.036,
+          28,
+          1.652,
+          29,
+          1.503,
+          34,
+          0.405,
+          35,
+          0.235,
+          37,
+          0.235,
+          38,
+          0.133,
+          40,
+          0.94,
+          42,
+          0.94,
+          45,
+          1.25,
+          48,
+          1.37,
+          49,
+          1.37,
+          50,
+          1.386,
+          52,
+          0.54,
+          53,
+          1.251,
+          54,
+          1.143,
+          55,
+          0.594,
+          56,
+          1.623,
+          57,
+          0.858,
+          58,
+          0.841,
+          59,
+          0.858,
+          60,
+          0.594,
+          61,
+          0.858,
+          62,
+          0.54,
+          63,
+          0.784,
+          64,
+          0.858,
+          65,
+          0.594,
+          66,
+          0.858,
+          67,
+          0.594,
+          68,
+          0.858,
+          69,
+          0.594,
+          70,
+          0.858,
+          71,
+          0.594,
+          72,
+          0.858,
+          73,
+          1.124,
+          74,
+          0.858,
+          75,
+          0.54,
+          76,
+          0.858,
+          77,
+          0.489,
+          78,
+          0.715,
+          79,
+          0.653,
+          80,
+          0.784,
+          81,
+          0.54,
+          82,
+          0.784,
+          83,
+          0.858,
+          84,
+          0.014,
+          85,
+          0.02,
+          86,
+          0.014,
+          122,
+          0.952,
+          126,
+          0.653,
+          140,
+          2.933,
+          148,
+          1.043,
+          149,
+          1.231,
+          153,
+          1.353,
+          159,
+          1.95,
+          171,
+          0.715,
+          183,
+          1.133,
+          185,
+          1.55,
+          186,
+          1.726,
+          187,
+          1.756,
+          189,
+          1.133,
+          192,
+          1.133,
+          201,
+          1.25,
+          202,
+          1.133,
+          203,
+          2.961,
+          204,
+          2.961,
+          205,
+          2.961,
+          216,
+          1.756,
+          224,
+          2.031,
+          435,
+          2.022,
+          437,
+          1.25,
+          440,
+          1.823,
+          441,
+          1.25,
+          451,
+          2.031,
+          455,
+          1.386,
+          458,
+          1.55,
+          479,
+          1.756,
+          489,
+          2.031,
+          502,
+          3.445,
+          507,
+          3.495,
+          519,
+          2.031,
+          520,
+          3.806,
+          522,
+          2.031,
+          550,
+          2.031,
+          551,
+          2.031,
+          552,
+          4.214,
+          553,
+          4.214,
+          554,
+          3.57,
+          555,
+          4.214,
+          556,
+          4.214,
+          557,
+          2.448,
+          558,
+          2.448,
+          559,
+          3.57,
+          560,
+          4.631,
+          561,
+          2.448,
+          562,
+          4.631,
+          563,
+          3.57,
+          564,
+          4.631,
+          565,
+          3.57,
+          566,
+          4.631,
+          567,
+          4.631,
+          568,
+          3.57,
+          569,
+          3.57,
+          570,
+          3.57,
+          571,
+          3.57,
+          572,
+          2.448,
+          573,
+          3.57,
+          574,
+          2.448,
+          575,
+          2.448,
+          576,
+          2.031,
+          577,
+          4.214,
+          578,
+          2.448,
+          579,
+          2.448,
+          580,
+          3.57,
+          581,
+          2.448,
+          582,
+          2.448,
+          583,
+          2.448
+        ]
+      ],
+      ['title/components/PaymentComponent.html', [0, 0.208, 75, 0.678]],
+      [
+        'body/components/PaymentComponent.html',
+        [
+          0,
+          0.249,
+          1,
+          0.383,
+          2,
+          0.816,
+          3,
+          0.129,
+          4,
+          0.152,
+          5,
+          0.554,
+          6,
+          0.606,
+          7,
+          0.554,
+          8,
+          0.554,
+          9,
+          0.129,
+          11,
+          0.506,
+          12,
+          1.432,
+          13,
+          1.389,
+          15,
+          0.745,
+          17,
+          0.936,
+          19,
+          0.227,
+          20,
+          0.893,
+          21,
+          1.301,
+          22,
+          0.619,
+          23,
+          1.183,
+          25,
+          0.734,
+          26,
+          0.036,
+          27,
+          1.178,
+          34,
+          0.468,
+          35,
+          0.152,
+          37,
+          0.308,
+          38,
+          0.138,
+          40,
+          0.606,
+          41,
+          1.179,
+          42,
+          1.23,
+          43,
+          1.301,
+          44,
+          1.133,
+          45,
+          0.807,
+          48,
+          1.741,
+          49,
+          1.741,
+          50,
+          1.814,
+          52,
+          0.348,
+          53,
+          0.893,
+          54,
+          0.816,
+          55,
+          0.383,
+          56,
+          1.288,
+          57,
+          0.554,
+          58,
+          0.942,
+          59,
+          0.554,
+          60,
+          0.383,
+          61,
+          0.554,
+          62,
+          0.562,
+          63,
+          1.696,
+          64,
+          0.554,
+          65,
+          0.383,
+          66,
+          0.554,
+          67,
+          0.383,
+          68,
+          0.554,
+          69,
+          0.383,
+          70,
+          0.554,
+          71,
+          0.383,
+          72,
+          0.554,
+          73,
+          0.383,
+          74,
+          0.554,
+          75,
+          0.81,
+          76,
+          0.554,
+          77,
+          0.509,
+          78,
+          0.745,
+          79,
+          1.209,
+          80,
+          0.506,
+          81,
+          0.348,
+          82,
+          0.506,
+          83,
+          0.554,
+          84,
+          0.014,
+          85,
+          0.014,
+          86,
+          0.009,
+          122,
+          0.679,
+          126,
+          1.075,
+          137,
+          0.895,
+          140,
+          1.614,
+          148,
+          0.745,
+          149,
+          0.936,
+          150,
+          1.133,
+          153,
+          1.074,
+          158,
+          0.807,
+          159,
+          0.665,
+          171,
+          1.548,
+          178,
+          2.114,
+          180,
+          1.179,
+          183,
+          0.731,
+          184,
+          1.301,
+          185,
+          1,
+          186,
+          1.123,
+          188,
+          1.31,
+          192,
+          1.995,
+          199,
+          1.828,
+          202,
+          0.731,
+          208,
+          1,
+          213,
+          2.297,
+          244,
+          0.807,
+          249,
+          0.731,
+          250,
+          1,
+          251,
+          1.301,
+          252,
+          0.807,
+          253,
+          0.807,
+          255,
+          0.731,
+          260,
+          0.462,
+          261,
+          1.073,
+          263,
+          1,
+          264,
+          0.731,
+          265,
+          0.807,
+          266,
+          0.731,
+          267,
+          0.807,
+          268,
+          0.895,
+          269,
+          1.701,
+          270,
+          1.133,
+          271,
+          2.892,
+          272,
+          1.828,
+          273,
+          1.133,
+          274,
+          1.828,
+          275,
+          1.301,
+          276,
+          1.133,
+          277,
+          0.807,
+          278,
+          1.828,
+          279,
+          1.828,
+          280,
+          2.297,
+          281,
+          2.636,
+          282,
+          2.297,
+          283,
+          0.731,
+          284,
+          1.828,
+          285,
+          1.698,
+          286,
+          1.133,
+          287,
+          2.284,
+          288,
+          1.877,
+          289,
+          1.133,
+          290,
+          1.133,
+          291,
+          1.133,
+          292,
+          1.828,
+          293,
+          1.133,
+          294,
+          1.828,
+          295,
+          1.443,
+          296,
+          1.133,
+          297,
+          1.828,
+          298,
+          2.73,
+          299,
+          1.828,
+          300,
+          1.635,
+          301,
+          1.349,
+          302,
+          1.133,
+          303,
+          1,
+          304,
+          1.133,
+          305,
+          2.328,
+          306,
+          2.297,
+          307,
+          2.029,
+          308,
+          1.133,
+          309,
+          1.133,
+          310,
+          1.828,
+          311,
+          1.133,
+          312,
+          2.328,
+          313,
+          2.73,
+          314,
+          1.828,
+          315,
+          1.614,
+          316,
+          1.614,
+          317,
+          1.133,
+          318,
+          1.133,
+          319,
+          1.828,
+          320,
+          1.133,
+          321,
+          1.133,
+          322,
+          0.895,
+          323,
+          1.133,
+          324,
+          1.133,
+          325,
+          1.133,
+          326,
+          1.133,
+          327,
+          1.133,
+          328,
+          1,
+          329,
+          1,
+          330,
+          1.614,
+          331,
+          1.614,
+          332,
+          1,
+          333,
+          1.614,
+          334,
+          1,
+          335,
+          1.614,
+          336,
+          1,
+          337,
+          1.614,
+          338,
+          1,
+          339,
+          1,
+          340,
+          1,
+          341,
+          0.895,
+          342,
+          1.133,
+          343,
+          1.133,
+          344,
+          1.133,
+          345,
+          1,
+          346,
+          1.133,
+          347,
+          1.133,
+          348,
+          1.133,
+          349,
+          2.297,
+          350,
+          1.828,
+          351,
+          1.133,
+          352,
+          0.895,
+          353,
+          0.895,
+          354,
+          1.133,
+          355,
+          1.828,
+          356,
+          1,
+          357,
+          1.828,
+          358,
+          1.133,
+          359,
+          1.133,
+          360,
+          1,
+          361,
+          1.133,
+          362,
+          1.133,
+          363,
+          1,
+          364,
+          1.133,
+          365,
+          1.133,
+          366,
+          1.133,
+          367,
+          1.133,
+          368,
+          1.133,
+          369,
+          1.133,
+          370,
+          1.133,
+          371,
+          1.133,
+          372,
+          1.133,
+          373,
+          1,
+          374,
+          1.133,
+          375,
+          1.614,
+          376,
+          1,
+          377,
+          1.133,
+          378,
+          1.133,
+          379,
+          1.133,
+          380,
+          1.133,
+          381,
+          1.133,
+          382,
+          1.133,
+          383,
+          1.133,
+          384,
+          1.133,
+          385,
+          1.133,
+          386,
+          1.133,
+          387,
+          1.133,
+          388,
+          1.133,
+          394,
+          1.31,
+          398,
+          1.547,
+          399,
+          1.547,
+          410,
+          1.828,
+          417,
+          1.828,
+          435,
+          0.895,
+          437,
+          1.877,
+          439,
+          1,
+          440,
+          1.301,
+          441,
+          1.635,
+          442,
+          0.895,
+          449,
+          2.114,
+          455,
+          1.814,
+          459,
+          0.895,
+          460,
+          1,
+          479,
+          1.133,
+          496,
+          1.31,
+          502,
+          2.029,
+          503,
+          2.297,
+          508,
+          1.31,
+          576,
+          2.114,
+          584,
+          2.549,
+          585,
+          2.549,
+          586,
+          2.549,
+          587,
+          1.58,
+          588,
+          2.549,
+          589,
+          1.58,
+          590,
+          1.58,
+          591,
+          1.58,
+          592,
+          1.58,
+          593,
+          1.58,
+          594,
+          1.58,
+          595,
+          1.58,
+          596,
+          1.58,
+          597,
+          2.549,
+          598,
+          2.114,
+          599,
+          2.114,
+          600,
+          1.58,
+          601,
+          2.657,
+          602,
+          2.549,
+          603,
+          1.58,
+          604,
+          1.58,
+          605,
+          1.58,
+          606,
+          1.31
+        ]
+      ],
+      ['title/modules/PaymentModule.html', [87, 1.078, 607, 1.949]],
+      [
+        'body/modules/PaymentModule.html',
+        [
+          0,
+          0.214,
+          3,
+          0.259,
+          4,
+          0.305,
+          9,
+          0.259,
+          26,
+          0.036,
+          34,
+          0.581,
+          35,
+          0.305,
+          37,
+          0.411,
+          38,
+          0.172,
+          52,
+          0.699,
+          62,
+          1.28,
+          75,
+          1.259,
+          84,
+          0.018,
+          85,
+          0.024,
+          86,
+          0.018,
+          87,
+          1.112,
+          89,
+          1.336,
+          90,
+          1.468,
+          91,
+          2.746,
+          92,
+          1.62,
+          93,
+          2.426,
+          94,
+          1.62,
+          100,
+          2.426,
+          101,
+          1.797,
+          102,
+          1.797,
+          104,
+          1.797,
+          108,
+          2.426,
+          109,
+          2.187,
+          110,
+          2.632,
+          112,
+          2.009,
+          113,
+          1.797,
+          136,
+          2.746,
+          137,
+          2.426,
+          138,
+          2.632,
+          180,
+          1.468,
+          201,
+          1.62,
+          214,
+          2.275,
+          233,
+          3.553,
+          234,
+          3.072,
+          235,
+          2.009,
+          243,
+          3.553,
+          244,
+          1.62,
+          253,
+          1.62,
+          254,
+          3.553,
+          255,
+          1.468,
+          256,
+          3.553,
+          257,
+          2.632,
+          258,
+          3.553,
+          259,
+          2.632,
+          607,
+          3.678,
+          608,
+          2.632,
+          609,
+          2.632,
+          610,
+          2.275,
+          611,
+          3.173,
+          612,
+          4.284,
+          613,
+          3.173,
+          614,
+          4.284,
+          615,
+          4.284,
+          616,
+          4.284,
+          617,
+          3.173,
+          618,
+          4.284,
+          619,
+          3.553,
+          620,
+          4.284,
+          621,
+          4.284,
+          622,
+          2.632,
+          623,
+          2.632,
+          624,
+          2.632,
+          625,
+          4.284,
+          626,
+          3.072,
+          627,
+          2.632,
+          628,
+          2.632,
+          629,
+          2.632,
+          630,
+          2.275,
+          631,
+          2.632,
+          632,
+          2.632,
+          633,
+          2.632,
+          634,
+          2.632,
+          635,
+          3.173,
+          636,
+          3.173
+        ]
+      ],
+      ['title/injectables/PaymentService.html', [275, 1.571, 637, 1.571]],
+      [
+        'body/injectables/PaymentService.html',
+        [
+          3,
+          0.335,
+          4,
+          0.395,
+          9,
+          0.335,
+          14,
+          2.328,
+          19,
+          0.591,
+          22,
+          0.998,
+          23,
+          1.229,
+          25,
+          0.82,
+          26,
+          0.036,
+          34,
+          0.527,
+          35,
+          0.395,
+          37,
+          0.395,
+          38,
+          0.223,
+          58,
+          1.01,
+          84,
+          0.023,
+          85,
+          0.028,
+          86,
+          0.023,
+          116,
+          2.603,
+          122,
+          1.35,
+          126,
+          1.096,
+          129,
+          2.603,
+          275,
+          2.585,
+          283,
+          1.902,
+          360,
+          3.206,
+          398,
+          2.131,
+          399,
+          2.131,
+          637,
+          2.585,
+          638,
+          2.948,
+          639,
+          3.41,
+          640,
+          5.063,
+          641,
+          3.41,
+          642,
+          4.295,
+          643,
+          4.11,
+          644,
+          5.063,
+          645,
+          4.11,
+          646,
+          2.328,
+          647,
+          2.948,
+          648,
+          2.948,
+          649,
+          4.11
+        ]
+      ],
+      ['title/components/SimpleModalComponent.html', [0, 0.208, 77, 0.614]],
+      [
+        'body/components/SimpleModalComponent.html',
+        [
+          0,
+          0.284,
+          1,
+          0.592,
+          2,
+          1.14,
+          3,
+          0.199,
+          4,
+          0.234,
+          5,
+          0.855,
+          6,
+          0.937,
+          7,
+          0.855,
+          8,
+          0.855,
+          9,
+          0.199,
+          11,
+          0.781,
+          12,
+          1.553,
+          13,
+          1.539,
+          15,
+          1.041,
+          17,
+          1.041,
+          19,
+          0.351,
+          20,
+          1.248,
+          21,
+          1.246,
+          22,
+          0.592,
+          23,
+          1.194,
+          25,
+          0.839,
+          26,
+          0.036,
+          27,
+          1.351,
+          34,
+          0.444,
+          35,
+          0.234,
+          37,
+          0.342,
+          38,
+          0.132,
+          40,
+          0.937,
+          41,
+          1.648,
+          42,
+          1.775,
+          43,
+          1.818,
+          45,
+          1.246,
+          48,
+          1.367,
+          49,
+          1.367,
+          52,
+          0.538,
+          53,
+          1.248,
+          54,
+          1.14,
+          55,
+          0.592,
+          56,
+          1.621,
+          57,
+          0.855,
+          58,
+          0.923,
+          59,
+          0.855,
+          60,
+          0.592,
+          61,
+          0.855,
+          62,
+          0.538,
+          63,
+          1.346,
+          64,
+          0.855,
+          65,
+          0.592,
+          66,
+          0.855,
+          67,
+          0.592,
+          68,
+          0.855,
+          69,
+          0.592,
+          70,
+          0.855,
+          71,
+          0.592,
+          72,
+          0.855,
+          73,
+          0.592,
+          74,
+          0.855,
+          75,
+          0.538,
+          76,
+          0.855,
+          77,
+          0.923,
+          78,
+          1.62,
+          79,
+          1.233,
+          80,
+          0.781,
+          81,
+          0.538,
+          82,
+          0.781,
+          83,
+          0.855,
+          84,
+          0.014,
+          85,
+          0.02,
+          86,
+          0.014,
+          122,
+          0.949,
+          126,
+          0.949,
+          148,
+          1.041,
+          149,
+          1.229,
+          150,
+          1.75,
+          153,
+          1.351,
+          158,
+          1.246,
+          159,
+          1.027,
+          163,
+          1.545,
+          171,
+          1.229,
+          183,
+          1.129,
+          184,
+          1.818,
+          186,
+          1.248,
+          189,
+          1.648,
+          192,
+          1.129,
+          195,
+          1.75,
+          196,
+          1.75,
+          199,
+          2.554,
+          201,
+          1.246,
+          202,
+          1.648,
+          225,
+          1.75,
+          249,
+          2.376,
+          251,
+          2.511,
+          252,
+          1.246,
+          255,
+          1.129,
+          260,
+          0.713,
+          261,
+          2.07,
+          268,
+          1.382,
+          277,
+          2.622,
+          285,
+          2.07,
+          295,
+          2.619,
+          300,
+          2.511,
+          322,
+          1.382,
+          341,
+          2.017,
+          352,
+          2.619,
+          353,
+          1.382,
+          390,
+          1.75,
+          391,
+          2.955,
+          392,
+          3.489,
+          393,
+          2.024,
+          396,
+          2.024,
+          398,
+          1.027,
+          399,
+          1.027,
+          405,
+          1.75,
+          437,
+          1.818,
+          439,
+          1.545,
+          440,
+          1.818,
+          441,
+          1.818,
+          442,
+          1.382,
+          455,
+          1.382,
+          458,
+          1.545,
+          459,
+          1.382,
+          460,
+          1.545,
+          502,
+          2.256,
+          503,
+          3.317,
+          520,
+          1.75,
+          601,
+          3.489,
+          606,
+          2.024,
+          650,
+          2.44,
+          651,
+          2.44,
+          652,
+          2.44,
+          653,
+          3.562,
+          654,
+          3.562,
+          655,
+          3.562,
+          656,
+          3.562,
+          657,
+          3.562,
+          658,
+          2.44,
+          659,
+          2.44,
+          660,
+          2.44,
+          661,
+          2.44
+        ]
+      ],
+      ['title/interfaces/User.html', [260, 0.899, 301, 1.295]],
+      [
+        'body/interfaces/User.html',
+        [
+          3,
+          0.318,
+          4,
+          0.374,
+          9,
+          0.318,
+          14,
+          2.208,
+          19,
+          0.561,
+          20,
+          1.717,
+          25,
+          1.122,
+          26,
+          0.036,
+          27,
+          1.789,
+          34,
+          0.514,
+          35,
+          0.374,
+          37,
+          0.47,
+          38,
+          0.211,
+          58,
+          1.122,
+          84,
+          0.022,
+          85,
+          0.027,
+          86,
+          0.022,
+          116,
+          2.469,
+          129,
+          2.469,
+          260,
+          1.139,
+          262,
+          2.469,
+          264,
+          2.601,
+          265,
+          2.869,
+          266,
+          2.601,
+          267,
+          2.735,
+          269,
+          1.804,
+          283,
+          1.804,
+          285,
+          1.641,
+          288,
+          1.99,
+          301,
+          2.062,
+          637,
+          2.501,
+          642,
+          3.842,
+          646,
+          2.208,
+          647,
+          2.796,
+          648,
+          2.796,
+          662,
+          2.796,
+          663,
+          3.234,
+          664,
+          3.234,
+          665,
+          3.234
+        ]
+      ],
+      ['title/injectables/UsersService.html', [269, 1.424, 637, 1.571]],
+      [
+        'body/injectables/UsersService.html',
+        [
+          3,
+          0.315,
+          4,
+          0.372,
+          9,
+          0.315,
+          14,
+          2.191,
+          19,
+          0.556,
+          20,
+          1.709,
+          22,
+          0.939,
+          23,
+          1.296,
+          25,
+          0.772,
+          26,
+          0.036,
+          27,
+          1.56,
+          28,
+          1.791,
+          29,
+          1.629,
+          34,
+          0.513,
+          35,
+          0.372,
+          37,
+          0.468,
+          38,
+          0.21,
+          58,
+          0.973,
+          84,
+          0.022,
+          85,
+          0.027,
+          86,
+          0.022,
+          116,
+          2.451,
+          122,
+          1.3,
+          126,
+          1.031,
+          129,
+          2.451,
+          260,
+          1.131,
+          264,
+          1.791,
+          265,
+          1.976,
+          266,
+          1.791,
+          267,
+          1.976,
+          269,
+          2.257,
+          283,
+          1.791,
+          285,
+          2.248,
+          288,
+          2.862,
+          301,
+          1.629,
+          398,
+          1.629,
+          399,
+          1.629,
+          637,
+          2.489,
+          638,
+          2.775,
+          641,
+          3.21,
+          642,
+          4.231,
+          646,
+          2.191,
+          647,
+          2.775,
+          648,
+          2.775,
+          662,
+          2.775,
+          663,
+          4.429,
+          664,
+          4.045,
+          665,
+          3.21,
+          666,
+          4.876,
+          667,
+          3.87
+        ]
+      ],
+      ['title/coverage.html', [668, 3.48]],
+      [
+        'body/coverage.html',
+        [
+          0,
+          0.408,
+          1,
+          0.83,
+          9,
+          0.279,
+          10,
+          2.836,
+          25,
+          0.682,
+          26,
+          0.036,
+          38,
+          0.185,
+          55,
+          0.83,
+          60,
+          0.83,
+          62,
+          0.754,
+          65,
+          0.83,
+          67,
+          0.83,
+          69,
+          0.83,
+          71,
+          0.83,
+          73,
+          0.83,
+          75,
+          0.754,
+          77,
+          0.682,
+          81,
+          0.754,
+          84,
+          0.019,
+          85,
+          0.025,
+          86,
+          0.019,
+          119,
+          2.452,
+          121,
+          2.836,
+          147,
+          2.836,
+          175,
+          2.165,
+          186,
+          2.212,
+          249,
+          2.084,
+          260,
+          1.471,
+          261,
+          1.895,
+          263,
+          3.188,
+          269,
+          1.582,
+          275,
+          1.746,
+          277,
+          2.299,
+          301,
+          1.439,
+          390,
+          3.229,
+          429,
+          2.836,
+          443,
+          2.836,
+          463,
+          2.836,
+          478,
+          2.836,
+          531,
+          2.836,
+          551,
+          2.836,
+          610,
+          2.452,
+          626,
+          2.452,
+          637,
+          2.299,
+          639,
+          2.836,
+          646,
+          2.55,
+          662,
+          3.229,
+          668,
+          2.836,
+          669,
+          3.419,
+          670,
+          3.419,
+          671,
+          3.419,
+          672,
+          5.559,
+          673,
+          4.502,
+          674,
+          3.419,
+          675,
+          5.034,
+          676,
+          5.35,
+          677,
+          3.419,
+          678,
+          3.419,
+          679,
+          5.559,
+          680,
+          5.559,
+          681,
+          3.419,
+          682,
+          2.836,
+          683,
+          2.836,
+          684,
+          3.735,
+          685,
+          2.836,
+          686,
+          2.836,
+          687,
+          3.419,
+          688,
+          3.419
+        ]
+      ],
+      ['title/dependencies.html', [90, 1.712, 689, 2.572]],
+      [
+        'body/dependencies.html',
+        [
+          26,
+          0.036,
+          35,
+          0.396,
+          36,
+          2.956,
+          84,
+          0.023,
+          85,
+          0.028,
+          86,
+          0.023,
+          90,
+          1.907,
+          92,
+          2.104,
+          106,
+          4.206,
+          107,
+          3.211,
+          113,
+          2.334,
+          235,
+          2.61,
+          244,
+          2.104,
+          246,
+          2.956,
+          247,
+          3.418,
+          253,
+          2.104,
+          622,
+          3.418,
+          623,
+          3.418,
+          624,
+          3.418,
+          690,
+          4.121,
+          691,
+          6.131,
+          692,
+          4.121,
+          693,
+          5.071,
+          694,
+          4.121,
+          695,
+          4.121,
+          696,
+          4.121,
+          697,
+          4.121,
+          698,
+          4.121,
+          699,
+          4.121,
+          700,
+          4.121,
+          701,
+          4.121,
+          702,
+          4.121,
+          703,
+          4.121,
+          704,
+          4.121,
+          705,
+          4.121,
+          706,
+          4.121,
+          707,
+          4.121,
+          708,
+          4.121,
+          709,
+          4.121,
+          710,
+          4.121,
+          711,
+          4.121
+        ]
+      ],
+      ['title/index.html', [19, 0.37, 712, 2.572, 713, 2.572]],
+      [
+        'body/index.html',
+        [
+          3,
+          0.161,
+          26,
+          0.034,
+          27,
+          1.311,
+          29,
+          1.277,
+          30,
+          1.634,
+          31,
+          1.634,
+          32,
+          1.634,
+          33,
+          1.634,
+          36,
+          1.413,
+          58,
+          0.393,
+          79,
+          1.196,
+          84,
+          0.011,
+          85,
+          0.017,
+          86,
+          0.011,
+          140,
+          1.921,
+          175,
+          1.248,
+          246,
+          2.176,
+          260,
+          0.887,
+          264,
+          1.404,
+          265,
+          1.006,
+          266,
+          0.912,
+          267,
+          2.121,
+          298,
+          1.248,
+          301,
+          1.277,
+          303,
+          2.343,
+          305,
+          3.802,
+          307,
+          2.841,
+          312,
+          3.668,
+          313,
+          3.311,
+          315,
+          1.921,
+          316,
+          2.343,
+          328,
+          1.248,
+          329,
+          1.248,
+          330,
+          2.343,
+          331,
+          2.343,
+          332,
+          1.248,
+          333,
+          2.343,
+          334,
+          1.248,
+          335,
+          2.343,
+          336,
+          1.248,
+          337,
+          1.248,
+          338,
+          1.248,
+          339,
+          1.248,
+          340,
+          1.248,
+          345,
+          2.841,
+          373,
+          1.921,
+          375,
+          1.248,
+          376,
+          1.921,
+          410,
+          3.829,
+          417,
+          3.398,
+          418,
+          1.634,
+          420,
+          3.722,
+          421,
+          2.516,
+          459,
+          1.116,
+          598,
+          3.931,
+          599,
+          2.516,
+          714,
+          1.97,
+          715,
+          1.97,
+          716,
+          1.97,
+          717,
+          3.034,
+          718,
+          1.97,
+          719,
+          4.487,
+          720,
+          1.97,
+          721,
+          4.937,
+          722,
+          1.97,
+          723,
+          1.97,
+          724,
+          1.97,
+          725,
+          1.97,
+          726,
+          1.97,
+          727,
+          4.739,
+          728,
+          1.97,
+          729,
+          1.97,
+          730,
+          3.034,
+          731,
+          1.97,
+          732,
+          3.699,
+          733,
+          4.155,
+          734,
+          1.97,
+          735,
+          1.97,
+          736,
+          1.97,
+          737,
+          1.97,
+          738,
+          1.97,
+          739,
+          3.699,
+          740,
+          3.699,
+          741,
+          3.034,
+          742,
+          3.699,
+          743,
+          1.97,
+          744,
+          3.034,
+          745,
+          3.034,
+          746,
+          1.97,
+          747,
+          3.034,
+          748,
+          3.034,
+          749,
+          1.97,
+          750,
+          3.034,
+          751,
+          1.97,
+          752,
+          1.97,
+          753,
+          1.97,
+          754,
+          1.97,
+          755,
+          1.97,
+          756,
+          3.034,
+          757,
+          1.97,
+          758,
+          1.97,
+          759,
+          1.97,
+          760,
+          1.97,
+          761,
+          3.034,
+          762,
+          1.97,
+          763,
+          4.155,
+          764,
+          3.034,
+          765,
+          1.97,
+          766,
+          3.034,
+          767,
+          3.034,
+          768,
+          3.034,
+          769,
+          1.97,
+          770,
+          3.034,
+          771,
+          4.155,
+          772,
+          1.97,
+          773,
+          1.97,
+          774,
+          1.97,
+          775,
+          1.97,
+          776,
+          3.034,
+          777,
+          1.97,
+          778,
+          1.97,
+          779,
+          1.97,
+          780,
+          3.034,
+          781,
+          3.034,
+          782,
+          3.034,
+          783,
+          1.97,
+          784,
+          1.97,
+          785,
+          3.699,
+          786,
+          3.034,
+          787,
+          1.97,
+          788,
+          1.97,
+          789,
+          1.97,
+          790,
+          1.97,
+          791,
+          1.97,
+          792,
+          1.97,
+          793,
+          1.97,
+          794,
+          3.699,
+          795,
+          1.97,
+          796,
+          1.97,
+          797,
+          1.97,
+          798,
+          1.97,
+          799,
+          1.97,
+          800,
+          3.034,
+          801,
+          3.034,
+          802,
+          1.97,
+          803,
+          1.97,
+          804,
+          1.97,
+          805,
+          1.97,
+          806,
+          1.97,
+          807,
+          1.97,
+          808,
+          1.97,
+          809,
+          1.97,
+          810,
+          1.97,
+          811,
+          1.97,
+          812,
+          3.034,
+          813,
+          1.97,
+          814,
+          1.97,
+          815,
+          1.97,
+          816,
+          1.97,
+          817,
+          1.97,
+          818,
+          1.97,
+          819,
+          1.97,
+          820,
+          1.97,
+          821,
+          1.97,
+          822,
+          3.699,
+          823,
+          1.97,
+          824,
+          1.97,
+          825,
+          1.97,
+          826,
+          1.97,
+          827,
+          1.97,
+          828,
+          1.97,
+          829,
+          1.97,
+          830,
+          1.97,
+          831,
+          1.97,
+          832,
+          1.97,
+          833,
+          1.97,
+          834,
+          1.97,
+          835,
+          1.97,
+          836,
+          1.97,
+          837,
+          3.034,
+          838,
+          1.97,
+          839,
+          1.97,
+          840,
+          1.97,
+          841,
+          1.97,
+          842,
+          1.97,
+          843,
+          1.97,
+          844,
+          1.97,
+          845,
+          1.97,
+          846,
+          1.97,
+          847,
+          1.97,
+          848,
+          3.034,
+          849,
+          3.034,
+          850,
+          3.699,
+          851,
+          1.97,
+          852,
+          1.97,
+          853,
+          3.034,
+          854,
+          4.155,
+          855,
+          3.034,
+          856,
+          1.97,
+          857,
+          1.97,
+          858,
+          1.97,
+          859,
+          3.699,
+          860,
+          1.97,
+          861,
+          1.97,
+          862,
+          1.97,
+          863,
+          1.97,
+          864,
+          1.97,
+          865,
+          1.97,
+          866,
+          3.699,
+          867,
+          1.97,
+          868,
+          1.97,
+          869,
+          1.97,
+          870,
+          3.699,
+          871,
+          1.97,
+          872,
+          4.155,
+          873,
+          1.97,
+          874,
+          1.97,
+          875,
+          3.034,
+          876,
+          1.97,
+          877,
+          3.034,
+          878,
+          1.97,
+          879,
+          1.97,
+          880,
+          1.97,
+          881,
+          1.97,
+          882,
+          1.634,
+          883,
+          1.634,
+          884,
+          1.634,
+          885,
+          1.634,
+          886,
+          1.634,
+          887,
+          3.034,
+          888,
+          1.97,
+          889,
+          3.699,
+          890,
+          1.97,
+          891,
+          1.97,
+          892,
+          1.97,
+          893,
+          1.97,
+          894,
+          1.97,
+          895,
+          1.97,
+          896,
+          3.034,
+          897,
+          1.97,
+          898,
+          1.97,
+          899,
+          1.97,
+          900,
+          1.634,
+          901,
+          1.97,
+          902,
+          1.97,
+          903,
+          1.97,
+          904,
+          3.034,
+          905,
+          1.97,
+          906,
+          1.97,
+          907,
+          1.97,
+          908,
+          1.97,
+          909,
+          1.97,
+          910,
+          1.97,
+          911,
+          1.97,
+          912,
+          1.97,
+          913,
+          1.97,
+          914,
+          1.97,
+          915,
+          1.97,
+          916,
+          1.97,
+          917,
+          1.97,
+          918,
+          1.97,
+          919,
+          1.97,
+          920,
+          1.97,
+          921,
+          1.97,
+          922,
+          1.97,
+          923,
+          1.97
+        ]
+      ],
+      ['title/modules.html', [89, 1.766]],
+      [
+        'body/modules.html',
+        [
+          26,
+          0.03,
+          84,
+          0.026,
+          85,
+          0.03,
+          86,
+          0.026,
+          88,
+          2.921,
+          89,
+          1.942,
+          99,
+          2.612,
+          107,
+          3.77,
+          109,
+          2.355,
+          231,
+          2.612,
+          607,
+          2.921,
+          924,
+          5.952,
+          925,
+          5.952,
+          926,
+          6.07,
+          927,
+          4.613,
+          928,
+          4.613
+        ]
+      ],
+      ['title/overview.html', [929, 3.48]],
+      [
+        'body/overview.html',
+        [
+          1,
+          1.389,
+          2,
+          1.024,
+          26,
+          0.035,
+          38,
+          0.174,
+          52,
+          0.705,
+          55,
+          0.776,
+          60,
+          1.389,
+          62,
+          1.073,
+          65,
+          1.389,
+          67,
+          1.389,
+          69,
+          1.389,
+          71,
+          1.389,
+          73,
+          1.389,
+          75,
+          1.073,
+          77,
+          1.142,
+          81,
+          1.262,
+          84,
+          0.018,
+          85,
+          0.024,
+          86,
+          0.018,
+          87,
+          1.121,
+          88,
+          3.625,
+          89,
+          1.346,
+          90,
+          1.48,
+          91,
+          1.811,
+          92,
+          1.633,
+          93,
+          1.811,
+          94,
+          1.633,
+          95,
+          2.653,
+          96,
+          2.653,
+          97,
+          2.653,
+          98,
+          2.653,
+          99,
+          2.757,
+          100,
+          2.439,
+          101,
+          1.811,
+          102,
+          1.811,
+          109,
+          3.228,
+          136,
+          1.811,
+          227,
+          2.653,
+          228,
+          2.653,
+          229,
+          2.653,
+          230,
+          2.653,
+          231,
+          3.172,
+          262,
+          2.026,
+          363,
+          2.026,
+          389,
+          3.572,
+          424,
+          2.653,
+          425,
+          2.653,
+          426,
+          2.653,
+          607,
+          3.547,
+          608,
+          2.653,
+          609,
+          2.653,
+          630,
+          2.294,
+          638,
+          2.294,
+          929,
+          2.653,
+          930,
+          3.198,
+          931,
+          3.198,
+          932,
+          3.198
+        ]
+      ],
+      ['title/routes.html', [136, 2.376]],
+      [
+        'body/routes.html',
+        [26, 0.032, 84, 0.028, 85, 0.032, 86, 0.028, 136, 2.808]
+      ],
+      ['title/miscellaneous/variables.html', [933, 2.133, 934, 3.069]],
+      [
+        'body/miscellaneous/variables.html',
+        [
+          19,
+          0.559,
+          25,
+          1.121,
+          26,
+          0.036,
+          28,
+          2.598,
+          29,
+          2.364,
+          84,
+          0.022,
+          85,
+          0.027,
+          86,
+          0.022,
+          180,
+          2.263,
+          201,
+          1.985,
+          214,
+          2.789,
+          288,
+          2.497,
+          356,
+          3.098,
+          610,
+          2.789,
+          619,
+          3.226,
+          626,
+          3.508,
+          627,
+          3.226,
+          628,
+          3.226,
+          629,
+          3.226,
+          630,
+          2.789,
+          631,
+          3.226,
+          632,
+          3.226,
+          633,
+          3.226,
+          634,
+          3.226,
+          646,
+          3.18,
+          682,
+          3.226,
+          683,
+          3.226,
+          684,
+          3.226,
+          685,
+          4.057,
+          686,
+          4.057,
+          882,
+          4.057,
+          883,
+          4.057,
+          884,
+          4.057,
+          885,
+          4.057,
+          886,
+          4.057,
+          900,
+          4.057,
+          933,
+          3.226,
+          934,
+          3.226,
+          935,
+          4.891,
+          936,
+          3.889,
+          937,
+          3.889,
+          938,
+          3.889,
+          939,
+          3.889,
+          940,
+          3.889,
+          941,
+          4.891,
+          942,
+          4.891,
+          943,
+          4.891
+        ]
+      ]
+    ],
+    invertedIndex: [
+      [
+        '',
+        {
+          _index: 26,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {},
+            'dependencies.html': {},
+            'index.html': {},
+            'modules.html': {},
+            'overview.html': {},
+            'routes.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        '0',
+        {
+          _index: 186,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        '0.1',
+        {
+          _index: 583,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        '0.2',
+        {
+          _index: 454,
+          title: {},
+          body: { 'components/HeaderComponent.html': {} }
+        }
+      ],
+      [
+        '0.25s',
+        {
+          _index: 204,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      ['0.9.1', { _index: 711, title: {}, body: { 'dependencies.html': {} } }],
+      ['0/1', { _index: 680, title: {}, body: { 'coverage.html': {} } }],
+      ['0/10', { _index: 673, title: {}, body: { 'coverage.html': {} } }],
+      ['0/3', { _index: 672, title: {}, body: { 'coverage.html': {} } }],
+      ['0/4', { _index: 681, title: {}, body: { 'coverage.html': {} } }],
+      ['0/5', { _index: 676, title: {}, body: { 'coverage.html': {} } }],
+      ['0/6', { _index: 675, title: {}, body: { 'coverage.html': {} } }],
+      ['0/9', { _index: 674, title: {}, body: { 'coverage.html': {} } }],
+      [
+        '01/18',
+        {
+          _index: 336,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        '01/20',
+        {
+          _index: 340,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['04', { _index: 774, title: {}, body: { 'index.html': {} } }],
+      [
+        '0d9855',
+        {
+          _index: 472,
+          title: {},
+          body: {
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        '1',
+        {
+          _index: 389,
+          title: { 'interfaces/DialogData-1.html': {} },
+          body: { 'overview.html': {} }
+        }
+      ],
+      ['1.10.0', { _index: 705, title: {}, body: { 'dependencies.html': {} } }],
+      ['1/11', { _index: 678, title: {}, body: { 'coverage.html': {} } }],
+      ['10', { _index: 931, title: {}, body: { 'overview.html': {} } }],
+      ['10.15.3', { _index: 806, title: {}, body: { 'index.html': {} } }],
+      [
+        '100',
+        {
+          _index: 43,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        '100px',
+        {
+          _index: 462,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        '101px',
+        { _index: 47, title: {}, body: { 'components/AppComponent.html': {} } }
+      ],
+      [
+        '10px',
+        {
+          _index: 435,
+          title: {},
+          body: {
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        '1111111111111111',
+        {
+          _index: 332,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        '120px',
+        {
+          _index: 514,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        '123',
+        {
+          _index: 339,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        '12px',
+        {
+          _index: 529,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '138px',
+        { _index: 51, title: {}, body: { 'components/AppComponent.html': {} } }
+      ],
+      [
+        '14px',
+        {
+          _index: 530,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '154px',
+        {
+          _index: 200,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        '15px',
+        {
+          _index: 438,
+          title: {},
+          body: { 'components/FooterComponent.html': {} }
+        }
+      ],
+      [
+        '16px',
+        {
+          _index: 194,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      [
+        '18px',
+        {
+          _index: 526,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '1fr',
+        {
+          _index: 501,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '1px',
+        {
+          _index: 452,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      [
+        '2',
+        {
+          _index: 630,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'overview.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      ['2.0.8', { _index: 700, title: {}, body: { 'dependencies.html': {} } }],
+      ['2.3.2', { _index: 709, title: {}, body: { 'dependencies.html': {} } }],
+      ['2.3.4', { _index: 697, title: {}, body: { 'dependencies.html': {} } }],
+      ['20/meu', { _index: 775, title: {}, body: { 'index.html': {} } }],
+      [
+        '200px',
+        {
+          _index: 606,
+          title: {},
+          body: {
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        '20px',
+        {
+          _index: 455,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        '25px',
+        {
+          _index: 215,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        '2px',
+        {
+          _index: 193,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      ['3', { _index: 932, title: {}, body: { 'overview.html': {} } }],
+      ['30', { _index: 773, title: {}, body: { 'index.html': {} } }],
+      [
+        '30px',
+        {
+          _index: 508,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        '34px',
+        {
+          _index: 580,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        '4',
+        {
+          _index: 363,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      ['4.5.0', { _index: 698, title: {}, body: { 'dependencies.html': {} } }],
+      [
+        '404',
+        {
+          _index: 145,
+          title: {},
+          body: { 'modules/AppRoutingModule.html': {} }
+        }
+      ],
+      [
+        '40px',
+        {
+          _index: 188,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        '4111111111111234',
+        {
+          _index: 338,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        '4488',
+        {
+          _index: 884,
+          title: {},
+          body: { 'index.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      [
+        '450px',
+        {
+          _index: 600,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        '4bb8c751c989',
+        {
+          _index: 886,
+          title: {},
+          body: { 'index.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      ['5', { _index: 930, title: {}, body: { 'overview.html': {} } }],
+      ['5.0.1', { _index: 696, title: {}, body: { 'dependencies.html': {} } }],
+      [
+        '50',
+        {
+          _index: 519,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      [
+        '500',
+        {
+          _index: 525,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '50px',
+        {
+          _index: 503,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        '5px',
+        {
+          _index: 451,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      ['6.4.0', { _index: 703, title: {}, body: { 'dependencies.html': {} } }],
+      [
+        '60px',
+        {
+          _index: 498,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '63d3',
+        {
+          _index: 883,
+          title: {},
+          body: { 'index.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      [
+        '70px',
+        {
+          _index: 516,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '789',
+        {
+          _index: 334,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['8.2.13', { _index: 691, title: {}, body: { 'dependencies.html': {} } }],
+      ['8.2.14', { _index: 807, title: {}, body: { 'index.html': {} } }],
+      ['8.2.3', { _index: 693, title: {}, body: { 'dependencies.html': {} } }],
+      ['8.3.18', { _index: 804, title: {}, body: { 'index.html': {} } }],
+      [
+        '80px',
+        {
+          _index: 518,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        '86px',
+        {
+          _index: 513,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      ['9', { _index: 677, title: {}, body: { 'coverage.html': {} } }],
+      ['9.0.2', { _index: 701, title: {}, body: { 'dependencies.html': {} } }],
+      [
+        '__btn',
+        {
+          _index: 512,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '__id',
+        {
+          _index: 527,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '__img',
+        {
+          _index: 517,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '__infos',
+        {
+          _index: 511,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '__item',
+        {
+          _index: 504,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '__link',
+        {
+          _index: 578,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        '__list',
+        {
+          _index: 574,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        '__name',
+        {
+          _index: 524,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '__social',
+        {
+          _index: 579,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        '__text',
+        {
+          _index: 521,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '__username',
+        {
+          _index: 528,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        '_elemento',
+        {
+          _index: 469,
+          title: {},
+          body: { 'directives/LinkDirective.html': {} }
+        }
+      ],
+      [
+        '_formbuilder',
+        {
+          _index: 342,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        '_paymentservice',
+        {
+          _index: 343,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        '_users',
+        {
+          _index: 291,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        '_usersservice',
+        {
+          _index: 284,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['abaixo', { _index: 726, title: {}, body: { 'index.html': {} } }],
+      ['aberto', { _index: 860, title: {}, body: { 'index.html': {} } }],
+      ['abra', { _index: 833, title: {}, body: { 'index.html': {} } }],
+      [
+        'abre',
+        {
+          _index: 304,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'absolute',
+        {
+          _index: 212,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      ['account', { _index: 759, title: {}, body: { 'index.html': {} } }],
+      [
+        'actual_component',
+        {
+          _index: 83,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['algum', { _index: 781, title: {}, body: { 'index.html': {} } }],
+      ['alguma', { _index: 916, title: {}, body: { 'index.html': {} } }],
+      [
+        'align',
+        {
+          _index: 201,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'components/SimpleModalComponent.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'allownegative',
+        {
+          _index: 627,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'alt',
+        {
+          _index: 562,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      ['alterações', { _index: 830, title: {}, body: { 'index.html': {} } }],
+      [
+        'angular',
+        {
+          _index: 246,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'dependencies.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'angular/animations',
+        { _index: 690, title: {}, body: { 'dependencies.html': {} } }
+      ],
+      [
+        'angular/cdk',
+        { _index: 692, title: {}, body: { 'dependencies.html': {} } }
+      ],
+      [
+        'angular/common',
+        {
+          _index: 235,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'dependencies.html': {}
+          }
+        }
+      ],
+      [
+        'angular/common/http',
+        {
+          _index: 116,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'injectables/PaymentService.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'angular/compiler',
+        { _index: 694, title: {}, body: { 'dependencies.html': {} } }
+      ],
+      [
+        'angular/core',
+        {
+          _index: 35,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'dependencies.html': {}
+          }
+        }
+      ],
+      [
+        'angular/forms',
+        {
+          _index: 244,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'dependencies.html': {}
+          }
+        }
+      ],
+      [
+        'angular/material',
+        {
+          _index: 253,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'dependencies.html': {}
+          }
+        }
+      ],
+      [
+        'angular/material/core',
+        { _index: 617, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'angular/material/dialog',
+        {
+          _index: 255,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'angular/material/icon',
+        {
+          _index: 257,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'angular/material/input',
+        { _index: 613, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'angular/platform',
+        {
+          _index: 106,
+          title: {},
+          body: { 'modules/AppModule.html': {}, 'dependencies.html': {} }
+        }
+      ],
+      [
+        'angular/router',
+        {
+          _index: 113,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/AppRoutingModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {},
+            'dependencies.html': {}
+          }
+        }
+      ],
+      [
+        'angularpaginatormodule',
+        {
+          _index: 245,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      [
+        'animations',
+        { _index: 707, title: {}, body: { 'dependencies.html': {} } }
+      ],
+      ['antes', { _index: 735, title: {}, body: { 'index.html': {} } }],
+      [
+        'aos',
+        {
+          _index: 36,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'dependencies.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'aos.init',
+        { _index: 39, title: {}, body: { 'components/AppComponent.html': {} } }
+      ],
+      ['aplicação', { _index: 822, title: {}, body: { 'index.html': {} } }],
+      [
+        'app',
+        {
+          _index: 13,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'app.component',
+        { _index: 111, title: {}, body: { 'modules/AppModule.html': {} } }
+      ],
+      [
+        'app.component.html',
+        { _index: 18, title: {}, body: { 'components/AppComponent.html': {} } }
+      ],
+      [
+        'app.component.scss',
+        { _index: 16, title: {}, body: { 'components/AppComponent.html': {} } }
+      ],
+      [
+        'appcomponent',
+        {
+          _index: 1,
+          title: { 'components/AppComponent.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'appmodule',
+        {
+          _index: 88,
+          title: { 'modules/AppModule.html': {} },
+          body: {
+            'modules/AppModule.html': {},
+            'modules.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'apppage',
+        {
+          _index: 119,
+          title: { 'classes/AppPage.html': {} },
+          body: { 'classes/AppPage.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'approutingmodule',
+        {
+          _index: 99,
+          title: { 'modules/AppRoutingModule.html': {} },
+          body: {
+            'modules/AppModule.html': {},
+            'modules/AppRoutingModule.html': {},
+            'modules.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      ['aprovar', { _index: 880, title: {}, body: { 'index.html': {} } }],
+      [
+        'aprovará/recusar',
+        { _index: 873, title: {}, body: { 'index.html': {} } }
+      ],
+      [
+        'após',
+        {
+          _index: 302,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'array',
+        {
+          _index: 485,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      ['assim', { _index: 793, title: {}, body: { 'index.html': {} } }],
+      [
+        'atoms/button/button.component',
+        {
+          _index: 237,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      [
+        'atoms/logo/logo.component',
+        {
+          _index: 236,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      [
+        'authentication',
+        { _index: 752, title: {}, body: { 'index.html': {} } }
+      ],
+      ['available', { _index: 928, title: {}, body: { 'modules.html': {} } }],
+      ['avisos', { _index: 734, title: {}, body: { 'index.html': {} } }],
+      ['backend', { _index: 881, title: {}, body: { 'index.html': {} } }],
+      [
+        'background',
+        {
+          _index: 216,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      [
+        'before',
+        {
+          _index: 211,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'between',
+        {
+          _index: 457,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      [
+        'bf8d',
+        {
+          _index: 885,
+          title: {},
+          body: { 'index.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      [
+        'block',
+        {
+          _index: 522,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      ['boa', { _index: 800, title: {}, body: { 'index.html': {} } }],
+      [
+        'bold',
+        {
+          _index: 198,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'boolean',
+        {
+          _index: 163,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/LogoComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'bootstrap',
+        {
+          _index: 92,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'dependencies.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'border',
+        {
+          _index: 185,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'bottom',
+        {
+          _index: 576,
+          title: {},
+          body: {
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['botão', { _index: 865, title: {}, body: { 'index.html': {} } }],
+      [
+        'box',
+        {
+          _index: 449,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['branch', { _index: 761, title: {}, body: { 'index.html': {} } }],
+      ['browse', { _index: 926, title: {}, body: { 'modules.html': {} } }],
+      [
+        'browser',
+        {
+          _index: 107,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'dependencies.html': {},
+            'modules.html': {}
+          }
+        }
+      ],
+      [
+        'browser.get(browser.baseurl',
+        { _index: 130, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      [
+        'browser/animations',
+        { _index: 118, title: {}, body: { 'modules/AppModule.html': {} } }
+      ],
+      [
+        'browseranimationsmodule',
+        { _index: 117, title: {}, body: { 'modules/AppModule.html': {} } }
+      ],
+      [
+        'browsermodule',
+        { _index: 105, title: {}, body: { 'modules/AppModule.html': {} } }
+      ],
+      [
+        'btn',
+        {
+          _index: 184,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'btnclick',
+        {
+          _index: 161,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      ['busca', { _index: 912, title: {}, body: { 'index.html': {} } }],
+      [
+        'button',
+        {
+          _index: 150,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        "button'},{'name",
+        {
+          _index: 61,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'button.component.html',
+        {
+          _index: 152,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'button.component.scss',
+        {
+          _index: 151,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'buttoncomponent',
+        {
+          _index: 60,
+          title: { 'components/ButtonComponent.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'calc(100vh',
+        { _index: 46, title: {}, body: { 'components/AppComponent.html': {} } }
+      ],
+      [
+        'campo',
+        {
+          _index: 374,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'card',
+        {
+          _index: 330,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'card.card_number.slice',
+        {
+          _index: 362,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'card_number',
+        {
+          _index: 331,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'cards',
+        {
+          _index: 328,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'cartão',
+        {
+          _index: 420,
+          title: {},
+          body: { 'components/DialogTransaction.html': {}, 'index.html': {} }
+        }
+      ],
+      ['cartões', { _index: 877, title: {}, body: { 'index.html': {} } }],
+      ['caso', { _index: 914, title: {}, body: { 'index.html': {} } }],
+      [
+        'center',
+        {
+          _index: 202,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['chamar', { _index: 871, title: {}, body: { 'index.html': {} } }],
+      [
+        'changestyle',
+        {
+          _index: 464,
+          title: {},
+          body: {
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        'changestyle(color',
+        {
+          _index: 470,
+          title: {},
+          body: {
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      ['chave', { _index: 755, title: {}, body: { 'index.html': {} } }],
+      [
+        'check_circle_outline',
+        {
+          _index: 656,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'child',
+        {
+          _index: 507,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      [
+        'child(2',
+        {
+          _index: 510,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'class',
+        {
+          _index: 38,
+          title: { 'classes/AppPage.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'classes',
+        { _index: 120, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      [
+        'clearform',
+        {
+          _index: 380,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['cli', { _index: 803, title: {}, body: { 'index.html': {} } }],
+      ['clicado', { _index: 858, title: {}, body: { 'index.html': {} } }],
+      ['clicar', { _index: 853, title: {}, body: { 'index.html': {} } }],
+      [
+        'clickitem',
+        {
+          _index: 482,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'clickitem(item',
+        {
+          _index: 487,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'close',
+        {
+          _index: 412,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'closemodal',
+        {
+          _index: 352,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'cluster_appmodule',
+        {
+          _index: 95,
+          title: {},
+          body: { 'modules/AppModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_appmodule_bootstrap',
+        {
+          _index: 98,
+          title: {},
+          body: { 'modules/AppModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_appmodule_declarations',
+        {
+          _index: 96,
+          title: {},
+          body: { 'modules/AppModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_appmodule_imports',
+        {
+          _index: 97,
+          title: {},
+          body: { 'modules/AppModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_componentsmodule',
+        {
+          _index: 227,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_componentsmodule_declarations',
+        {
+          _index: 228,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_componentsmodule_exports',
+        {
+          _index: 230,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_componentsmodule_imports',
+        {
+          _index: 229,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_directivesmodule',
+        {
+          _index: 424,
+          title: {},
+          body: { 'modules/DirectivesModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_directivesmodule_declarations',
+        {
+          _index: 425,
+          title: {},
+          body: { 'modules/DirectivesModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_directivesmodule_exports',
+        {
+          _index: 426,
+          title: {},
+          body: { 'modules/DirectivesModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_paymentmodule',
+        {
+          _index: 608,
+          title: {},
+          body: { 'modules/PaymentModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'cluster_paymentmodule_declarations',
+        {
+          _index: 609,
+          title: {},
+          body: { 'modules/PaymentModule.html': {}, 'overview.html': {} }
+        }
+      ],
+      [
+        'color',
+        {
+          _index: 189,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'column',
+        {
+          _index: 496,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'columns',
+        {
+          _index: 499,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'com',
+        {
+          _index: 307,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['comando', { _index: 812, title: {}, body: { 'index.html': {} } }],
+      ['começar', { _index: 736, title: {}, body: { 'index.html': {} } }],
+      ['commite', { _index: 828, title: {}, body: { 'index.html': {} } }],
+      [
+        'commonmodule',
+        {
+          _index: 234,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      ['como', { _index: 794, title: {}, body: { 'index.html': {} } }],
+      ['compartilhar', { _index: 919, title: {}, body: { 'index.html': {} } }],
+      [
+        'component',
+        {
+          _index: 0,
+          title: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'component_template',
+        {
+          _index: 57,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'components',
+        {
+          _index: 2,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'componentsmodule',
+        {
+          _index: 109,
+          title: { 'modules/ComponentsModule.html': {} },
+          body: {
+            'modules/AppModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {},
+            'modules.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'concluído',
+        {
+          _index: 315,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['configurar', { _index: 754, title: {}, body: { 'index.html': {} } }],
+      [
+        'const',
+        {
+          _index: 137,
+          title: {},
+          body: {
+            'modules/AppRoutingModule.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'constructor',
+        {
+          _index: 22,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'constructor(_elemento',
+        {
+          _index: 466,
+          title: {},
+          body: { 'directives/LinkDirective.html': {} }
+        }
+      ],
+      [
+        'constructor(_usersservice',
+        {
+          _index: 587,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'constructor(dialogref',
+        {
+          _index: 396,
+          title: {},
+          body: {
+            'components/DialogTransaction.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'constructor(httpclient',
+        {
+          _index: 641,
+          title: {},
+          body: {
+            'injectables/PaymentService.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'constructor(private',
+        {
+          _index: 283,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'directives/LinkDirective.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'constructor(public',
+        {
+          _index: 393,
+          title: {},
+          body: {
+            'interfaces/DialogData-1.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['construir', { _index: 838, title: {}, body: { 'index.html': {} } }],
+      ['consultar', { _index: 777, title: {}, body: { 'index.html': {} } }],
+      ['conta', { _index: 743, title: {}, body: { 'index.html': {} } }],
+      [
+        'contain',
+        {
+          _index: 218,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'container',
+        {
+          _index: 439,
+          title: {},
+          body: {
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['contendo', { _index: 861, title: {}, body: { 'index.html': {} } }],
+      [
+        'content',
+        {
+          _index: 41,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'context',
+        {
+          _index: 685,
+          title: {},
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      [
+        'control',
+        {
+          _index: 385,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'control.seterrors',
+        {
+          _index: 387,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'coverage',
+        {
+          _index: 668,
+          title: { 'coverage.html': {} },
+          body: { 'coverage.html': {} }
+        }
+      ],
+      [
+        'creditcard',
+        {
+          _index: 351,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'creditcardnumber',
+        {
+          _index: 357,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['crie', { _index: 760, title: {}, body: { 'index.html': {} } }],
+      [
+        'crédito',
+        {
+          _index: 421,
+          title: {},
+          body: { 'components/DialogTransaction.html': {}, 'index.html': {} }
+        }
+      ],
+      [
+        'currency',
+        {
+          _index: 623,
+          title: {},
+          body: { 'modules/PaymentModule.html': {}, 'dependencies.html': {} }
+        }
+      ],
+      [
+        'currency_mask_config',
+        { _index: 621, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'currencymaskconfig',
+        {
+          _index: 619,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'currencymaskmodule',
+        { _index: 620, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'cursor',
+        {
+          _index: 206,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        'custom',
+        {
+          _index: 299,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'customcurrencymaskconfig',
+        {
+          _index: 626,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'coverage.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'cvv',
+        {
+          _index: 333,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['código', { _index: 910, title: {}, body: { 'index.html': {} } }],
+      ['da', { _index: 763, title: {}, body: { 'index.html': {} } }],
+      [
+        'dados',
+        {
+          _index: 415,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'dark',
+        {
+          _index: 436,
+          title: {},
+          body: {
+            'components/FooterComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      ['das', { _index: 845, title: {}, body: { 'index.html': {} } }],
+      [
+        'data',
+        {
+          _index: 300,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'data.success',
+        {
+          _index: 655,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'data.title',
+        {
+          _index: 654,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'data.user.name',
+        {
+          _index: 411,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      ['dd', { _index: 767, title: {}, body: { 'index.html': {} } }],
+      [
+        'de',
+        {
+          _index: 305,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'decimal',
+        {
+          _index: 628,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'declarations',
+        {
+          _index: 91,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'decorators',
+        {
+          _index: 405,
+          title: {},
+          body: {
+            'components/DialogTransaction.html': {},
+            'components/LogoComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'deep',
+        {
+          _index: 460,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'default',
+        {
+          _index: 28,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'injectables/UsersService.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'defined',
+        {
+          _index: 23,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'classes/AppPage.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'dependencies',
+        {
+          _index: 90,
+          title: { 'dependencies.html': {} },
+          body: {
+            'modules/AppModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'dependencies.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      ['dependências', { _index: 810, title: {}, body: { 'index.html': {} } }],
+      [
+        'desafio',
+        {
+          _index: 30,
+          title: {},
+          body: { 'components/AppComponent.html': {}, 'index.html': {} }
+        }
+      ],
+      [
+        'description',
+        {
+          _index: 394,
+          title: {},
+          body: {
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'desenvolvimento',
+        { _index: 821, title: {}, body: { 'index.html': {} } }
+      ],
+      ['destination', { _index: 891, title: {}, body: { 'index.html': {} } }],
+      [
+        'destination_user_id',
+        { _index: 892, title: {}, body: { 'index.html': {} } }
+      ],
+      ['destino', { _index: 862, title: {}, body: { 'index.html': {} } }],
+      ['deve', { _index: 866, title: {}, body: { 'index.html': {} } }],
+      [
+        'dialog',
+        {
+          _index: 63,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'dialogdata',
+        {
+          _index: 261,
+          title: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {}
+          },
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'dialogref',
+        {
+          _index: 295,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'dialogref.afterclosed().subscribe(result',
+        {
+          _index: 309,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'dialogtransaction',
+        {
+          _index: 62,
+          title: { 'components/DialogTransaction.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      ['diferenciais', { _index: 901, title: {}, body: { 'index.html': {} } }],
+      ['digitar', { _index: 867, title: {}, body: { 'index.html': {} } }],
+      ['dinheiro', { _index: 841, title: {}, body: { 'index.html': {} } }],
+      [
+        'direction',
+        {
+          _index: 604,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'directive',
+        {
+          _index: 55,
+          title: { 'directives/LinkDirective.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'directives',
+        {
+          _index: 80,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'directives/directives.module',
+        {
+          _index: 239,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      [
+        'directivesmodule',
+        {
+          _index: 231,
+          title: { 'modules/DirectivesModule.html': {} },
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'disabled',
+        {
+          _index: 156,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'display',
+        {
+          _index: 440,
+          title: {},
+          body: {
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['disponível', { _index: 824, title: {}, body: { 'index.html': {} } }],
+      [
+        'documentation',
+        { _index: 669, title: {}, body: { 'coverage.html': {} } }
+      ],
+      [
+        'dom',
+        {
+          _index: 7,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'dynamic',
+        { _index: 695, title: {}, body: { 'dependencies.html': {} } }
+      ],
+      ['dúvida', { _index: 789, title: {}, body: { 'index.html': {} } }],
+      [
+        'e',
+        {
+          _index: 345,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['e2e', { _index: 903, title: {}, body: { 'index.html': {} } }],
+      [
+        'e2e/src/app.po.ts',
+        {
+          _index: 121,
+          title: {},
+          body: { 'classes/AppPage.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'e2e/src/app.po.ts:4',
+        { _index: 127, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      [
+        'e2e/src/app.po.ts:8',
+        { _index: 125, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      [
+        'ease',
+        {
+          _index: 205,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      [
+        'efetuar',
+        {
+          _index: 416,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'element',
+        {
+          _index: 54,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'classes/AppPage.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        "element(by.css('app",
+        { _index: 132, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      [
+        'elementref',
+        {
+          _index: 467,
+          title: {},
+          body: { 'directives/LinkDirective.html': {} }
+        }
+      ],
+      ['em', { _index: 719, title: {}, body: { 'index.html': {} } }],
+      ['encontrar', { _index: 728, title: {}, body: { 'index.html': {} } }],
+      [
+        'end',
+        {
+          _index: 33,
+          title: {},
+          body: { 'components/AppComponent.html': {}, 'index.html': {} }
+        }
+      ],
+      ['endpoint', { _index: 872, title: {}, body: { 'index.html': {} } }],
+      ['entrega', { _index: 737, title: {}, body: { 'index.html': {} } }],
+      [
+        'entrycomponents',
+        {
+          _index: 233,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      ['então', { _index: 859, title: {}, body: { 'index.html': {} } }],
+      [
+        'enviar',
+        {
+          _index: 178,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['envio', { _index: 840, title: {}, body: { 'index.html': {} } }],
+      [
+        'environment',
+        {
+          _index: 646,
+          title: {},
+          body: {
+            'injectables/PaymentService.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'environment.getusers',
+        {
+          _index: 664,
+          title: {},
+          body: {
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      ['erro', { _index: 875, title: {}, body: { 'index.html': {} } }],
+      [
+        'error',
+        {
+          _index: 660,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'errorstatematcher',
+        { _index: 614, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'escolha',
+        {
+          _index: 597,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      ['escolher', { _index: 868, title: {}, body: { 'index.html': {} } }],
+      ['essa', { _index: 798, title: {}, body: { 'index.html': {} } }],
+      ['estamos', { _index: 911, title: {}, body: { 'index.html': {} } }],
+      ['estar', { _index: 823, title: {}, body: { 'index.html': {} } }],
+      ['este', { _index: 818, title: {}, body: { 'index.html': {} } }],
+      ['estilo', { _index: 905, title: {}, body: { 'index.html': {} } }],
+      ['etapa', { _index: 799, title: {}, body: { 'index.html': {} } }],
+      [
+        'event',
+        {
+          _index: 591,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'eventemitter',
+        {
+          _index: 169,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      ['exemplo', { _index: 772, title: {}, body: { 'index.html': {} } }],
+      ['exibir', { _index: 878, title: {}, body: { 'index.html': {} } }],
+      [
+        'expiry_date',
+        {
+          _index: 335,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'export',
+        {
+          _index: 37,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'exports',
+        {
+          _index: 94,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/AppRoutingModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      ['factor', { _index: 740, title: {}, body: { 'index.html': {} } }],
+      [
+        'fail',
+        {
+          _index: 659,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'false',
+        {
+          _index: 180,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/LogoComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'feedback',
+        {
+          _index: 306,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'feedback.status',
+        {
+          _index: 324,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'feedback.success',
+        {
+          _index: 323,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'fff',
+        {
+          _index: 190,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'field',
+        {
+          _index: 605,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'file',
+        {
+          _index: 9,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'fill',
+        {
+          _index: 549,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'final',
+        {
+          _index: 423,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      ['fique', { _index: 785, title: {}, body: { 'index.html': {} } }],
+      [
+        'first',
+        {
+          _index: 506,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'flex',
+        {
+          _index: 441,
+          title: {},
+          body: {
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['fluxo', { _index: 844, title: {}, body: { 'index.html': {} } }],
+      [
+        'foi',
+        {
+          _index: 314,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'font',
+        {
+          _index: 195,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'footer',
+        {
+          _index: 430,
+          title: {},
+          body: { 'components/FooterComponent.html': {} }
+        }
+      ],
+      [
+        "footer'},{'name",
+        {
+          _index: 66,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'footer.component.html',
+        {
+          _index: 432,
+          title: {},
+          body: { 'components/FooterComponent.html': {} }
+        }
+      ],
+      [
+        'footer.component.scss',
+        {
+          _index: 431,
+          title: {},
+          body: { 'components/FooterComponent.html': {} }
+        }
+      ],
+      [
+        'footercomponent',
+        {
+          _index: 65,
+          title: { 'components/FooterComponent.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'form',
+        {
+          _index: 602,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      ['forma', { _index: 831, title: {}, body: { 'index.html': {} } }],
+      [
+        'formbuilder',
+        {
+          _index: 272,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'formgroup',
+        {
+          _index: 274,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'formsmodule',
+        {
+          _index: 243,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'formulário',
+        {
+          _index: 344,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['formulários', { _index: 907, title: {}, body: { 'index.html': {} } }],
+      [
+        'front',
+        {
+          _index: 32,
+          title: {},
+          body: { 'components/AppComponent.html': {}, 'index.html': {} }
+        }
+      ],
+      [
+        'full',
+        {
+          _index: 142,
+          title: {},
+          body: { 'modules/AppRoutingModule.html': {} }
+        }
+      ],
+      [
+        'gap',
+        {
+          _index: 497,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'garante',
+        {
+          _index: 372,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['gente', { _index: 920, title: {}, body: { 'index.html': {} } }],
+      ['getting', { _index: 712, title: { 'index.html': {} }, body: {} }],
+      [
+        'gettitletext',
+        { _index: 123, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      [
+        'getusers',
+        {
+          _index: 288,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      ['github', { _index: 744, title: {}, body: { 'index.html': {} } }],
+      ['github/adding', { _index: 757, title: {}, body: { 'index.html': {} } }],
+      [
+        'github/configuring',
+        { _index: 751, title: {}, body: { 'index.html': {} } }
+      ],
+      ['google', { _index: 778, title: {}, body: { 'index.html': {} } }],
+      ['graph', { _index: 927, title: {}, body: { 'modules.html': {} } }],
+      ['green_heart', { _index: 923, title: {}, body: { 'index.html': {} } }],
+      [
+        'grid',
+        {
+          _index: 495,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        "h1.title')).gettext",
+        { _index: 133, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      ['habilitado', { _index: 741, title: {}, body: { 'index.html': {} } }],
+      [
+        'hammerjs',
+        { _index: 699, title: {}, body: { 'dependencies.html': {} } }
+      ],
+      [
+        'handleitem',
+        {
+          _index: 584,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'handleitem(event',
+        {
+          _index: 292,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'header',
+        {
+          _index: 444,
+          title: {},
+          body: { 'components/HeaderComponent.html': {} }
+        }
+      ],
+      [
+        "header'},{'name",
+        {
+          _index: 68,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'header.component.html',
+        {
+          _index: 446,
+          title: {},
+          body: { 'components/HeaderComponent.html': {} }
+        }
+      ],
+      [
+        'header.component.scss',
+        {
+          _index: 445,
+          title: {},
+          body: { 'components/HeaderComponent.html': {} }
+        }
+      ],
+      [
+        'headercomponent',
+        {
+          _index: 67,
+          title: { 'components/HeaderComponent.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'height',
+        {
+          _index: 45,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'highlight_off',
+        {
+          _index: 657,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'hover',
+        {
+          _index: 224,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      [
+        'href',
+        {
+          _index: 564,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'html',
+        {
+          _index: 53,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'http://localhost:4200',
+        { _index: 826, title: {}, body: { 'index.html': {} } }
+      ],
+      [
+        'httpclient',
+        {
+          _index: 642,
+          title: {},
+          body: {
+            'injectables/PaymentService.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'httpclientmodule',
+        { _index: 115, title: {}, body: { 'modules/AppModule.html': {} } }
+      ],
+      [
+        'https://help.github.com/pt/github/authenticating',
+        { _index: 750, title: {}, body: { 'index.html': {} } }
+      ],
+      [
+        'https://picpay.com/static/images/ico',
+        {
+          _index: 567,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'https://run.mocky.io/v3/533cd5d7',
+        {
+          _index: 882,
+          title: {},
+          body: { 'index.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      [
+        'https://www.linkedin.com/company/picpay',
+        {
+          _index: 565,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'https://www.mocky.io/v2/5d531c4f2e0000620081ddce',
+        {
+          _index: 900,
+          title: {},
+          body: { 'index.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      [
+        'https://www.youtube.com/user/picpay',
+        {
+          _index: 570,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'icon',
+        {
+          _index: 658,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'id',
+        {
+          _index: 264,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['identifier', { _index: 670, title: {}, body: { 'coverage.html': {} } }],
+      [
+        'image',
+        {
+          _index: 219,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'img',
+        {
+          _index: 265,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'implements',
+        {
+          _index: 148,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'import',
+        {
+          _index: 34,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'imports',
+        {
+          _index: 104,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/AppRoutingModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'include',
+        {
+          _index: 48,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['independente', { _index: 899, title: {}, body: { 'index.html': {} } }],
+      [
+        'index',
+        {
+          _index: 19,
+          title: { 'index.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'classes/AppPage.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'info',
+        {
+          _index: 3,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['informações', { _index: 730, title: {}, body: { 'index.html': {} } }],
+      ['iniciar', { _index: 732, title: {}, body: { 'index.html': {} } }],
+      [
+        'inject',
+        {
+          _index: 268,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'inject(mat_dialog_data',
+        {
+          _index: 341,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'injectable',
+        {
+          _index: 637,
+          title: {
+            'injectables/PaymentService.html': {},
+            'injectables/UsersService.html': {}
+          },
+          body: {
+            'injectables/PaymentService.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'injectables',
+        {
+          _index: 638,
+          title: {},
+          body: {
+            'injectables/PaymentService.html': {},
+            'injectables/UsersService.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'inline',
+        {
+          _index: 581,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'input',
+        {
+          _index: 173,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        'inputs',
+        {
+          _index: 155,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        'insira',
+        {
+          _index: 413,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      ['instale', { _index: 809, title: {}, body: { 'index.html': {} } }],
+      ['install', { _index: 814, title: {}, body: { 'index.html': {} } }],
+      ['interesse', { _index: 718, title: {}, body: { 'index.html': {} } }],
+      [
+        'interface',
+        {
+          _index: 260,
+          title: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'interfaces/User.html': {}
+          },
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'interfaces',
+        {
+          _index: 262,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'interfaces/User.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'invalid',
+        {
+          _index: 337,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['isso', { _index: 913, title: {}, body: { 'index.html': {} } }],
+      [
+        'item',
+        {
+          _index: 489,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      [
+        'item.id',
+        {
+          _index: 493,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'item.name',
+        {
+          _index: 492,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'item.username',
+        {
+          _index: 494,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'items',
+        {
+          _index: 458,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'itemselected',
+        {
+          _index: 483,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      ['j', { _index: 796, title: {}, body: { 'index.html': {} } }],
+      ['js', { _index: 708, title: {}, body: { 'dependencies.html': {} } }],
+      [
+        'justify',
+        {
+          _index: 442,
+          title: {},
+          body: {
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['key', { _index: 758, title: {}, body: { 'index.html': {} } }],
+      [
+        'last',
+        {
+          _index: 577,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'left',
+        {
+          _index: 214,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'legend',
+        {
+          _index: 52,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'components/SimpleModalComponent.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'light',
+        {
+          _index: 505,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'limpo',
+        {
+          _index: 378,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'line',
+        {
+          _index: 191,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'link',
+        {
+          _index: 82,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'link.text',
+        {
+          _index: 573,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'link/link.directive',
+        {
+          _index: 428,
+          title: {},
+          body: { 'modules/DirectivesModule.html': {} }
+        }
+      ],
+      [
+        'linkdirective',
+        {
+          _index: 81,
+          title: { 'directives/LinkDirective.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'linkedin',
+        {
+          _index: 563,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'links',
+        {
+          _index: 555,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'list',
+        {
+          _index: 479,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        "list'},{'name",
+        {
+          _index: 70,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'list.component.html',
+        {
+          _index: 481,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'list.component.scss',
+        {
+          _index: 480,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      ['lista', { _index: 855, title: {}, body: { 'index.html': {} } }],
+      ['listagem', { _index: 849, title: {}, body: { 'index.html': {} } }],
+      [
+        'listcomponent',
+        {
+          _index: 69,
+          title: { 'components/ListComponent.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'lk.png',
+        {
+          _index: 568,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'loadchildren',
+        {
+          _index: 143,
+          title: {},
+          body: { 'modules/AppRoutingModule.html': {} }
+        }
+      ],
+      [
+        'loading',
+        {
+          _index: 208,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'logo',
+        {
+          _index: 461,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        "logo'},{'name",
+        {
+          _index: 72,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'logo.component.html',
+        {
+          _index: 533,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'logo.component.scss',
+        {
+          _index: 532,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'logocomponent',
+        {
+          _index: 71,
+          title: { 'components/LogoComponent.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      ['mais', { _index: 921, title: {}, body: { 'index.html': {} } }],
+      [
+        'margin',
+        {
+          _index: 502,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'mask',
+        {
+          _index: 624,
+          title: {},
+          body: { 'modules/PaymentModule.html': {}, 'dependencies.html': {} }
+        }
+      ],
+      ['master', { _index: 764, title: {}, body: { 'index.html': {} } }],
+      [
+        'mat',
+        {
+          _index: 601,
+          title: {},
+          body: {
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'mat_dialog_data',
+        {
+          _index: 252,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'matching',
+        {
+          _index: 85,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {},
+            'dependencies.html': {},
+            'index.html': {},
+            'modules.html': {},
+            'overview.html': {},
+            'routes.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'matdialog',
+        {
+          _index: 271,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'matdialogmodule',
+        {
+          _index: 254,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'matdialogref',
+        {
+          _index: 251,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'maticonmodule',
+        {
+          _index: 256,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'matinputmodule',
+        { _index: 612, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'matoptionmodule',
+        { _index: 616, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'matselectmodule',
+        { _index: 625, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'max',
+        {
+          _index: 199,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['melhor', { _index: 722, title: {}, body: { 'index.html': {} } }],
+      ['melhoria', { _index: 904, title: {}, body: { 'index.html': {} } }],
+      ['mesmo', { _index: 898, title: {}, body: { 'index.html': {} } }],
+      [
+        'metadata',
+        {
+          _index: 11,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'methods',
+        {
+          _index: 122,
+          title: {},
+          body: {
+            'classes/AppPage.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'min',
+        {
+          _index: 44,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'miscellaneous',
+        {
+          _index: 933,
+          title: { 'miscellaneous/variables.html': {} },
+          body: { 'miscellaneous/variables.html': {} }
+        }
+      ],
+      ['mm', { _index: 768, title: {}, body: { 'index.html': {} } }],
+      ['mock', { _index: 895, title: {}, body: { 'index.html': {} } }],
+      [
+        'modal',
+        {
+          _index: 79,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'modal.component',
+        {
+          _index: 250,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'modal.component.html',
+        {
+          _index: 391,
+          title: {},
+          body: {
+            'interfaces/DialogData-1.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'modal.component.scss',
+        {
+          _index: 392,
+          title: {},
+          body: {
+            'interfaces/DialogData-1.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'modal.component.ts',
+        {
+          _index: 390,
+          title: {},
+          body: {
+            'interfaces/DialogData-1.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'modal.component.ts:17',
+        {
+          _index: 650,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'modal.component.ts:18',
+        {
+          _index: 653,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'modal.component.ts:20',
+        {
+          _index: 652,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'modal.component.ts:22',
+        {
+          _index: 651,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'modal/simple',
+        {
+          _index: 249,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'module',
+        {
+          _index: 87,
+          title: {
+            'modules/AppModule.html': {},
+            'modules/AppRoutingModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {}
+          },
+          body: {
+            'modules/AppModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'modules',
+        {
+          _index: 89,
+          title: { 'modules.html': {} },
+          body: {
+            'modules/AppModule.html': {},
+            'modules/AppRoutingModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'modules.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'molecules/list/list.component',
+        {
+          _index: 242,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      [
+        'molecules/navbar/navbar.component',
+        {
+          _index: 238,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      [
+        'molecules/simple',
+        {
+          _index: 248,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      [
+        'monetário',
+        {
+          _index: 377,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['mostrar', { _index: 874, title: {}, body: { 'index.html': {} } }],
+      ['mundo', { _index: 725, title: {}, body: { 'index.html': {} } }],
+      ['máquina', { _index: 784, title: {}, body: { 'index.html': {} } }],
+      ['máscaras', { _index: 908, title: {}, body: { 'index.html': {} } }],
+      ['método', { _index: 887, title: {}, body: { 'index.html': {} } }],
+      ['na', { _index: 721, title: {}, body: { 'index.html': {} } }],
+      [
+        'name',
+        {
+          _index: 58,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'navbar',
+        {
+          _index: 552,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        "navbar'},{'name",
+        {
+          _index: 74,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'navbar.component.html',
+        {
+          _index: 554,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'navbar.component.scss',
+        {
+          _index: 553,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'navbarcomponent',
+        {
+          _index: 73,
+          title: { 'components/NavbarComponent.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'navigateto',
+        { _index: 124, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      ['necessárias', { _index: 731, title: {}, body: { 'index.html': {} } }],
+      ['nesse', { _index: 748, title: {}, body: { 'index.html': {} } }],
+      [
+        'new',
+        {
+          _index: 175,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {},
+            'coverage.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'ng',
+        {
+          _index: 459,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'ng2',
+        {
+          _index: 622,
+          title: {},
+          body: { 'modules/PaymentModule.html': {}, 'dependencies.html': {} }
+        }
+      ],
+      [
+        'ngafterviewinit',
+        {
+          _index: 534,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'ngmodule',
+        {
+          _index: 108,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/AppRoutingModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'ngoninit',
+        {
+          _index: 153,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['node', { _index: 805, title: {}, body: { 'index.html': {} } }],
+      ['nome', { _index: 776, title: {}, body: { 'index.html': {} } }],
+      ['nomenclatura', { _index: 766, title: {}, body: { 'index.html': {} } }],
+      [
+        'none',
+        {
+          _index: 550,
+          title: {},
+          body: {
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      [
+        'not(.outline',
+        {
+          _index: 222,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      ['npm', { _index: 813, title: {}, body: { 'index.html': {} } }],
+      [
+        'nth',
+        {
+          _index: 509,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'null',
+        {
+          _index: 388,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'number',
+        {
+          _index: 267,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'não',
+        {
+          _index: 317,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'o',
+        {
+          _index: 312,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'object',
+        { _index: 941, title: {}, body: { 'miscellaneous/variables.html': {} } }
+      ],
+      [
+        'object.keys(this.transactionform.controls).foreach(name',
+        {
+          _index: 384,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['objetivo', { _index: 837, title: {}, body: { 'index.html': {} } }],
+      ['obrigado', { _index: 715, title: {}, body: { 'index.html': {} } }],
+      [
+        'obrigatório',
+        {
+          _index: 419,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      ['obs', { _index: 893, title: {}, body: { 'index.html': {} } }],
+      [
+        'ok',
+        {
+          _index: 325,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'onbtnclick',
+        {
+          _index: 154,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'onchange',
+        {
+          _index: 395,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'onchange(e',
+        {
+          _index: 370,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['onde', { _index: 851, title: {}, body: { 'index.html': {} } }],
+      [
+        'oninit',
+        {
+          _index: 149,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'onsubmit',
+        {
+          _index: 354,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'openfeedbackdialog',
+        {
+          _index: 585,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'openfeedbackdialog(feedback',
+        {
+          _index: 319,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'openpaymentdialog',
+        {
+          _index: 586,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'openpaymentdialog(user',
+        {
+          _index: 294,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'optional',
+        {
+          _index: 399,
+          title: {},
+          body: {
+            'components/DialogTransaction.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      ['opção', { _index: 863, title: {}, body: { 'index.html': {} } }],
+      [
+        'organisms/footer/footer.component',
+        {
+          _index: 241,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      [
+        'organisms/header/header.component',
+        {
+          _index: 240,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      ['organizada', { _index: 832, title: {}, body: { 'index.html': {} } }],
+      ['organização', { _index: 909, title: {}, body: { 'index.html': {} } }],
+      [
+        'os',
+        {
+          _index: 414,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      ['ou', { _index: 780, title: {}, body: { 'index.html': {} } }],
+      [
+        'out',
+        {
+          _index: 102,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'outline',
+        {
+          _index: 157,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        'output',
+        {
+          _index: 174,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      [
+        'outputs',
+        {
+          _index: 160,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      ['outra', { _index: 842, title: {}, body: { 'index.html': {} } }],
+      [
+        'overview',
+        {
+          _index: 929,
+          title: { 'overview.html': {} },
+          body: { 'overview.html': {} }
+        }
+      ],
+      [
+        'p',
+        {
+          _index: 661,
+          title: {},
+          body: { 'components/SimpleModalComponent.html': {} }
+        }
+      ],
+      [
+        'package',
+        { _index: 689, title: { 'dependencies.html': {} }, body: {} }
+      ],
+      [
+        'padding',
+        {
+          _index: 192,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['padrão', { _index: 765, title: {}, body: { 'index.html': {} } }],
+      [
+        'pagamento',
+        {
+          _index: 313,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['pagamentos', { _index: 724, title: {}, body: { 'index.html': {} } }],
+      [
+        'pagar',
+        {
+          _index: 140,
+          title: {},
+          body: {
+            'modules/AppRoutingModule.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'pages/payment/payment.module#paymentmodule',
+        {
+          _index: 144,
+          title: {},
+          body: { 'modules/AppRoutingModule.html': {} }
+        }
+      ],
+      [
+        'pagination',
+        {
+          _index: 515,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'paginator',
+        {
+          _index: 247,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {}, 'dependencies.html': {} }
+        }
+      ],
+      [
+        'panelclass',
+        {
+          _index: 297,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'para',
+        {
+          _index: 410,
+          title: {},
+          body: {
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'parameters',
+        {
+          _index: 398,
+          title: {},
+          body: {
+            'components/DialogTransaction.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      ['particular', { _index: 783, title: {}, body: { 'index.html': {} } }],
+      ['partir', { _index: 762, title: {}, body: { 'index.html': {} } }],
+      ['passamos', { _index: 797, title: {}, body: { 'index.html': {} } }],
+      ['passo', { _index: 747, title: {}, body: { 'index.html': {} } }],
+      [
+        'path',
+        {
+          _index: 138,
+          title: {},
+          body: {
+            'modules/AppRoutingModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'pathmatch',
+        {
+          _index: 141,
+          title: {},
+          body: { 'modules/AppRoutingModule.html': {} }
+        }
+      ],
+      ['payload', { _index: 889, title: {}, body: { 'index.html': {} } }],
+      [
+        'payment',
+        {
+          _index: 278,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        "payment'},{'name",
+        {
+          _index: 76,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'payment.component',
+        { _index: 611, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'payment.component.html',
+        {
+          _index: 279,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'payment.component.scss',
+        {
+          _index: 280,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'paymentcomponent',
+        {
+          _index: 75,
+          title: { 'components/PaymentComponent.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'paymentdata',
+        {
+          _index: 360,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {}
+          }
+        }
+      ],
+      [
+        "paymentdata['destination_user_id",
+        {
+          _index: 364,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        "paymentdata['value",
+        {
+          _index: 366,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'paymentmodule',
+        {
+          _index: 607,
+          title: { 'modules/PaymentModule.html': {} },
+          body: {
+            'modules/PaymentModule.html': {},
+            'modules.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'paymentservice',
+        {
+          _index: 275,
+          title: { 'injectables/PaymentService.html': {} },
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'paymentvalue',
+        {
+          _index: 349,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['pelo', { _index: 716, title: {}, body: { 'index.html': {} } }],
+      ['perguntar', { _index: 787, title: {}, body: { 'index.html': {} } }],
+      [
+        'pessoa',
+        {
+          _index: 599,
+          title: {},
+          body: { 'components/PaymentComponent.html': {}, 'index.html': {} }
+        }
+      ],
+      [
+        'picpay',
+        {
+          _index: 31,
+          title: {},
+          body: { 'components/AppComponent.html': {}, 'index.html': {} }
+        }
+      ],
+      ['plataforma', { _index: 723, title: {}, body: { 'index.html': {} } }],
+      ['pode', { _index: 852, title: {}, body: { 'index.html': {} } }],
+      ['poder', { _index: 745, title: {}, body: { 'index.html': {} } }],
+      [
+        'pointer',
+        {
+          _index: 207,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      ['por', { _index: 771, title: {}, body: { 'index.html': {} } }],
+      ['porta', { _index: 825, title: {}, body: { 'index.html': {} } }],
+      [
+        'position',
+        {
+          _index: 209,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      ['post', { _index: 888, title: {}, body: { 'index.html': {} } }],
+      [
+        'posttransaction',
+        { _index: 943, title: {}, body: { 'miscellaneous/variables.html': {} } }
+      ],
+      ['pra', { _index: 918, title: {}, body: { 'index.html': {} } }],
+      ['precisa', { _index: 753, title: {}, body: { 'index.html': {} } }],
+      ['precisar', { _index: 738, title: {}, body: { 'index.html': {} } }],
+      [
+        'precision',
+        {
+          _index: 629,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'prefix',
+        {
+          _index: 631,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'primary',
+        {
+          _index: 223,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      ['primeira', { _index: 847, title: {}, body: { 'index.html': {} } }],
+      ['primeiramente', { _index: 714, title: {}, body: { 'index.html': {} } }],
+      [
+        'private',
+        {
+          _index: 287,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'production',
+        { _index: 942, title: {}, body: { 'miscellaneous/variables.html': {} } }
+      ],
+      ['projeto', { _index: 782, title: {}, body: { 'index.html': {} } }],
+      [
+        'promise',
+        { _index: 131, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      [
+        'properties',
+        {
+          _index: 20,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'protractor',
+        { _index: 128, title: {}, body: { 'classes/AppPage.html': {} } }
+      ],
+      [
+        'provide',
+        {
+          _index: 258,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'providedin',
+        {
+          _index: 648,
+          title: {},
+          body: {
+            'injectables/PaymentService.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'providers',
+        {
+          _index: 93,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      [
+        'public',
+        {
+          _index: 285,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'directives/LinkDirective.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      ['pull', { _index: 834, title: {}, body: { 'index.html': {} } }],
+      ['qualquer', { _index: 788, title: {}, body: { 'index.html': {} } }],
+      ['quando', { _index: 857, title: {}, body: { 'index.html': {} } }],
+      [
+        'que',
+        {
+          _index: 373,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'r',
+        {
+          _index: 632,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'radius',
+        {
+          _index: 187,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      ['raiz', { _index: 815, title: {}, body: { 'index.html': {} } }],
+      [
+        'reactiveformsmodule',
+        { _index: 618, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      ['realizar', { _index: 856, title: {}, body: { 'index.html': {} } }],
+      ['realização', { _index: 869, title: {}, body: { 'index.html': {} } }],
+      [
+        'recibo',
+        {
+          _index: 321,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['recrutadores', { _index: 790, title: {}, body: { 'index.html': {} } }],
+      [
+        'redirectto',
+        {
+          _index: 139,
+          title: {},
+          body: { 'modules/AppRoutingModule.html': {} }
+        }
+      ],
+      [
+        'relative',
+        {
+          _index: 210,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'repeat',
+        {
+          _index: 217,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'repeat(2',
+        {
+          _index: 500,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      ['repositório', { _index: 816, title: {}, body: { 'index.html': {} } }],
+      ['request', { _index: 835, title: {}, body: { 'index.html': {} } }],
+      [
+        'require',
+        {
+          _index: 686,
+          title: {},
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      [
+        'require.context',
+        { _index: 939, title: {}, body: { 'miscellaneous/variables.html': {} } }
+      ],
+      [
+        'reset',
+        {
+          _index: 101,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      ['respire', { _index: 792, title: {}, body: { 'index.html': {} } }],
+      [
+        'respond',
+        {
+          _index: 49,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'response',
+        {
+          _index: 308,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'result',
+        {
+          _index: 84,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {},
+            'dependencies.html': {},
+            'index.html': {},
+            'modules.html': {},
+            'overview.html': {},
+            'routes.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'result.success',
+        {
+          _index: 311,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'results',
+        {
+          _index: 86,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {},
+            'dependencies.html': {},
+            'index.html': {},
+            'modules.html': {},
+            'overview.html': {},
+            'routes.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      ['retornar', { _index: 897, title: {}, body: { 'index.html': {} } }],
+      [
+        'return',
+        {
+          _index: 129,
+          title: {},
+          body: {
+            'classes/AppPage.html': {},
+            'injectables/PaymentService.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'returns',
+        {
+          _index: 126,
+          title: {},
+          body: {
+            'classes/AppPage.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'rgba($primary',
+        {
+          _index: 582,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'rgba(0',
+        {
+          _index: 453,
+          title: {},
+          body: { 'components/HeaderComponent.html': {} }
+        }
+      ],
+      [
+        'right',
+        {
+          _index: 520,
+          title: {},
+          body: {
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['rodar', { _index: 808, title: {}, body: { 'index.html': {} } }],
+      ['rode', { _index: 817, title: {}, body: { 'index.html': {} } }],
+      [
+        'root',
+        {
+          _index: 14,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'classes/AppPage.html': {},
+            'injectables/PaymentService.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        "root'},{'name",
+        {
+          _index: 59,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'root_url',
+        {
+          _index: 663,
+          title: {},
+          body: {
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'route',
+        {
+          _index: 535,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'router',
+        {
+          _index: 560,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'routermodule',
+        {
+          _index: 112,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/AppRoutingModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'routermodule.forchild(routes',
+        { _index: 635, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'routermodule.forroot(routes',
+        {
+          _index: 146,
+          title: {},
+          body: { 'modules/AppRoutingModule.html': {} }
+        }
+      ],
+      [
+        'routes',
+        {
+          _index: 136,
+          title: { 'routes.html': {} },
+          body: {
+            'modules/AppRoutingModule.html': {},
+            'modules/PaymentModule.html': {},
+            'overview.html': {},
+            'routes.html': {}
+          }
+        }
+      ],
+      [
+        'routing.module',
+        { _index: 114, title: {}, body: { 'modules/AppModule.html': {} } }
+      ],
+      [
+        'routing.module.ts',
+        {
+          _index: 135,
+          title: {},
+          body: { 'modules/AppRoutingModule.html': {} }
+        }
+      ],
+      ['rxjs', { _index: 702, title: {}, body: { 'dependencies.html': {} } }],
+      ['screenshots', { _index: 876, title: {}, body: { 'index.html': {} } }],
+      ['se', { _index: 870, title: {}, body: { 'index.html': {} } }],
+      [
+        'secondary',
+        {
+          _index: 225,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['selecionar', { _index: 864, title: {}, body: { 'index.html': {} } }],
+      [
+        'selecione',
+        {
+          _index: 422,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'selector',
+        {
+          _index: 12,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['sempre', { _index: 896, title: {}, body: { 'index.html': {} } }],
+      ['serve', { _index: 819, title: {}, body: { 'index.html': {} } }],
+      [
+        'services/payment/payment.service',
+        {
+          _index: 276,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['servidor', { _index: 820, title: {}, body: { 'index.html': {} } }],
+      [
+        'setpayment',
+        {
+          _index: 640,
+          title: {},
+          body: { 'injectables/PaymentService.html': {} }
+        }
+      ],
+      [
+        'setpayment(paymentdata',
+        {
+          _index: 644,
+          title: {},
+          body: { 'injectables/PaymentService.html': {} }
+        }
+      ],
+      ['setup', { _index: 802, title: {}, body: { 'index.html': {} } }],
+      ['seu', { _index: 717, title: {}, body: { 'index.html': {} } }],
+      [
+        'shadow',
+        {
+          _index: 450,
+          title: {},
+          body: { 'components/HeaderComponent.html': {} }
+        }
+      ],
+      [
+        'showondirtyerrorstatematcher',
+        { _index: 615, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'simple',
+        {
+          _index: 78,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'simplemodalcomponent',
+        {
+          _index: 77,
+          title: { 'components/SimpleModalComponent.html': {} },
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {},
+            'overview.html': {}
+          }
+        }
+      ],
+      ['simula', { _index: 839, title: {}, body: { 'index.html': {} } }],
+      [
+        'size',
+        {
+          _index: 196,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'sizing',
+        {
+          _index: 603,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'small',
+        {
+          _index: 536,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'sobre',
+        {
+          _index: 559,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      ['sobrenome', { _index: 770, title: {}, body: { 'index.html': {} } }],
+      [
+        'socials',
+        {
+          _index: 556,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'solid',
+        {
+          _index: 226,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      ['sorte', { _index: 801, title: {}, body: { 'index.html': {} } }],
+      [
+        'source',
+        {
+          _index: 4,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'modules/AppModule.html': {},
+            'classes/AppPage.html': {},
+            'modules/AppRoutingModule.html': {},
+            'components/ButtonComponent.html': {},
+            'modules/ComponentsModule.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'modules/DirectivesModule.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'modules/PaymentModule.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'space',
+        {
+          _index: 456,
+          title: {},
+          body: {
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      [
+        'span',
+        {
+          _index: 523,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'spec\\.ts',
+        { _index: 940, title: {}, body: { 'miscellaneous/variables.html': {} } }
+      ],
+      [
+        'src',
+        {
+          _index: 566,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'src/.../environment.prod.ts',
+        { _index: 937, title: {}, body: { 'miscellaneous/variables.html': {} } }
+      ],
+      [
+        'src/.../environment.ts',
+        { _index: 938, title: {}, body: { 'miscellaneous/variables.html': {} } }
+      ],
+      [
+        'src/.../payment.module.ts',
+        { _index: 936, title: {}, body: { 'miscellaneous/variables.html': {} } }
+      ],
+      [
+        'src/.../test.ts',
+        { _index: 935, title: {}, body: { 'miscellaneous/variables.html': {} } }
+      ],
+      [
+        'src/app/app',
+        {
+          _index: 134,
+          title: {},
+          body: { 'modules/AppRoutingModule.html': {} }
+        }
+      ],
+      [
+        'src/app/app.component.ts',
+        {
+          _index: 10,
+          title: {},
+          body: { 'components/AppComponent.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'src/app/app.component.ts:10',
+        { _index: 24, title: {}, body: { 'components/AppComponent.html': {} } }
+      ],
+      [
+        'src/app/app.module.ts',
+        { _index: 103, title: {}, body: { 'modules/AppModule.html': {} } }
+      ],
+      [
+        'src/app/components/atoms/button/button.component.ts',
+        {
+          _index: 147,
+          title: {},
+          body: { 'components/ButtonComponent.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/button/button.component.ts:10',
+        {
+          _index: 167,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/button/button.component.ts:11',
+        {
+          _index: 165,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/button/button.component.ts:12',
+        {
+          _index: 166,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/button/button.component.ts:13',
+        {
+          _index: 164,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/button/button.component.ts:14',
+        {
+          _index: 162,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/button/button.component.ts:18',
+        {
+          _index: 170,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/button/button.component.ts:25',
+        {
+          _index: 172,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/button/button.component.ts:9',
+        {
+          _index: 168,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/logo/logo.component.ts',
+        {
+          _index: 531,
+          title: {},
+          body: { 'components/LogoComponent.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/logo/logo.component.ts:10',
+        {
+          _index: 538,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/logo/logo.component.ts:11',
+        {
+          _index: 540,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/logo/logo.component.ts:12',
+        {
+          _index: 539,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/logo/logo.component.ts:13',
+        {
+          _index: 537,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/logo/logo.component.ts:17',
+        {
+          _index: 543,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/logo/logo.component.ts:21',
+        {
+          _index: 542,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/atoms/logo/logo.component.ts:25',
+        {
+          _index: 541,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/components.module',
+        {
+          _index: 110,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      [
+        'src/app/components/components.module.ts',
+        {
+          _index: 232,
+          title: {},
+          body: { 'modules/ComponentsModule.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/list/list.component.ts',
+        {
+          _index: 478,
+          title: {},
+          body: { 'components/ListComponent.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/list/list.component.ts:10',
+        {
+          _index: 484,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/list/list.component.ts:14',
+        {
+          _index: 490,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/list/list.component.ts:16',
+        {
+          _index: 488,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/list/list.component.ts:9',
+        {
+          _index: 486,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/navbar/navbar.component.ts',
+        {
+          _index: 551,
+          title: {},
+          body: { 'components/NavbarComponent.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/navbar/navbar.component.ts:20',
+        {
+          _index: 572,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/navbar/navbar.component.ts:31',
+        {
+          _index: 557,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/navbar/navbar.component.ts:35',
+        {
+          _index: 558,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/navbar/navbar.component.ts:9',
+        {
+          _index: 561,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/molecules/simple',
+        {
+          _index: 277,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'src/app/components/organisms/footer/footer.component.ts',
+        {
+          _index: 429,
+          title: {},
+          body: { 'components/FooterComponent.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'src/app/components/organisms/footer/footer.component.ts:11',
+        {
+          _index: 434,
+          title: {},
+          body: { 'components/FooterComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/organisms/footer/footer.component.ts:8',
+        {
+          _index: 433,
+          title: {},
+          body: { 'components/FooterComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/organisms/header/header.component.ts',
+        {
+          _index: 443,
+          title: {},
+          body: { 'components/HeaderComponent.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'src/app/components/organisms/header/header.component.ts:11',
+        {
+          _index: 448,
+          title: {},
+          body: { 'components/HeaderComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/components/organisms/header/header.component.ts:8',
+        {
+          _index: 447,
+          title: {},
+          body: { 'components/HeaderComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/directives/directives.module.ts',
+        {
+          _index: 427,
+          title: {},
+          body: { 'modules/DirectivesModule.html': {} }
+        }
+      ],
+      [
+        'src/app/directives/link/link.directive.ts',
+        {
+          _index: 463,
+          title: {},
+          body: { 'directives/LinkDirective.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'src/app/directives/link/link.directive.ts:10',
+        {
+          _index: 473,
+          title: {},
+          body: { 'directives/LinkDirective.html': {} }
+        }
+      ],
+      [
+        'src/app/directives/link/link.directive.ts:14',
+        {
+          _index: 471,
+          title: {},
+          body: { 'directives/LinkDirective.html': {} }
+        }
+      ],
+      [
+        'src/app/directives/link/link.directive.ts:7',
+        {
+          _index: 468,
+          title: {},
+          body: { 'directives/LinkDirective.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts',
+        {
+          _index: 263,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:107',
+        {
+          _index: 401,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:111',
+        {
+          _index: 403,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:127',
+        {
+          _index: 402,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:134',
+        {
+          _index: 400,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:22',
+        {
+          _index: 596,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:23',
+        {
+          _index: 588,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:25',
+        {
+          _index: 595,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:27',
+        {
+          _index: 592,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:31',
+        {
+          _index: 589,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:35',
+        {
+          _index: 590,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:39',
+        {
+          _index: 594,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:56',
+        {
+          _index: 593,
+          title: {},
+          body: { 'components/PaymentComponent.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:77',
+        {
+          _index: 409,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:78',
+        {
+          _index: 408,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:79',
+        {
+          _index: 404,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:92',
+        {
+          _index: 397,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:95',
+        {
+          _index: 407,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.component.ts:96',
+        {
+          _index: 406,
+          title: {},
+          body: { 'components/DialogTransaction.html': {} }
+        }
+      ],
+      [
+        'src/app/pages/payment/payment.module.ts',
+        {
+          _index: 610,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'coverage.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'src/app/services/payment/payment.service.ts',
+        {
+          _index: 639,
+          title: {},
+          body: { 'injectables/PaymentService.html': {}, 'coverage.html': {} }
+        }
+      ],
+      [
+        'src/app/services/payment/payment.service.ts:11',
+        {
+          _index: 645,
+          title: {},
+          body: { 'injectables/PaymentService.html': {} }
+        }
+      ],
+      [
+        'src/app/services/payment/payment.service.ts:8',
+        {
+          _index: 643,
+          title: {},
+          body: { 'injectables/PaymentService.html': {} }
+        }
+      ],
+      [
+        'src/app/services/users/users.service',
+        {
+          _index: 270,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'src/app/services/users/users.service.ts',
+        {
+          _index: 662,
+          title: {},
+          body: {
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'src/app/services/users/users.service.ts:16',
+        {
+          _index: 666,
+          title: {},
+          body: { 'injectables/UsersService.html': {} }
+        }
+      ],
+      [
+        'src/app/services/users/users.service.ts:20',
+        {
+          _index: 667,
+          title: {},
+          body: { 'injectables/UsersService.html': {} }
+        }
+      ],
+      [
+        'src/assets/style/colors',
+        {
+          _index: 183,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'src/assets/style/mixins',
+        {
+          _index: 40,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'src/environments/environment',
+        {
+          _index: 647,
+          title: {},
+          body: {
+            'injectables/PaymentService.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'src/environments/environment.prod.ts',
+        {
+          _index: 682,
+          title: {},
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      [
+        'src/environments/environment.ts',
+        {
+          _index: 683,
+          title: {},
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      [
+        'src/test.ts',
+        {
+          _index: 684,
+          title: {},
+          body: { 'coverage.html': {}, 'miscellaneous/variables.html': {} }
+        }
+      ],
+      ['ssh', { _index: 756, title: {}, body: { 'index.html': {} } }],
+      ['stackoverflow', { _index: 779, title: {}, body: { 'index.html': {} } }],
+      ['started', { _index: 713, title: { 'index.html': {} }, body: {} }],
+      ['statements', { _index: 671, title: {}, body: { 'coverage.html': {} } }],
+      [
+        'static',
+        {
+          _index: 545,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'status',
+        {
+          _index: 158,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'string',
+        {
+          _index: 27,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'style',
+        {
+          _index: 575,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'styles',
+        {
+          _index: 6,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'styleurls',
+        {
+          _index: 15,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['sua', { _index: 742, title: {}, body: { 'index.html': {} } }],
+      ['suas', { _index: 829, title: {}, body: { 'index.html': {} } }],
+      ['submeter', { _index: 827, title: {}, body: { 'index.html': {} } }],
+      [
+        'success',
+        {
+          _index: 322,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'sucesso',
+        {
+          _index: 316,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'suffix',
+        {
+          _index: 633,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      ['sugestão', { _index: 917, title: {}, body: { 'index.html': {} } }],
+      ['support', { _index: 924, title: {}, body: { 'modules.html': {} } }],
+      ['svg', { _index: 925, title: {}, body: { 'modules.html': {} } }],
+      ['table', { _index: 688, title: {}, body: { 'coverage.html': {} } }],
+      [
+        "tablesort(document.getelementbyid('coverage",
+        { _index: 687, title: {}, body: { 'coverage.html': {} } }
+      ],
+      ['também', { _index: 795, title: {}, body: { 'index.html': {} } }],
+      ['tela', { _index: 848, title: {}, body: { 'index.html': {} } }],
+      ['telas', { _index: 846, title: {}, body: { 'index.html': {} } }],
+      [
+        'template',
+        {
+          _index: 5,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'templateurl',
+        {
+          _index: 17,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['tenha', { _index: 915, title: {}, body: { 'index.html': {} } }],
+      [
+        'ter',
+        {
+          _index: 376,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      ['teste', { _index: 733, title: {}, body: { 'index.html': {} } }],
+      [
+        'text',
+        {
+          _index: 159,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'textcolor',
+        {
+          _index: 465,
+          title: {},
+          body: {
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        'textfeedback',
+        {
+          _index: 282,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this._elemento.nativeelement.style.color',
+        {
+          _index: 475,
+          title: {},
+          body: { 'directives/LinkDirective.html': {} }
+        }
+      ],
+      [
+        'this._elemento.nativeelement.style.cursor',
+        {
+          _index: 477,
+          title: {},
+          body: { 'directives/LinkDirective.html': {} }
+        }
+      ],
+      [
+        'this._formbuilder.group',
+        {
+          _index: 348,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this._paymentservice.setpayment(paymentdata).subscribe(data',
+        {
+          _index: 367,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this._usersservice.getusers().subscribe(_users',
+        {
+          _index: 289,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.btnclick.emit',
+        {
+          _index: 182,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'this.cards.find(card',
+        {
+          _index: 361,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.changestyle',
+        {
+          _index: 474,
+          title: {},
+          body: {
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.clearform',
+        {
+          _index: 368,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        "this.data['user'].id",
+        {
+          _index: 365,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.dialog.open(dialogtransaction',
+        {
+          _index: 296,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.dialog.open(simplemodalcomponent',
+        {
+          _index: 320,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.dialogref.close',
+        {
+          _index: 353,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.dialogref.close(data',
+        {
+          _index: 369,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.getusers',
+        {
+          _index: 286,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.httpclient.get(this.root_url',
+        {
+          _index: 665,
+          title: {},
+          body: {
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {}
+          }
+        }
+      ],
+      [
+        'this.httpclient.post(environment.posttransaction',
+        {
+          _index: 649,
+          title: {},
+          body: { 'injectables/PaymentService.html': {} }
+        }
+      ],
+      [
+        'this.itemselected.emit',
+        {
+          _index: 491,
+          title: {},
+          body: { 'components/ListComponent.html': {} }
+        }
+      ],
+      [
+        'this.loading',
+        {
+          _index: 355,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.logo.nativeelement.style.fill',
+        {
+          _index: 548,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'this.openfeedbackdialog(result',
+        {
+          _index: 318,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.openpaymentdialog(event.data',
+        {
+          _index: 293,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.outline',
+        {
+          _index: 179,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'this.route',
+        {
+          _index: 547,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        'this.status',
+        {
+          _index: 181,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'this.text',
+        {
+          _index: 177,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'this.textcolor',
+        {
+          _index: 476,
+          title: {},
+          body: {
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.textfeedback',
+        {
+          _index: 310,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.transactionform',
+        {
+          _index: 347,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.transactionform.controls[e.target.name].markastouched',
+        {
+          _index: 371,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.transactionform.controls[e.target.name].setvalue(this.transactionform.controls[e.target.name].value',
+        {
+          _index: 379,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.transactionform.controls[name',
+        {
+          _index: 386,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        "this.transactionform.get('creditcard').value",
+        {
+          _index: 358,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        "this.transactionform.get('paymentvalue').value",
+        {
+          _index: 359,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.transactionform.markaspristine',
+        {
+          _index: 383,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.transactionform.markasuntouched',
+        {
+          _index: 382,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.transactionform.reset',
+        {
+          _index: 381,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'this.type',
+        {
+          _index: 176,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'this.users',
+        {
+          _index: 290,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'thousands',
+        {
+          _index: 634,
+          title: {},
+          body: {
+            'modules/PaymentModule.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'title',
+        {
+          _index: 21,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        "to('desktop",
+        {
+          _index: 50,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        "to('tablet",
+        {
+          _index: 437,
+          title: {},
+          body: {
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['todos', { _index: 729, title: {}, body: { 'index.html': {} } }],
+      [
+        'top',
+        {
+          _index: 213,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['trabalhar', { _index: 720, title: {}, body: { 'index.html': {} } }],
+      ['tranquilo', { _index: 791, title: {}, body: { 'index.html': {} } }],
+      [
+        'transaction',
+        {
+          _index: 298,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        "transaction'},{'name",
+        {
+          _index: 64,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'transaction.html',
+        {
+          _index: 326,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'transactionform',
+        {
+          _index: 327,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'transactionpayload',
+        { _index: 890, title: {}, body: { 'index.html': {} } }
+      ],
+      [
+        'transação',
+        {
+          _index: 303,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'transition',
+        {
+          _index: 203,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/NavbarComponent.html': {}
+          }
+        }
+      ],
+      ['tratar', { _index: 894, title: {}, body: { 'index.html': {} } }],
+      [
+        'tree',
+        {
+          _index: 8,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'true',
+        {
+          _index: 356,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      ['tslib', { _index: 704, title: {}, body: { 'dependencies.html': {} } }],
+      ['tutorial', { _index: 749, title: {}, body: { 'index.html': {} } }],
+      ['two', { _index: 739, title: {}, body: { 'index.html': {} } }],
+      [
+        'type',
+        {
+          _index: 25,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'injectables/PaymentService.html': {},
+            'components/SimpleModalComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'um',
+        {
+          _index: 417,
+          title: {},
+          body: {
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'uma',
+        {
+          _index: 598,
+          title: {},
+          body: { 'components/PaymentComponent.html': {}, 'index.html': {} }
+        }
+      ],
+      ['unitário', { _index: 902, title: {}, body: { 'index.html': {} } }],
+      [
+        'url(src/assets/images/loading',
+        {
+          _index: 220,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      ['usando', { _index: 811, title: {}, body: { 'index.html': {} } }],
+      [
+        'useclass',
+        { _index: 636, title: {}, body: { 'modules/PaymentModule.html': {} } }
+      ],
+      [
+        'user',
+        {
+          _index: 301,
+          title: { 'interfaces/User.html': {} },
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'username',
+        {
+          _index: 266,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/ListComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'users',
+        {
+          _index: 281,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'usersservice',
+        {
+          _index: 269,
+          title: { 'injectables/UsersService.html': {} },
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'interfaces/User.html': {},
+            'injectables/UsersService.html': {},
+            'coverage.html': {}
+          }
+        }
+      ],
+      [
+        'usevalue',
+        {
+          _index: 259,
+          title: {},
+          body: {
+            'modules/ComponentsModule.html': {},
+            'modules/PaymentModule.html': {}
+          }
+        }
+      ],
+      ['usuário', { _index: 854, title: {}, body: { 'index.html': {} } }],
+      ['usuários', { _index: 850, title: {}, body: { 'index.html': {} } }],
+      ['vai', { _index: 879, title: {}, body: { 'index.html': {} } }],
+      [
+        'valid',
+        {
+          _index: 329,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'validators',
+        {
+          _index: 273,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'validators.required',
+        {
+          _index: 350,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      ['validação', { _index: 906, title: {}, body: { 'index.html': {} } }],
+      [
+        'validações',
+        {
+          _index: 346,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {}
+          }
+        }
+      ],
+      [
+        'valor',
+        {
+          _index: 375,
+          title: {},
+          body: {
+            'interfaces/DialogData.html': {},
+            'components/DialogTransaction.html': {},
+            'components/PaymentComponent.html': {},
+            'index.html': {}
+          }
+        }
+      ],
+      [
+        'value',
+        {
+          _index: 29,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'directives/LinkDirective.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'injectables/UsersService.html': {},
+            'index.html': {},
+            'miscellaneous/variables.html': {}
+          }
+        }
+      ],
+      [
+        'var',
+        {
+          _index: 56,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['variable', { _index: 679, title: {}, body: { 'coverage.html': {} } }],
+      [
+        'variables',
+        {
+          _index: 934,
+          title: { 'miscellaneous/variables.html': {} },
+          body: { 'miscellaneous/variables.html': {} }
+        }
+      ],
+      ['ver', { _index: 746, title: {}, body: { 'index.html': {} } }],
+      ['vez', { _index: 922, title: {}, body: { 'index.html': {} } }],
+      ['via', { _index: 843, title: {}, body: { 'index.html': {} } }],
+      [
+        'viewchild',
+        {
+          _index: 546,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      [
+        "viewchild('logo",
+        {
+          _index: 544,
+          title: {},
+          body: { 'components/LogoComponent.html': {} }
+        }
+      ],
+      ['voc', { _index: 727, title: {}, body: { 'index.html': {} } }],
+      [
+        'void',
+        {
+          _index: 171,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'interfaces/DialogData.html': {},
+            'interfaces/DialogData-1.html': {},
+            'components/DialogTransaction.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'directives/LinkDirective.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      ['vontade', { _index: 786, title: {}, body: { 'index.html': {} } }],
+      [
+        'válido',
+        {
+          _index: 418,
+          title: {},
+          body: { 'components/DialogTransaction.html': {}, 'index.html': {} }
+        }
+      ],
+      ['web', { _index: 706, title: {}, body: { 'dependencies.html': {} } }],
+      [
+        'weight',
+        {
+          _index: 197,
+          title: {},
+          body: {
+            'components/ButtonComponent.html': {},
+            'components/ListComponent.html': {}
+          }
+        }
+      ],
+      [
+        'white.gif',
+        {
+          _index: 221,
+          title: {},
+          body: { 'components/ButtonComponent.html': {} }
+        }
+      ],
+      [
+        'width',
+        {
+          _index: 42,
+          title: {},
+          body: {
+            'components/AppComponent.html': {},
+            'components/ButtonComponent.html': {},
+            'components/FooterComponent.html': {},
+            'components/HeaderComponent.html': {},
+            'components/ListComponent.html': {},
+            'components/LogoComponent.html': {},
+            'components/NavbarComponent.html': {},
+            'components/PaymentComponent.html': {},
+            'components/SimpleModalComponent.html': {}
+          }
+        }
+      ],
+      [
+        'youtube',
+        {
+          _index: 569,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      [
+        'yt.png',
+        {
+          _index: 571,
+          title: {},
+          body: { 'components/NavbarComponent.html': {} }
+        }
+      ],
+      ['yy', { _index: 836, title: {}, body: { 'index.html': {} } }],
+      ['yy/nome', { _index: 769, title: {}, body: { 'index.html': {} } }],
+      [
+        'zone.js',
+        { _index: 710, title: {}, body: { 'dependencies.html': {} } }
+      ],
+      [
+        'zoom',
+        {
+          _index: 100,
+          title: {},
+          body: {
+            'modules/AppModule.html': {},
+            'modules/ComponentsModule.html': {},
+            'modules/DirectivesModule.html': {},
+            'modules/PaymentModule.html': {},
+            'overview.html': {}
+          }
+        }
+      ]
+    ],
+    pipeline: ['stemmer']
+  },
+  store: {
+    'components/AppComponent.html': {
+      url: 'components/AppComponent.html',
+      title: 'component - AppComponent',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  AppComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/app.component.ts\n\n\n\n\n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-root\n            \n\n            \n                styleUrls\n                ./app.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./app.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                title\n                            \n                        \n                    \n                \n\n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor()\n                    \n                \n                        \n                            \n                                Defined in src/app/app.component.ts:10\n                            \n                        \n\n            \n        \n\n\n\n\n\n\n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            title\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         string\n\n                        \n                    \n                    \n                        \n                            Default value : 'Desafio Picpay Front-end'\n                        \n                    \n                        \n                            \n                                    Defined in src/app/app.component.ts:10\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component } from '@angular/core';\nimport AOS from 'aos';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  title = 'Desafio Picpay Front-end';\n  \n  constructor() {\n    AOS.init();\n  }\n}\n\n    \n\n    \n        \n\n  \n\n\n    \n\n    \n                \n                    ./app.component.scss\n                \n                @import 'src/assets/style/mixins';\n\n.content {\n  width: 100%;\n  min-height: calc(100vh - 101px);\n\n  @include respond-to('desktop') {\n    min-height: calc(100vh - 138px);\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '  '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'AppComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'modules/AppModule.html': {
+      url: 'modules/AppModule.html',
+      title: 'module - AppModule',
+      body:
+        "\n                   \n\n\n\n\n    Modules\n    AppModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppModule\n\n\n\ncluster_AppModule_declarations\n\n\n\ncluster_AppModule_imports\n\n\n\ncluster_AppModule_bootstrap\n\n\n\n\nAppComponent\n\nAppComponent\n\n\n\nAppModule\n\nAppModule\n\nAppModule -->\n\nAppComponent->AppModule\n\n\n\n\n\nAppComponent \n\nAppComponent \n\nAppComponent  -->\n\nAppModule->AppComponent \n\n\n\n\n\nAppRoutingModule\n\nAppRoutingModule\n\nAppModule -->\n\nAppRoutingModule->AppModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/app.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            AppComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            AppRoutingModule\n                        \n                    \n                \n                \n                    Bootstrap\n                    \n                        \n                            AppComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { BrowserModule } from '@angular/platform-browser';\nimport { NgModule } from '@angular/core';\nimport { ComponentsModule } from 'src/app/components/components.module';\nimport { AppComponent } from './app.component';\nimport { RouterModule } from '@angular/router';\nimport { AppRoutingModule } from './app-routing.module';\nimport { HttpClientModule } from '@angular/common/http';\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\n\n@NgModule({\n  declarations: [AppComponent],\n  imports: [BrowserModule, RouterModule, AppRoutingModule, HttpClientModule, ComponentsModule, BrowserAnimationsModule],\n  bootstrap: [AppComponent]\n})\nexport class AppModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'classes/AppPage.html': {
+      url: 'classes/AppPage.html',
+      title: 'class - AppPage',
+      body:
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n  Classes\n  AppPage\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            e2e/src/app.po.ts\n        \n\n\n\n\n\n            \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                getTitleText\n                            \n                            \n                                navigateTo\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n\n\n            \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            getTitleText\n                        \n                        \n                    \n                \n            \n            \n                \ngetTitleText()\n                \n            \n\n\n            \n                \n                    Defined in e2e/src/app.po.ts:8\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         any\n\n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            navigateTo\n                        \n                        \n                    \n                \n            \n            \n                \nnavigateTo()\n                \n            \n\n\n            \n                \n                    Defined in e2e/src/app.po.ts:4\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         any\n\n                    \n                \n            \n        \n    \n\n\n\n\n\n\n    \n\n\n    \n        import { browser, by, element } from \'protractor\';\n\nexport class AppPage {\n  navigateTo() {\n    return browser.get(browser.baseUrl) as Promise;\n  }\n\n  getTitleText() {\n    return element(by.css(\'app-root h1.title\')).getText() as Promise;\n  }\n}\n\n    \n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+    },
+    'modules/AppRoutingModule.html': {
+      url: 'modules/AppRoutingModule.html',
+      title: 'module - AppRoutingModule',
+      body:
+        "\n                   \n\n\n\n\n    Modules\n    AppRoutingModule\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/app-routing.module.ts\n        \n\n\n\n\n        \n            \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { Routes, RouterModule } from '@angular/router';\n\nconst routes: Routes = [\n  { path: '', redirectTo: '/pagar', pathMatch: 'full' },\n  { path: 'pagar', loadChildren: './pages/payment/payment.module#PaymentModule' },\n  { path: '404', redirectTo: '' },\n  { path: '**', redirectTo: '' }\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'components/ButtonComponent.html': {
+      url: 'components/ButtonComponent.html',
+      title: 'component - ButtonComponent',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  ButtonComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/components/atoms/button/button.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                    OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-button\n            \n\n            \n                styleUrls\n                ./button.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./button.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                            \n                                onBtnClick\n                            \n                        \n                    \n                \n\n                \n                    \n                        Inputs\n                    \n                \n                \n                    \n                        \n                            \n                                disabled\n                            \n                            \n                                outline\n                            \n                            \n                                status\n                            \n                            \n                                text\n                            \n                            \n                                type\n                            \n                        \n                    \n                \n\n                \n                    \n                        Outputs\n                    \n                \n                \n                    \n                        \n                            \n                                btnClick\n                            \n                        \n                    \n                \n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor()\n                    \n                \n                        \n                            \n                                Defined in src/app/components/atoms/button/button.component.ts:14\n                            \n                        \n\n            \n        \n\n\n    \n    Inputs\n        \n            \n                \n                    \n                        \n                        disabled\n                    \n                \n                \n                    \n                        Type :         boolean\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/atoms/button/button.component.ts:13\n                            \n                        \n            \n        \n        \n            \n                \n                    \n                        \n                        outline\n                    \n                \n                \n                    \n                        Type :         boolean\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/atoms/button/button.component.ts:11\n                            \n                        \n            \n        \n        \n            \n                \n                    \n                        \n                        status\n                    \n                \n                \n                    \n                        Type :         string\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/atoms/button/button.component.ts:12\n                            \n                        \n            \n        \n        \n            \n                \n                    \n                        \n                        text\n                    \n                \n                \n                    \n                        Type :         string\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/atoms/button/button.component.ts:10\n                            \n                        \n            \n        \n        \n            \n                \n                    \n                        \n                        type\n                    \n                \n                \n                    \n                        Type :         string\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/atoms/button/button.component.ts:9\n                            \n                        \n            \n        \n\n    \n    Outputs\n        \n            \n                \n                    \n                        \n                        btnClick\n                    \n                \n                \n                    \n                        Type :         EventEmitter\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/atoms/button/button.component.ts:14\n                            \n                        \n            \n        \n\n\n\n    \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            ngOnInit\n                        \n                        \n                    \n                \n            \n            \n                \nngOnInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/atoms/button/button.component.ts:18\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            onBtnClick\n                        \n                        \n                    \n                \n            \n            \n                \nonBtnClick()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/atoms/button/button.component.ts:25\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n\n\n\n\n\n    \n        import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  selector: 'app-button',\n  templateUrl: './button.component.html',\n  styleUrls: ['./button.component.scss']\n})\nexport class ButtonComponent implements OnInit {\n  @Input() type: string;\n  @Input() text: string;\n  @Input() outline: boolean;\n  @Input() status: string;\n  @Input() disabled: boolean;\n  @Output() btnClick = new EventEmitter();\n\n  constructor() {}\n\n  ngOnInit() {\n    this.type = this.type ? this.type : 'button';\n    this.text = this.text ? this.text : 'Enviar';\n    this.outline = this.outline ? this.outline : false;\n    this.status = this.status ? this.status : '';\n  }\n\n  onBtnClick() {\n    this.btnClick.emit();\n  }\n}\n\n    \n\n    \n        \n  {{ text }}\n\n    \n\n    \n                \n                    ./button.component.scss\n                \n                @import 'src/assets/style/colors';\n@import 'src/assets/style/mixins';\n\n.btn {\n  border: 0;\n  border-radius: 40px;\n  color: #fff;\n  width: 100%;\n  line-height: 40px;\n  padding: 2px 16px;\n  font-size: 16px;\n  font-weight: bold;\n  max-width: 154px;\n  text-align: center;\n  transition: 0.25s ease-in;\n  cursor: pointer;\n\n  &.loading {\n    position: relative;\n\n    &::before {\n      content: '';\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      border-radius: 25px;\n      background-position: center;\n      background-repeat: no-repeat;\n      background-size: contain;\n      background-image: url(src/assets/images/loading-white.gif);\n    }\n  }\n\n  &:not(.outline) {\n    background: $primary;\n\n    &.loading {\n      &::before {\n        background-color: $primary;\n      }\n    }\n\n    @include respond-to('desktop') {\n      &:hover {\n        background: $secondary;\n\n        &.loading {\n          &::before {\n            background-color: $secondary;\n          }\n        }\n      }\n    }\n  }\n\n  &.outline {\n    border: 2px solid $primary;\n    color: $primary;\n\n    &.loading {\n      background: $primary;\n      color: #fff;\n\n      &::before {\n        background-color: $primary;\n      }\n    }\n\n    @include respond-to('desktop') {\n      &:hover {\n        background: $primary;\n        color: #fff;\n      }\n    }\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '  {{ text }}'\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'ButtonComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'modules/ComponentsModule.html': {
+      url: 'modules/ComponentsModule.html',
+      title: 'module - ComponentsModule',
+      body:
+        "\n                   \n\n\n\n\n    Modules\n    ComponentsModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_ComponentsModule\n\n\n\ncluster_ComponentsModule_declarations\n\n\n\ncluster_ComponentsModule_imports\n\n\n\ncluster_ComponentsModule_exports\n\n\n\n\nButtonComponent\n\nButtonComponent\n\n\n\nComponentsModule\n\nComponentsModule\n\nComponentsModule -->\n\nButtonComponent->ComponentsModule\n\n\n\n\n\nFooterComponent\n\nFooterComponent\n\nComponentsModule -->\n\nFooterComponent->ComponentsModule\n\n\n\n\n\nHeaderComponent\n\nHeaderComponent\n\nComponentsModule -->\n\nHeaderComponent->ComponentsModule\n\n\n\n\n\nListComponent\n\nListComponent\n\nComponentsModule -->\n\nListComponent->ComponentsModule\n\n\n\n\n\nLogoComponent\n\nLogoComponent\n\nComponentsModule -->\n\nLogoComponent->ComponentsModule\n\n\n\n\n\nNavbarComponent\n\nNavbarComponent\n\nComponentsModule -->\n\nNavbarComponent->ComponentsModule\n\n\n\n\n\nSimpleModalComponent\n\nSimpleModalComponent\n\nComponentsModule -->\n\nSimpleModalComponent->ComponentsModule\n\n\n\n\n\nButtonComponent \n\nButtonComponent \n\nButtonComponent  -->\n\nComponentsModule->ButtonComponent \n\n\n\n\n\nFooterComponent \n\nFooterComponent \n\nFooterComponent  -->\n\nComponentsModule->FooterComponent \n\n\n\n\n\nHeaderComponent \n\nHeaderComponent \n\nHeaderComponent  -->\n\nComponentsModule->HeaderComponent \n\n\n\n\n\nListComponent \n\nListComponent \n\nListComponent  -->\n\nComponentsModule->ListComponent \n\n\n\n\n\nLogoComponent \n\nLogoComponent \n\nLogoComponent  -->\n\nComponentsModule->LogoComponent \n\n\n\n\n\nNavbarComponent \n\nNavbarComponent \n\nNavbarComponent  -->\n\nComponentsModule->NavbarComponent \n\n\n\n\n\nSimpleModalComponent \n\nSimpleModalComponent \n\nSimpleModalComponent  -->\n\nComponentsModule->SimpleModalComponent \n\n\n\n\n\nDirectivesModule\n\nDirectivesModule\n\nComponentsModule -->\n\nDirectivesModule->ComponentsModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/components/components.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            ButtonComponent\n                        \n                        \n                            FooterComponent\n                        \n                        \n                            HeaderComponent\n                        \n                        \n                            ListComponent\n                        \n                        \n                            LogoComponent\n                        \n                        \n                            NavbarComponent\n                        \n                        \n                            SimpleModalComponent\n                        \n                    \n                \n                \n                    EntryComponents\n                    \n                        \n                            SimpleModalComponent\n                        \n                    \n                \n                \n                    Imports\n                    \n                        \n                            DirectivesModule\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            ButtonComponent\n                        \n                        \n                            FooterComponent\n                        \n                        \n                            HeaderComponent\n                        \n                        \n                            ListComponent\n                        \n                        \n                            LogoComponent\n                        \n                        \n                            NavbarComponent\n                        \n                        \n                            SimpleModalComponent\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { LogoComponent } from './atoms/logo/logo.component';\nimport { ButtonComponent } from './atoms/button/button.component';\nimport { NavbarComponent } from './molecules/navbar/navbar.component';\nimport { DirectivesModule } from '../directives/directives.module';\nimport { RouterModule } from '@angular/router';\nimport { HeaderComponent } from './organisms/header/header.component';\nimport { FooterComponent } from './organisms/footer/footer.component';\nimport { ListComponent } from './molecules/list/list.component';\nimport { FormsModule } from '@angular/forms';\nimport { AngularPaginatorModule } from 'angular-paginator';\nimport { SimpleModalComponent } from './molecules/simple-modal/simple-modal.component';\nimport { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';\nimport { MatDialogModule } from '@angular/material/dialog';\nimport { MatIconModule } from '@angular/material/icon';\n\n@NgModule({\n  declarations: [\n    LogoComponent,\n    ButtonComponent,\n    NavbarComponent,\n    HeaderComponent,\n    FooterComponent,\n    ListComponent,\n    SimpleModalComponent\n  ],\n  imports: [\n    CommonModule,\n    DirectivesModule,\n    RouterModule,\n    FormsModule,\n    AngularPaginatorModule,\n    MatDialogModule,\n    MatIconModule\n  ],\n  exports: [\n    LogoComponent,\n    ButtonComponent,\n    NavbarComponent,\n    HeaderComponent,\n    FooterComponent,\n    ListComponent,\n    SimpleModalComponent\n  ],\n  entryComponents: [SimpleModalComponent],\n  providers: [\n    { provide: MatDialogRef, useValue: {} },\n    { provide: MAT_DIALOG_DATA, useValue: [] }\n  ]\n})\nexport class ComponentsModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'interfaces/DialogData.html': {
+      url: 'interfaces/DialogData.html',
+      title: 'interface - DialogData',
+      body:
+        "\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n  Interfaces\n  DialogData\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/pages/payment/payment.component.ts\n        \n\n\n\n        \n            Index\n            \n                \n                    \n                        \n                            Properties\n                        \n                    \n                    \n                        \n                            \n                                \n                                        id\n                                \n                                \n                                        img\n                                \n                                \n                                        name\n                                \n                                \n                                        username\n                                \n                            \n                        \n                    \n                \n            \n        \n\n\n\n            \n                Properties\n                    \n                        \n                                \n                                    \n                                        \n                                        id\n                                    \n                                \n                                \n                                    \n                                        id:         number\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         number\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        img\n                                    \n                                \n                                \n                                    \n                                        img:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        name\n                                    \n                                \n                                \n                                    \n                                        name:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        username\n                                    \n                                \n                                \n                                    \n                                        username:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n            \n    \n\n\n    \n        import { Component, OnInit, Inject } from '@angular/core';\nimport { UsersService } from 'src/app/services/users/users.service';\nimport { MatDialogRef } from '@angular/material';\nimport { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';\nimport { FormBuilder, Validators, FormGroup } from '@angular/forms';\nimport { PaymentService } from '../../services/payment/payment.service';\nimport { SimpleModalComponent } from 'src/app/components/molecules/simple-modal/simple-modal.component';\n\nexport interface DialogData {\n  id: number;\n  name: string;\n  img: string;\n  username: string;\n}\n\n@Component({\n  selector: 'app-payment',\n  templateUrl: './payment.component.html',\n  styleUrls: ['./payment.component.scss']\n})\nexport class PaymentComponent implements OnInit {\n  users: any;\n  textFeedback: string;\n\n  constructor(private _usersService: UsersService, public dialog: MatDialog) {}\n\n  ngOnInit() {\n    this.getUsers();\n  }\n\n  private getUsers(): void {\n    this._usersService.getUsers().subscribe(_users => (this.users = _users));\n  }\n\n  handleItem(event): void {\n    this.openPaymentDialog(event.data);\n  }\n\n  openPaymentDialog(user): void {\n    const dialogRef = this.dialog.open(DialogTransaction, {\n      panelClass: ['transaction-dialog', 'custom-modal'],\n      data: { user: user }\n    });\n\n    /** Após a transação, abre modal de feedback com response */\n    dialogRef.afterClosed().subscribe(result => {\n      if (result) {\n        this.textFeedback = result.success\n          ? 'O pagamento foi concluído com sucesso!'\n          : 'O pagamento não foi concluído com sucesso.';\n        this.openFeedbackDialog(result);\n      }\n    });\n  }\n\n  openFeedbackDialog(feedback): void {\n    this.dialog.open(SimpleModalComponent, {\n      panelClass: ['feedback-dialog', 'simple-modal', 'custom-modal'],\n      data: {\n        title: 'Recibo de Pagamento',\n        text: this.textFeedback,\n        success: feedback.success,\n        status: feedback.status,\n        btn: 'Ok'\n      }\n    });\n  }\n}\n\n/** MODAL TRANSACTION */\n\n@Component({\n  selector: 'dialog-transaction',\n  templateUrl: 'dialog-transaction.html'\n})\nexport class DialogTransaction {\n  transactionForm: FormGroup;\n  loading = false;\n  cards = [\n    // valid card\n    {\n      card_number: '1111111111111111',\n      cvv: 789,\n      expiry_date: '01/18'\n    },\n    // invalid card\n    {\n      card_number: '4111111111111234',\n      cvv: 123,\n      expiry_date: '01/20'\n    }\n  ];\n\n  constructor(\n    public dialogRef: MatDialogRef,\n    @Inject(MAT_DIALOG_DATA) public data: DialogData,\n    private _formBuilder: FormBuilder,\n    private _paymentService: PaymentService\n  ) {\n    // Formulário de pagamento e validações\n    this.transactionForm = this._formBuilder.group({\n      paymentValue: [0, [Validators.required]],\n      creditCard: ['', [Validators.required]]\n    });\n  }\n\n  closeModal(): void {\n    this.dialogRef.close();\n  }\n\n  onSubmit(): void {\n    this.loading = true;\n    let creditCardNumber = this.transactionForm.get('creditCard').value,\n      paymentValue = this.transactionForm.get('paymentValue').value,\n      paymentData = this.cards.find(card => creditCardNumber === card.card_number.slice(-4));\n\n    paymentData['destination_user_id'] = this.data['user'].id;\n    paymentData['value'] = paymentValue;\n\n    this._paymentService.setPayment(paymentData).subscribe(data => {\n      this.loading = false;\n      this.clearForm();\n      this.dialogRef.close(data);\n    });\n  }\n\n  onChange(e): void {\n    this.transactionForm.controls[e.target.name].markAsTouched;\n\n    // Garante que o campo de valor terá o valor monetário limpo\n    this.transactionForm.controls[e.target.name].setValue(this.transactionForm.controls[e.target.name].value);\n  }\n\n  clearForm(): void {\n    this.transactionForm.reset();\n    this.transactionForm.markAsUntouched();\n    this.transactionForm.markAsPristine();\n    Object.keys(this.transactionForm.controls).forEach(name => {\n      let control = this.transactionForm.controls[name];\n      control.setErrors({ invalid: null });\n    });\n  }\n}\n\n    \n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'interfaces/DialogData-1.html': {
+      url: 'interfaces/DialogData-1.html',
+      title: 'interface - DialogData-1',
+      body:
+        "\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n  Interfaces\n  DialogData\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/components/molecules/simple-modal/simple-modal.component.ts\n        \n\n\n\n        \n            Index\n            \n                \n                    \n                        \n                            Properties\n                        \n                    \n                    \n                        \n                            \n                                \n                                        btn\n                                \n                                \n                                        status\n                                \n                                \n                                        success\n                                \n                                \n                                        text\n                                \n                                \n                                        title\n                                \n                            \n                        \n                    \n                \n            \n        \n\n\n\n            \n                Properties\n                    \n                        \n                                \n                                    \n                                        \n                                        btn\n                                    \n                                \n                                \n                                    \n                                        btn:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        status\n                                    \n                                \n                                \n                                    \n                                        status:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        success\n                                    \n                                \n                                \n                                    \n                                        success:         boolean\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         boolean\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        text\n                                    \n                                \n                                \n                                    \n                                        text:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        title\n                                    \n                                \n                                \n                                    \n                                        title:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n            \n    \n\n\n    \n        import { Component, OnInit, Inject } from '@angular/core';\nimport { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';\n\nexport interface DialogData {\n  title: string;\n  text: string;\n  success: boolean;\n  status: string;\n  btn: string;\n}\n\n@Component({\n  selector: 'app-simple-modal',\n  templateUrl: './simple-modal.component.html',\n  styleUrls: ['./simple-modal.component.scss']\n})\nexport class SimpleModalComponent implements OnInit {\n  constructor(public dialogRef: MatDialogRef, @Inject(MAT_DIALOG_DATA) public data: DialogData) {}\n\n  ngOnInit() {}\n\n  closeModal(): void {\n    this.dialogRef.close();\n  }\n}\n\n    \n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'components/DialogTransaction.html': {
+      url: 'components/DialogTransaction.html',
+      title: 'component - DialogTransaction',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  DialogTransaction\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/pages/payment/payment.component.ts\n\n\n    \n        Description\n    \n    \n        MODAL TRANSACTION \n\n    \n\n\n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                dialog-transaction\n            \n\n\n\n\n            \n                templateUrl\n                dialog-transaction.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                cards\n                            \n                            \n                                    Public\n                                data\n                            \n                            \n                                    Public\n                                dialogRef\n                            \n                            \n                                loading\n                            \n                            \n                                transactionForm\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                clearForm\n                            \n                            \n                                closeModal\n                            \n                            \n                                onChange\n                            \n                            \n                                onSubmit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(dialogRef: MatDialogRef, data: DialogData, _formBuilder: FormBuilder, _paymentService: PaymentService)\n                    \n                \n                        \n                            \n                                Defined in src/app/pages/payment/payment.component.ts:92\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        dialogRef\n                                                  \n                                                        \n                                                                        MatDialogRef\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                                \n                                                        data\n                                                  \n                                                        \n                                                                        DialogData\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                                \n                                                        _formBuilder\n                                                  \n                                                        \n                                                                        FormBuilder\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                                \n                                                        _paymentService\n                                                  \n                                                        \n                                                                        PaymentService\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            clearForm\n                        \n                        \n                    \n                \n            \n            \n                \nclearForm()\n                \n            \n\n\n            \n                \n                    Defined in src/app/pages/payment/payment.component.ts:134\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            closeModal\n                        \n                        \n                    \n                \n            \n            \n                \ncloseModal()\n                \n            \n\n\n            \n                \n                    Defined in src/app/pages/payment/payment.component.ts:107\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            onChange\n                        \n                        \n                    \n                \n            \n            \n                \nonChange(e)\n                \n            \n\n\n            \n                \n                    Defined in src/app/pages/payment/payment.component.ts:127\n                \n            \n\n\n            \n                \n\n                    \n                        Parameters :\n                        \n                            \n                                \n                                    Name\n                                    Optional\n                                \n                            \n                            \n                                \n                                    e\n\n                                    \n                                        No\n                                    \n\n\n                                \n                            \n                        \n                    \n                    \n                    \n                    \n                        Returns :         void\n\n                    \n                    \n                        \n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            onSubmit\n                        \n                        \n                    \n                \n            \n            \n                \nonSubmit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/pages/payment/payment.component.ts:111\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            cards\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     []\n\n                        \n                    \n                    \n                        \n                            Default value : [\n    // valid card\n    {\n      card_number: '1111111111111111',\n      cvv: 789,\n      expiry_date: '01/18'\n    },\n    // invalid card\n    {\n      card_number: '4111111111111234',\n      cvv: 123,\n      expiry_date: '01/20'\n    }\n  ]\n                        \n                    \n                        \n                            \n                                    Defined in src/app/pages/payment/payment.component.ts:79\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            data\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         DialogData\n\n                        \n                    \n                    \n                        \n                            Decorators : \n                            \n                            \n                                @Inject(MAT_DIALOG_DATA)\n                            \n                        \n                    \n                        \n                            \n                                    Defined in src/app/pages/payment/payment.component.ts:96\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            dialogRef\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         MatDialogRef\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/pages/payment/payment.component.ts:95\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            loading\n                            \n                        \n                    \n                \n                    \n                        \n                            Default value : false\n                        \n                    \n                        \n                            \n                                    Defined in src/app/pages/payment/payment.component.ts:78\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            transactionForm\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         FormGroup\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/pages/payment/payment.component.ts:77\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit, Inject } from '@angular/core';\nimport { UsersService } from 'src/app/services/users/users.service';\nimport { MatDialogRef } from '@angular/material';\nimport { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';\nimport { FormBuilder, Validators, FormGroup } from '@angular/forms';\nimport { PaymentService } from '../../services/payment/payment.service';\nimport { SimpleModalComponent } from 'src/app/components/molecules/simple-modal/simple-modal.component';\n\nexport interface DialogData {\n  id: number;\n  name: string;\n  img: string;\n  username: string;\n}\n\n@Component({\n  selector: 'app-payment',\n  templateUrl: './payment.component.html',\n  styleUrls: ['./payment.component.scss']\n})\nexport class PaymentComponent implements OnInit {\n  users: any;\n  textFeedback: string;\n\n  constructor(private _usersService: UsersService, public dialog: MatDialog) {}\n\n  ngOnInit() {\n    this.getUsers();\n  }\n\n  private getUsers(): void {\n    this._usersService.getUsers().subscribe(_users => (this.users = _users));\n  }\n\n  handleItem(event): void {\n    this.openPaymentDialog(event.data);\n  }\n\n  openPaymentDialog(user): void {\n    const dialogRef = this.dialog.open(DialogTransaction, {\n      panelClass: ['transaction-dialog', 'custom-modal'],\n      data: { user: user }\n    });\n\n    /** Após a transação, abre modal de feedback com response */\n    dialogRef.afterClosed().subscribe(result => {\n      if (result) {\n        this.textFeedback = result.success\n          ? 'O pagamento foi concluído com sucesso!'\n          : 'O pagamento não foi concluído com sucesso.';\n        this.openFeedbackDialog(result);\n      }\n    });\n  }\n\n  openFeedbackDialog(feedback): void {\n    this.dialog.open(SimpleModalComponent, {\n      panelClass: ['feedback-dialog', 'simple-modal', 'custom-modal'],\n      data: {\n        title: 'Recibo de Pagamento',\n        text: this.textFeedback,\n        success: feedback.success,\n        status: feedback.status,\n        btn: 'Ok'\n      }\n    });\n  }\n}\n\n/** MODAL TRANSACTION */\n\n@Component({\n  selector: 'dialog-transaction',\n  templateUrl: 'dialog-transaction.html'\n})\nexport class DialogTransaction {\n  transactionForm: FormGroup;\n  loading = false;\n  cards = [\n    // valid card\n    {\n      card_number: '1111111111111111',\n      cvv: 789,\n      expiry_date: '01/18'\n    },\n    // invalid card\n    {\n      card_number: '4111111111111234',\n      cvv: 123,\n      expiry_date: '01/20'\n    }\n  ];\n\n  constructor(\n    public dialogRef: MatDialogRef,\n    @Inject(MAT_DIALOG_DATA) public data: DialogData,\n    private _formBuilder: FormBuilder,\n    private _paymentService: PaymentService\n  ) {\n    // Formulário de pagamento e validações\n    this.transactionForm = this._formBuilder.group({\n      paymentValue: [0, [Validators.required]],\n      creditCard: ['', [Validators.required]]\n    });\n  }\n\n  closeModal(): void {\n    this.dialogRef.close();\n  }\n\n  onSubmit(): void {\n    this.loading = true;\n    let creditCardNumber = this.transactionForm.get('creditCard').value,\n      paymentValue = this.transactionForm.get('paymentValue').value,\n      paymentData = this.cards.find(card => creditCardNumber === card.card_number.slice(-4));\n\n    paymentData['destination_user_id'] = this.data['user'].id;\n    paymentData['value'] = paymentValue;\n\n    this._paymentService.setPayment(paymentData).subscribe(data => {\n      this.loading = false;\n      this.clearForm();\n      this.dialogRef.close(data);\n    });\n  }\n\n  onChange(e): void {\n    this.transactionForm.controls[e.target.name].markAsTouched;\n\n    // Garante que o campo de valor terá o valor monetário limpo\n    this.transactionForm.controls[e.target.name].setValue(this.transactionForm.controls[e.target.name].value);\n  }\n\n  clearForm(): void {\n    this.transactionForm.reset();\n    this.transactionForm.markAsUntouched();\n    this.transactionForm.markAsPristine();\n    Object.keys(this.transactionForm.controls).forEach(name => {\n      let control = this.transactionForm.controls[name];\n      control.setErrors({ invalid: null });\n    });\n  }\n}\n\n    \n\n    \n        \n  Pagamento para {{ data.user.name }}\n  close\n\n\n\n  \n    Insira os dados para efetuar o pagamento:\n\n    \n      *Valor\n      \n      \n        Insira um valor válido\n      \n      \n        O valor é obrigatório\n      \n    \n\n    \n      *Cartão de Crédito\n      \n        Selecione\n        \n          Cartão final {{ card.card_number.slice(-4) }}\n        \n      \n    \n\n  \n\n\n\n  \n\n    \n\n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '  Pagamento para {{ data.user.name }}  close      Insira os dados para efetuar o pagamento:          *Valor                    Insira um valor válido                    O valor é obrigatório                    *Cartão de Crédito              Selecione                  Cartão final {{ card.card_number.slice(-4) }}                      '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'DialogTransaction'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'modules/DirectivesModule.html': {
+      url: 'modules/DirectivesModule.html',
+      title: 'module - DirectivesModule',
+      body:
+        "\n                   \n\n\n\n\n    Modules\n    DirectivesModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_DirectivesModule\n\n\n\ncluster_DirectivesModule_declarations\n\n\n\ncluster_DirectivesModule_exports\n\n\n\n\nLinkDirective\n\nLinkDirective\n\n\n\nDirectivesModule\n\nDirectivesModule\n\nDirectivesModule -->\n\nLinkDirective->DirectivesModule\n\n\n\n\n\nLinkDirective \n\nLinkDirective \n\nLinkDirective  -->\n\nDirectivesModule->LinkDirective \n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/directives/directives.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            LinkDirective\n                        \n                    \n                \n                \n                    Exports\n                    \n                        \n                            LinkDirective\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { LinkDirective } from './link/link.directive';\n\n@NgModule({\n  declarations: [LinkDirective],\n  imports: [CommonModule],\n  exports: [LinkDirective]\n})\nexport class DirectivesModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'components/FooterComponent.html': {
+      url: 'components/FooterComponent.html',
+      title: 'component - FooterComponent',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  FooterComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/components/organisms/footer/footer.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                    OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-footer\n            \n\n            \n                styleUrls\n                ./footer.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./footer.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor()\n                    \n                \n                        \n                            \n                                Defined in src/app/components/organisms/footer/footer.component.ts:8\n                            \n                        \n\n            \n        \n\n\n\n\n\n\n    \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            ngOnInit\n                        \n                        \n                    \n                \n            \n            \n                \nngOnInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/organisms/footer/footer.component.ts:11\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n\n\n\n\n\n    \n        import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-footer',\n  templateUrl: './footer.component.html',\n  styleUrls: ['./footer.component.scss']\n})\nexport class FooterComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit() {}\n}\n\n    \n\n    \n        \n  \n    \n  \n\n    \n\n    \n                \n                    ./footer.component.scss\n                \n                @import 'src/assets/style/mixins';\n@import 'src/assets/style/colors';\n\n.footer {\n  width: 100%;\n  padding: 10px 0;\n  background-color: $dark;\n\n  @include respond-to('tablet') {\n    padding: 15px 0;\n  }\n\n  .container {\n    display: flex;\n    justify-content: center;\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '        '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'FooterComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'components/HeaderComponent.html': {
+      url: 'components/HeaderComponent.html',
+      title: 'component - HeaderComponent',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  HeaderComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/components/organisms/header/header.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                    OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-header\n            \n\n            \n                styleUrls\n                ./header.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./header.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor()\n                    \n                \n                        \n                            \n                                Defined in src/app/components/organisms/header/header.component.ts:8\n                            \n                        \n\n            \n        \n\n\n\n\n\n\n    \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            ngOnInit\n                        \n                        \n                    \n                \n            \n            \n                \nngOnInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/organisms/header/header.component.ts:11\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n\n\n\n\n\n    \n        import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-header',\n  templateUrl: './header.component.html',\n  styleUrls: ['./header.component.scss']\n})\nexport class HeaderComponent implements OnInit {\n  constructor() {}\n\n  ngOnInit() {}\n}\n\n    \n\n    \n        \n  \n    \n    \n  \n\n    \n\n    \n                \n                    ./header.component.scss\n                \n                @import 'src/assets/style/mixins';\n\n.header {\n  width: 100%;\n  padding: 10px 0;\n  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);\n\n  @include respond-to('tablet') {\n    padding: 20px 0;\n  }\n\n  .container {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n  }\n}\n\n::ng-deep {\n  .header {\n    @include respond-to('tablet') {\n      .logo {\n        width: 100px;\n      }\n    }\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '            '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'HeaderComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'directives/LinkDirective.html': {
+      url: 'directives/LinkDirective.html',
+      title: 'directive - LinkDirective',
+      body:
+        "\n                   \n\n\n\n\n\n\n\n  Directives\n  LinkDirective\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/directives/link/link.directive.ts\n        \n\n\n            \n                Implements\n            \n            \n                            OnInit\n            \n\n\n        \n            Metadata\n            \n                \n\n                    \n                        Selector\n                        [link]\n                    \n\n                \n            \n        \n\n            \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                    Private\n                                changeStyle\n                            \n                            \n                                    Public\n                                ngOnInit\n                            \n                        \n                    \n                \n\n                \n                    \n                        Inputs\n                    \n                \n                \n                    \n                        \n                            \n                                textColor\n                            \n                        \n                    \n                \n\n\n\n\n        \n    \n\n\n            \n    Constructor\n        \n            \n                \n                    \nconstructor(_elemento: ElementRef)\n                    \n                \n                        \n                            \n                                Defined in src/app/directives/link/link.directive.ts:7\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        _elemento\n                                                  \n                                                        \n                                                                        ElementRef\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n            \n    Inputs\n        \n            \n                \n                    \n                        \n                        textColor\n                    \n                \n                \n                    \n                        Type :         string\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/directives/link/link.directive.ts:7\n                            \n                        \n            \n        \n\n\n\n\n            \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            Private\n                            changeStyle\n                        \n                        \n                    \n                \n            \n            \n                \n                    \n                    changeStyle(color: string)\n                \n            \n\n\n            \n                \n                    Defined in src/app/directives/link/link.directive.ts:14\n                \n            \n\n\n            \n                \n\n                    \n                        Parameters :\n                        \n                            \n                                \n                                    Name\n                                    Type\n                                    Optional\n                                    Default value\n                                \n                            \n                            \n                                \n                                    color\n                                    \n                                                string\n                                    \n\n                                    \n                                        No\n                                    \n\n                                    \n                                        '#0d9855'\n                                    \n\n                                \n                            \n                        \n                    \n                    \n                    \n                    \n                        Returns :         void\n\n                    \n                    \n                        \n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            Public\n                            ngOnInit\n                        \n                        \n                    \n                \n            \n            \n                \n                    \n                    ngOnInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/directives/link/link.directive.ts:10\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n\n\n\n    \n\n\n    \n        import { Directive, ElementRef, Input, OnInit } from '@angular/core';\n\n@Directive({\n  selector: '[link]'\n})\nexport class LinkDirective implements OnInit {\n  @Input() textColor: string;\n  constructor(private _elemento: ElementRef) {}\n\n  public ngOnInit() {\n    this.changeStyle();\n  }\n\n  private changeStyle(color: string = '#0d9855') {\n    this._elemento.nativeElement.style.color = this.textColor ? this.textColor : color;\n    this._elemento.nativeElement.style.cursor = 'pointer';\n  }\n}\n\n    \n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'components/ListComponent.html': {
+      url: 'components/ListComponent.html',
+      title: 'component - ListComponent',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  ListComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/components/molecules/list/list.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                    OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-list\n            \n\n            \n                styleUrls\n                ./list.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./list.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                clickItem\n                            \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n                \n                    \n                        Inputs\n                    \n                \n                \n                    \n                        \n                            \n                                items\n                            \n                        \n                    \n                \n\n                \n                    \n                        Outputs\n                    \n                \n                \n                    \n                        \n                            \n                                itemSelected\n                            \n                        \n                    \n                \n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor()\n                    \n                \n                        \n                            \n                                Defined in src/app/components/molecules/list/list.component.ts:10\n                            \n                        \n\n            \n        \n\n\n    \n    Inputs\n        \n            \n                \n                    \n                        \n                        items\n                    \n                \n                \n                    \n                        Type :     Array\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/molecules/list/list.component.ts:9\n                            \n                        \n            \n        \n\n    \n    Outputs\n        \n            \n                \n                    \n                        \n                        itemSelected\n                    \n                \n                \n                    \n                        Type :         EventEmitter\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/molecules/list/list.component.ts:10\n                            \n                        \n            \n        \n\n\n\n    \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            clickItem\n                        \n                        \n                    \n                \n            \n            \n                \nclickItem(item: any)\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/molecules/list/list.component.ts:16\n                \n            \n\n\n            \n                \n\n                    \n                        Parameters :\n                        \n                            \n                                \n                                    Name\n                                    Type\n                                    Optional\n                                \n                            \n                            \n                                \n                                    item\n                                    \n                                                any\n                                    \n\n                                    \n                                        No\n                                    \n\n\n                                \n                            \n                        \n                    \n                    \n                    \n                    \n                        Returns :         void\n\n                    \n                    \n                        \n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            ngOnInit\n                        \n                        \n                    \n                \n            \n            \n                \nngOnInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/molecules/list/list.component.ts:14\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n\n\n\n\n\n    \n        import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  selector: 'app-list',\n  templateUrl: './list.component.html',\n  styleUrls: ['./list.component.scss']\n})\nexport class ListComponent implements OnInit {\n  @Input() items: Array;\n  @Output() itemSelected = new EventEmitter();\n\n  constructor() {}\n\n  ngOnInit() {}\n\n  clickItem(item: any) {\n    this.itemSelected.emit({ data: item });\n  }\n}\n\n    \n\n    \n        \n  \n    \n      \n      \n        \n          {{ item.name }}\n        \n        \n          ID: {{ item.id }}\n        \n        \n          Username: {{ item.username }}\n        \n      \n    \n\n    \n  \n\n\n\n\n    \n\n    \n                \n                    ./list.component.scss\n                \n                @import 'src/assets/style/colors';\n@import 'src/assets/style/mixins';\n\n.list {\n  justify-content: center;\n\n  @include respond-to('desktop') {\n    display: grid;\n    column-gap: 60px;\n    grid-template-columns: repeat(2, 1fr);\n    margin-top: 50px;\n  }\n\n  &__item {\n    display: flex;\n    justify-content: space-between;\n    border-top: 1px solid $light-border;\n    margin-top: 20px;\n    padding-top: 20px;\n\n    &:first-child {\n      padding-top: 0;\n      border: 0;\n      margin-top: 0;\n    }\n\n    @include respond-to('desktop') {\n      margin-top: 30px;\n      padding-top: 30px;\n\n      &:nth-child(2) {\n        padding-top: 0;\n        border: 0;\n        margin-top: 0;\n      }\n    }\n\n    &__infos {\n      display: flex;\n    }\n\n    &__btn {\n      min-width: 86px;\n\n      @include respond-to('desktop') {\n        min-width: 120px;\n        width: 120px;\n      }\n    }\n  }\n}\n\n::ng-deep {\n  .pagination {\n    justify-content: center;\n    margin: 30px 0;\n\n    @include respond-to('desktop') {\n      margin: 50px 0 70px;\n    }\n  }\n}\n\n.info {\n  &__img {\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    margin-right: 10px;\n  }\n\n  &__text {\n    display: block;\n\n    & > span {\n      display: block;\n    }\n\n    &__name {\n      color: $dark;\n      font-weight: 500;\n      font-size: 16px;\n\n      @include respond-to('desktop') {\n        font-size: 18px;\n      }\n    }\n\n    &__id,\n    &__username {\n      color: $light-text;\n      font-size: 12px;\n\n      @include respond-to('desktop') {\n        font-size: 14px;\n      }\n    }\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '                                    {{ item.name }}                          ID: {{ item.id }}                          Username: {{ item.username }}                        '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'ListComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'components/LogoComponent.html': {
+      url: 'components/LogoComponent.html',
+      title: 'component - LogoComponent',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  LogoComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/components/atoms/logo/logo.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                    OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-logo\n            \n\n            \n                styleUrls\n                ./logo.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./logo.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                logo\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                    Private\n                                changeStyle\n                            \n                            \n                                ngAfterViewInit\n                            \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n                \n                    \n                        Inputs\n                    \n                \n                \n                    \n                        \n                            \n                                route\n                            \n                            \n                                small\n                            \n                            \n                                textColor\n                            \n                        \n                    \n                \n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor()\n                    \n                \n                        \n                            \n                                Defined in src/app/components/atoms/logo/logo.component.ts:13\n                            \n                        \n\n            \n        \n\n\n    \n    Inputs\n        \n            \n                \n                    \n                        \n                        route\n                    \n                \n                \n                    \n                        Type :         string\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/atoms/logo/logo.component.ts:10\n                            \n                        \n            \n        \n        \n            \n                \n                    \n                        \n                        small\n                    \n                \n                \n                    \n                        Type :         boolean\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/atoms/logo/logo.component.ts:12\n                            \n                        \n            \n        \n        \n            \n                \n                    \n                        \n                        textColor\n                    \n                \n                \n                    \n                        Type :         string\n\n                    \n                \n                        \n                            \n                                    Defined in src/app/components/atoms/logo/logo.component.ts:11\n                            \n                        \n            \n        \n\n\n\n\n    \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            Private\n                            changeStyle\n                        \n                        \n                    \n                \n            \n            \n                \n                    \n                    changeStyle(color: string)\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/atoms/logo/logo.component.ts:25\n                \n            \n\n\n            \n                \n\n                    \n                        Parameters :\n                        \n                            \n                                \n                                    Name\n                                    Type\n                                    Optional\n                                    Default value\n                                \n                            \n                            \n                                \n                                    color\n                                    \n                                                string\n                                    \n\n                                    \n                                        No\n                                    \n\n                                    \n                                        '#0d9855'\n                                    \n\n                                \n                            \n                        \n                    \n                    \n                    \n                    \n                        Returns :         void\n\n                    \n                    \n                        \n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            ngAfterViewInit\n                        \n                        \n                    \n                \n            \n            \n                \nngAfterViewInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/atoms/logo/logo.component.ts:21\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            ngOnInit\n                        \n                        \n                    \n                \n            \n            \n                \nngOnInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/atoms/logo/logo.component.ts:17\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            logo\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         any\n\n                        \n                    \n                    \n                        \n                            Decorators : \n                            \n                            \n                                @ViewChild('logo', {static: false})\n                            \n                        \n                    \n                        \n                            \n                                    Defined in src/app/components/atoms/logo/logo.component.ts:13\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit, Input } from '@angular/core';\nimport { ViewChild } from '@angular/core';\n\n@Component({\n  selector: 'app-logo',\n  templateUrl: './logo.component.html',\n  styleUrls: ['./logo.component.scss']\n})\nexport class LogoComponent implements OnInit {\n  @Input() route: string;\n  @Input() textColor: string;\n  @Input() small: boolean;\n  @ViewChild('logo', { static: false }) logo: any;\n\n  constructor() {}\n\n  ngOnInit() {\n    this.route ? this.route : '/';\n  }\n\n  ngAfterViewInit() {\n    this.changeStyle();\n  }\n\n  private changeStyle(color: string = '#0d9855') {\n    this.logo.nativeElement.style.fill = this.textColor ? this.textColor : color;\n  }\n}\n\n    \n\n    \n        \n  \n  \n\n    \n\n    \n                \n                    ./logo.component.scss\n                \n                @import 'src/assets/style/colors';\n@import 'src/assets/style/mixins';\n\n.logo {\n  fill: $secondary;\n  width: 100px;\n  outline: none;\n  cursor: pointer;\n\n  @include respond-to('tablet') {\n    width: 120px;\n  }\n\n  &.small {\n    width: 80px;\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '    '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'LogoComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'components/NavbarComponent.html': {
+      url: 'components/NavbarComponent.html',
+      title: 'component - NavbarComponent',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  NavbarComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/components/molecules/navbar/navbar.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                    OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-navbar\n            \n\n            \n                styleUrls\n                ./navbar.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./navbar.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                links\n                            \n                            \n                                socials\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor()\n                    \n                \n                        \n                            \n                                Defined in src/app/components/molecules/navbar/navbar.component.ts:31\n                            \n                        \n\n            \n        \n\n\n\n\n\n\n    \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            ngOnInit\n                        \n                        \n                    \n                \n            \n            \n                \nngOnInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/molecules/navbar/navbar.component.ts:35\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            links\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     []\n\n                        \n                    \n                    \n                        \n                            Default value : [\n    {\n      text: 'Sobre',\n      router: '/'\n    },\n    {\n      text: 'Pagar',\n      router: '/pagar'\n    }\n  ]\n                        \n                    \n                        \n                            \n                                    Defined in src/app/components/molecules/navbar/navbar.component.ts:9\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            socials\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     []\n\n                        \n                    \n                    \n                        \n                            Default value : [\n    {\n      alt: 'Linkedin',\n      href: 'https://www.linkedin.com/company/picpay',\n      src: 'https://picpay.com/static/images/ico-lk.png'\n    },\n    {\n      alt: 'Youtube',\n      href: 'https://www.youtube.com/user/PicPay',\n      src: 'https://picpay.com/static/images/ico-yt.png'\n    }\n  ]\n                        \n                    \n                        \n                            \n                                    Defined in src/app/components/molecules/navbar/navbar.component.ts:20\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-navbar',\n  templateUrl: './navbar.component.html',\n  styleUrls: ['./navbar.component.scss']\n})\nexport class NavbarComponent implements OnInit {\n  links = [\n    {\n      text: 'Sobre',\n      router: '/'\n    },\n    {\n      text: 'Pagar',\n      router: '/pagar'\n    }\n  ];\n\n  socials = [\n    {\n      alt: 'Linkedin',\n      href: 'https://www.linkedin.com/company/picpay',\n      src: 'https://picpay.com/static/images/ico-lk.png'\n    },\n    {\n      alt: 'Youtube',\n      href: 'https://www.youtube.com/user/PicPay',\n      src: 'https://picpay.com/static/images/ico-yt.png'\n    }\n  ];\n\n  constructor() {}\n\n  ngOnInit() {}\n}\n\n    \n\n    \n        \n  \n    \n      {{ link.text }}\n    \n    \n      \n        \n      \n    \n  \n\n    \n\n    \n                \n                    ./navbar.component.scss\n                \n                @import 'src/assets/style/colors';\n@import 'src/assets/style/mixins';\n\n.navbar {\n  padding: 0;\n\n  &__list {\n    list-style: none;\n    display: flex;\n    align-items: center;\n    margin-bottom: 0;\n  }\n}\n\n.item {\n  margin-right: 10px;\n\n  @include respond-to('tablet') {\n    margin-right: 20px;\n  }\n\n  &:last-child {\n    margin-right: 0;\n  }\n\n  &__link {\n    margin-right: 10px;\n\n    &:last-child {\n      margin-right: 0;\n    }\n  }\n\n  &__social {\n    border-radius: 50%;\n    transition: 0.25s ease-in;\n    height: 34px;\n    width: 34px;\n    display: inline-block;\n    margin-right: 5px;\n\n    &:last-child {\n      margin-right: 0;\n    }\n\n    @include respond-to('desktop') {\n      &:hover {\n        transition: 0.25s ease-in;\n        background-color: rgba($primary, 0.1);\n      }\n    }\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '            {{ link.text }}                                  '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'NavbarComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'components/PaymentComponent.html': {
+      url: 'components/PaymentComponent.html',
+      title: 'component - PaymentComponent',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  PaymentComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/pages/payment/payment.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                    OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-payment\n            \n\n            \n                styleUrls\n                ./payment.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./payment.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                dialog\n                            \n                            \n                                textFeedback\n                            \n                            \n                                users\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                    Private\n                                getUsers\n                            \n                            \n                                handleItem\n                            \n                            \n                                ngOnInit\n                            \n                            \n                                openFeedbackDialog\n                            \n                            \n                                openPaymentDialog\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(_usersService: UsersService, dialog: MatDialog)\n                    \n                \n                        \n                            \n                                Defined in src/app/pages/payment/payment.component.ts:23\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        _usersService\n                                                  \n                                                        \n                                                                        UsersService\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                                \n                                                        dialog\n                                                  \n                                                        \n                                                                    MatDialog\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            Private\n                            getUsers\n                        \n                        \n                    \n                \n            \n            \n                \n                    \n                    getUsers()\n                \n            \n\n\n            \n                \n                    Defined in src/app/pages/payment/payment.component.ts:31\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            handleItem\n                        \n                        \n                    \n                \n            \n            \n                \nhandleItem(event)\n                \n            \n\n\n            \n                \n                    Defined in src/app/pages/payment/payment.component.ts:35\n                \n            \n\n\n            \n                \n\n                    \n                        Parameters :\n                        \n                            \n                                \n                                    Name\n                                    Optional\n                                \n                            \n                            \n                                \n                                    event\n\n                                    \n                                        No\n                                    \n\n\n                                \n                            \n                        \n                    \n                    \n                    \n                    \n                        Returns :         void\n\n                    \n                    \n                        \n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            ngOnInit\n                        \n                        \n                    \n                \n            \n            \n                \nngOnInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/pages/payment/payment.component.ts:27\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            openFeedbackDialog\n                        \n                        \n                    \n                \n            \n            \n                \nopenFeedbackDialog(feedback)\n                \n            \n\n\n            \n                \n                    Defined in src/app/pages/payment/payment.component.ts:56\n                \n            \n\n\n            \n                \n\n                    \n                        Parameters :\n                        \n                            \n                                \n                                    Name\n                                    Optional\n                                \n                            \n                            \n                                \n                                    feedback\n\n                                    \n                                        No\n                                    \n\n\n                                \n                            \n                        \n                    \n                    \n                    \n                    \n                        Returns :         void\n\n                    \n                    \n                        \n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            openPaymentDialog\n                        \n                        \n                    \n                \n            \n            \n                \nopenPaymentDialog(user)\n                \n            \n\n\n            \n                \n                    Defined in src/app/pages/payment/payment.component.ts:39\n                \n            \n\n\n            \n                \n\n                    \n                        Parameters :\n                        \n                            \n                                \n                                    Name\n                                    Optional\n                                \n                            \n                            \n                                \n                                    user\n\n                                    \n                                        No\n                                    \n\n\n                                \n                            \n                        \n                    \n                    \n                    \n                    \n                        Returns :         void\n\n                    \n                    \n                        \n                    \n                \n            \n        \n    \n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            dialog\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     MatDialog\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/pages/payment/payment.component.ts:25\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            textFeedback\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         string\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/pages/payment/payment.component.ts:23\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            users\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         any\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/pages/payment/payment.component.ts:22\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit, Inject } from '@angular/core';\nimport { UsersService } from 'src/app/services/users/users.service';\nimport { MatDialogRef } from '@angular/material';\nimport { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';\nimport { FormBuilder, Validators, FormGroup } from '@angular/forms';\nimport { PaymentService } from '../../services/payment/payment.service';\nimport { SimpleModalComponent } from 'src/app/components/molecules/simple-modal/simple-modal.component';\n\nexport interface DialogData {\n  id: number;\n  name: string;\n  img: string;\n  username: string;\n}\n\n@Component({\n  selector: 'app-payment',\n  templateUrl: './payment.component.html',\n  styleUrls: ['./payment.component.scss']\n})\nexport class PaymentComponent implements OnInit {\n  users: any;\n  textFeedback: string;\n\n  constructor(private _usersService: UsersService, public dialog: MatDialog) {}\n\n  ngOnInit() {\n    this.getUsers();\n  }\n\n  private getUsers(): void {\n    this._usersService.getUsers().subscribe(_users => (this.users = _users));\n  }\n\n  handleItem(event): void {\n    this.openPaymentDialog(event.data);\n  }\n\n  openPaymentDialog(user): void {\n    const dialogRef = this.dialog.open(DialogTransaction, {\n      panelClass: ['transaction-dialog', 'custom-modal'],\n      data: { user: user }\n    });\n\n    /** Após a transação, abre modal de feedback com response */\n    dialogRef.afterClosed().subscribe(result => {\n      if (result) {\n        this.textFeedback = result.success\n          ? 'O pagamento foi concluído com sucesso!'\n          : 'O pagamento não foi concluído com sucesso.';\n        this.openFeedbackDialog(result);\n      }\n    });\n  }\n\n  openFeedbackDialog(feedback): void {\n    this.dialog.open(SimpleModalComponent, {\n      panelClass: ['feedback-dialog', 'simple-modal', 'custom-modal'],\n      data: {\n        title: 'Recibo de Pagamento',\n        text: this.textFeedback,\n        success: feedback.success,\n        status: feedback.status,\n        btn: 'Ok'\n      }\n    });\n  }\n}\n\n/** MODAL TRANSACTION */\n\n@Component({\n  selector: 'dialog-transaction',\n  templateUrl: 'dialog-transaction.html'\n})\nexport class DialogTransaction {\n  transactionForm: FormGroup;\n  loading = false;\n  cards = [\n    // valid card\n    {\n      card_number: '1111111111111111',\n      cvv: 789,\n      expiry_date: '01/18'\n    },\n    // invalid card\n    {\n      card_number: '4111111111111234',\n      cvv: 123,\n      expiry_date: '01/20'\n    }\n  ];\n\n  constructor(\n    public dialogRef: MatDialogRef,\n    @Inject(MAT_DIALOG_DATA) public data: DialogData,\n    private _formBuilder: FormBuilder,\n    private _paymentService: PaymentService\n  ) {\n    // Formulário de pagamento e validações\n    this.transactionForm = this._formBuilder.group({\n      paymentValue: [0, [Validators.required]],\n      creditCard: ['', [Validators.required]]\n    });\n  }\n\n  closeModal(): void {\n    this.dialogRef.close();\n  }\n\n  onSubmit(): void {\n    this.loading = true;\n    let creditCardNumber = this.transactionForm.get('creditCard').value,\n      paymentValue = this.transactionForm.get('paymentValue').value,\n      paymentData = this.cards.find(card => creditCardNumber === card.card_number.slice(-4));\n\n    paymentData['destination_user_id'] = this.data['user'].id;\n    paymentData['value'] = paymentValue;\n\n    this._paymentService.setPayment(paymentData).subscribe(data => {\n      this.loading = false;\n      this.clearForm();\n      this.dialogRef.close(data);\n    });\n  }\n\n  onChange(e): void {\n    this.transactionForm.controls[e.target.name].markAsTouched;\n\n    // Garante que o campo de valor terá o valor monetário limpo\n    this.transactionForm.controls[e.target.name].setValue(this.transactionForm.controls[e.target.name].value);\n  }\n\n  clearForm(): void {\n    this.transactionForm.reset();\n    this.transactionForm.markAsUntouched();\n    this.transactionForm.markAsPristine();\n    Object.keys(this.transactionForm.controls).forEach(name => {\n      let control = this.transactionForm.controls[name];\n      control.setErrors({ invalid: null });\n    });\n  }\n}\n\n    \n\n    \n        \n  \n    Pagar\n    Escolha uma pessoa para enviar um pagamento:\n\n    \n      \n    \n\n    \n      \n        \n      \n    \n  \n\n    \n\n    \n                \n                    ./payment.component.scss\n                \n                @import 'src/assets/style/mixins';\n@import 'src/assets/style/colors';\n\n.list-users {\n  padding-top: 20px;\n\n  @include respond-to('desktop') {\n    padding-top: 40px;\n  }\n}\n\n.title {\n  @include respond-to('desktop') {\n    margin-top: 20px;\n  }\n}\n\n.description {\n  @include respond-to('desktop') {\n    margin-bottom: 50px;\n  }\n}\n\n// MODAL TRANSACTION\n\n::ng-deep {\n  .transaction-dialog {\n    @include respond-to('tablet') {\n      min-height: 450px;\n    }\n\n    .mat-dialog-container {\n      .mat-dialog-content {\n        padding: 0;\n      }\n    }\n    .transaction-form {\n      padding: 20px;\n      box-sizing: border-box;\n      display: flex;\n      flex-direction: column;\n\n      @include respond-to('tablet') {\n        padding: 30px 50px;\n      }\n\n      .mat-form-field {\n        margin-bottom: 10px;\n      }\n    }\n\n    .app-button {\n      width: 100%;\n\n      @include respond-to('tablet') {\n        padding: 0 50px;\n        display: flex;\n        justify-content: center;\n      }\n\n      .btn {\n        max-width: 100%;\n\n        @include respond-to('tablet') {\n          max-width: 200px;\n        }\n      }\n    }\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '      Pagar    Escolha uma pessoa para enviar um pagamento:                                            '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'PaymentComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'modules/PaymentModule.html': {
+      url: 'modules/PaymentModule.html',
+      title: 'module - PaymentModule',
+      body:
+        "\n                   \n\n\n\n\n    Modules\n    PaymentModule\n\n\n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_PaymentModule\n\n\n\ncluster_PaymentModule_declarations\n\n\n\n\nDialogTransaction\n\nDialogTransaction\n\n\n\nPaymentModule\n\nPaymentModule\n\nPaymentModule -->\n\nDialogTransaction->PaymentModule\n\n\n\n\n\nPaymentComponent\n\nPaymentComponent\n\nPaymentModule -->\n\nPaymentComponent->PaymentModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n\n\n\n\n    \n        Info\n    \n    \n        Source\n    \n\n\n\n    \n\n        \n            File\n        \n        \n            src/app/pages/payment/payment.module.ts\n        \n\n\n\n\n        \n            \n                \n                    Declarations\n                    \n                        \n                            DialogTransaction\n                        \n                        \n                            PaymentComponent\n                        \n                    \n                \n                \n                    EntryComponents\n                    \n                        \n                            DialogTransaction\n                        \n                    \n                \n            \n        \n\n\n    \n\n\n    \n        import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { PaymentComponent, DialogTransaction } from './payment.component';\nimport { Routes, RouterModule } from '@angular/router';\nimport { ComponentsModule } from 'src/app/components/components.module';\nimport { MatDialogModule } from '@angular/material/dialog';\nimport { MatInputModule } from '@angular/material/input';\nimport { ErrorStateMatcher, ShowOnDirtyErrorStateMatcher, MatOptionModule } from '@angular/material/core';\nimport { ReactiveFormsModule, FormsModule } from '@angular/forms';\nimport { CurrencyMaskConfig, CurrencyMaskModule, CURRENCY_MASK_CONFIG } from 'ng2-currency-mask';\nimport { MatSelectModule } from '@angular/material';\nimport { MatIconModule } from '@angular/material/icon';\n\nconst routes: Routes = [\n  {\n    path: '',\n    component: PaymentComponent\n  }\n];\n\nexport const CustomCurrencyMaskConfig: CurrencyMaskConfig = {\n  align: 'left',\n  allowNegative: false,\n  decimal: ',',\n  precision: 2,\n  prefix: 'R$ ',\n  suffix: '',\n  thousands: '.'\n};\n@NgModule({\n  declarations: [PaymentComponent, DialogTransaction],\n  imports: [\n    CommonModule,\n    ReactiveFormsModule,\n    FormsModule,\n    RouterModule.forChild(routes),\n    ComponentsModule,\n    MatDialogModule,\n    MatInputModule,\n    CurrencyMaskModule,\n    MatOptionModule,\n    MatSelectModule,\n    MatIconModule\n  ],\n  entryComponents: [DialogTransaction],\n  providers: [\n    { provide: ErrorStateMatcher, useClass: ShowOnDirtyErrorStateMatcher },\n    { provide: CURRENCY_MASK_CONFIG, useValue: CustomCurrencyMaskConfig }\n  ]\n})\nexport class PaymentModule {}\n\n    \n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'injectables/PaymentService.html': {
+      url: 'injectables/PaymentService.html',
+      title: 'injectable - PaymentService',
+      body:
+        "\n                   \n\n\n\n\n\n\n\n\n  Injectables\n  PaymentService\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/services/payment/payment.service.ts\n        \n\n\n\n\n            \n    Index\n    \n        \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                setPayment\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n            \n    Constructor\n        \n            \n                \n                    \nconstructor(HttpClient: HttpClient)\n                    \n                \n                        \n                            \n                                Defined in src/app/services/payment/payment.service.ts:8\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        HttpClient\n                                                  \n                                                        \n                                                                        HttpClient\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n            \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            setPayment\n                        \n                        \n                    \n                \n            \n            \n                \nsetPayment(paymentData)\n                \n            \n\n\n            \n                \n                    Defined in src/app/services/payment/payment.service.ts:11\n                \n            \n\n\n            \n                \n\n                    \n                        Parameters :\n                        \n                            \n                                \n                                    Name\n                                    Optional\n                                \n                            \n                            \n                                \n                                    paymentData\n\n                                    \n                                        No\n                                    \n\n\n                                \n                            \n                        \n                    \n                    \n                    \n                    \n                        Returns :         any\n\n                    \n                    \n                        \n                    \n                \n            \n        \n    \n\n\n    \n\n\n    \n        import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { environment } from 'src/environments/environment';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class PaymentService {\n  constructor(private HttpClient: HttpClient) {}\n\n  setPayment(paymentData) {\n    return this.HttpClient.post(environment.postTransaction, paymentData);\n  }\n}\n\n    \n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'components/SimpleModalComponent.html': {
+      url: 'components/SimpleModalComponent.html',
+      title: 'component - SimpleModalComponent',
+      body:
+        "\n                   \n\n\n\n\n\n  Components\n  SimpleModalComponent\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n        \n            Template\n        \n        \n            Styles\n        \n        \n            DOM Tree\n        \n\n\n\n    \n    File\n\n\n    src/app/components/molecules/simple-modal/simple-modal.component.ts\n\n\n\n\n    \n        Implements\n    \n    \n                    OnInit\n    \n\n\n\n    Metadata\n    \n        \n\n\n\n\n\n\n\n\n\n\n\n            \n                selector\n                app-simple-modal\n            \n\n            \n                styleUrls\n                ./simple-modal.component.scss\n            \n\n\n\n            \n                templateUrl\n                ./simple-modal.component.html\n            \n\n\n\n\n\n\n\n\n        \n    \n\n\n    \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                data\n                            \n                            \n                                    Public\n                                dialogRef\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                closeModal\n                            \n                            \n                                ngOnInit\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n    \n    Constructor\n        \n            \n                \n                    \nconstructor(dialogRef: MatDialogRef, data: DialogData)\n                    \n                \n                        \n                            \n                                Defined in src/app/components/molecules/simple-modal/simple-modal.component.ts:17\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        dialogRef\n                                                  \n                                                        \n                                                                        MatDialogRef\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                                \n                                                        data\n                                                  \n                                                        \n                                                                        DialogData\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n\n\n\n\n    \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            closeModal\n                        \n                        \n                    \n                \n            \n            \n                \ncloseModal()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/molecules/simple-modal/simple-modal.component.ts:22\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            ngOnInit\n                        \n                        \n                    \n                \n            \n            \n                \nngOnInit()\n                \n            \n\n\n            \n                \n                    Defined in src/app/components/molecules/simple-modal/simple-modal.component.ts:20\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         void\n\n                    \n                \n            \n        \n    \n\n    \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            data\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         DialogData\n\n                        \n                    \n                    \n                        \n                            Decorators : \n                            \n                            \n                                @Inject(MAT_DIALOG_DATA)\n                            \n                        \n                    \n                        \n                            \n                                    Defined in src/app/components/molecules/simple-modal/simple-modal.component.ts:18\n                            \n                        \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            dialogRef\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         MatDialogRef\n\n                        \n                    \n                        \n                            \n                                    Defined in src/app/components/molecules/simple-modal/simple-modal.component.ts:18\n                            \n                        \n\n\n            \n        \n\n\n\n\n\n    \n        import { Component, OnInit, Inject } from '@angular/core';\nimport { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';\n\nexport interface DialogData {\n  title: string;\n  text: string;\n  success: boolean;\n  status: string;\n  btn: string;\n}\n\n@Component({\n  selector: 'app-simple-modal',\n  templateUrl: './simple-modal.component.html',\n  styleUrls: ['./simple-modal.component.scss']\n})\nexport class SimpleModalComponent implements OnInit {\n  constructor(public dialogRef: MatDialogRef, @Inject(MAT_DIALOG_DATA) public data: DialogData) {}\n\n  ngOnInit() {}\n\n  closeModal(): void {\n    this.dialogRef.close();\n  }\n}\n\n    \n\n    \n        {{ data.title }}\n\n  {{ data.success ? 'check_circle_outline' : 'highlight_off'}}\n  \n\n\n  \n\n    \n\n    \n                \n                    ./simple-modal.component.scss\n                \n                @import 'src/assets/style/mixins';\n@import 'src/assets/style/colors';\n\n::ng-deep {\n  .simple-modal {\n    .mat-dialog-container {\n      .mat-dialog-content {\n        display: flex;\n        align-items: center;\n\n        .mat-icon {\n          height: 50px;\n          width: 50px;\n          font-size: 50px;\n          color: $secondary;\n          margin-right: 20px;\n\n          &.fail {\n            color: $error;\n          }\n        }\n\n        & > p {\n          margin: 0;\n        }\n      }\n    }\n    .app-button {\n      width: 100%;\n\n      @include respond-to('tablet') {\n        padding: 0 50px;\n        display: flex;\n        justify-content: center;\n      }\n\n      .btn {\n        max-width: 100%;\n\n        @include respond-to('tablet') {\n          max-width: 200px;\n        }\n      }\n    }\n  }\n}\n\n    \n\n    \n        \n        \n            \n                Legend\n            \n            \n                Html element\n            \n            \n                Component\n            \n            \n                Html element with directive\n            \n        \n    \n\n    \n\n\n\n\n\n\n        var COMPONENT_TEMPLATE = '{{ data.title }}  {{ data.success ? \\'check_circle_outline\\' : \\'highlight_off\\'}}    '\n    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];\n    var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];\n    var ACTUAL_COMPONENT = {'name': 'SimpleModalComponent'};\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'interfaces/User.html': {
+      url: 'interfaces/User.html',
+      title: 'interface - User',
+      body:
+        "\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n  Interfaces\n  User\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/services/users/users.service.ts\n        \n\n\n\n        \n            Index\n            \n                \n                    \n                        \n                            Properties\n                        \n                    \n                    \n                        \n                            \n                                \n                                        id\n                                \n                                \n                                        img\n                                \n                                \n                                        name\n                                \n                                \n                                        username\n                                \n                            \n                        \n                    \n                \n            \n        \n\n\n\n            \n                Properties\n                    \n                        \n                                \n                                    \n                                        \n                                        id\n                                    \n                                \n                                \n                                    \n                                        id:         number\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         number\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        img\n                                    \n                                \n                                \n                                    \n                                        img:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        name\n                                    \n                                \n                                \n                                    \n                                        name:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n                    \n                        \n                                \n                                    \n                                        \n                                        username\n                                    \n                                \n                                \n                                    \n                                        username:         string\n\n                                    \n                                \n\n\n                                    \n                                        \n                                            Type :         string\n\n                                        \n                                    \n\n\n\n\n\n                        \n                    \n            \n    \n\n\n    \n        import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { environment } from 'src/environments/environment';\n\nexport interface User {\n  id: number;\n  name: string;\n  img: string;\n  username: string;\n}\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class UsersService {\n  public ROOT_URl = environment.getUsers;\n\n  constructor(private HttpClient: HttpClient) {}\n\n  getUsers() {\n    return this.HttpClient.get(this.ROOT_URl, {});\n  }\n}\n\n    \n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'injectables/UsersService.html': {
+      url: 'injectables/UsersService.html',
+      title: 'injectable - UsersService',
+      body:
+        "\n                   \n\n\n\n\n\n\n\n\n  Injectables\n  UsersService\n\n\n\n        \n            Info\n        \n        \n            Source\n        \n\n\n\n    \n        \n            File\n        \n        \n            src/app/services/users/users.service.ts\n        \n\n\n\n\n            \n    Index\n    \n        \n                \n                    \n                        Properties\n                    \n                \n                \n                    \n                        \n                            \n                                    Public\n                                ROOT_URl\n                            \n                        \n                    \n                \n\n                \n                    \n                        Methods\n                    \n                \n                \n                    \n                        \n                            \n                                getUsers\n                            \n                        \n                    \n                \n\n\n\n\n\n        \n    \n\n\n            \n    Constructor\n        \n            \n                \n                    \nconstructor(HttpClient: HttpClient)\n                    \n                \n                        \n                            \n                                Defined in src/app/services/users/users.service.ts:16\n                            \n                        \n\n                \n                    \n                            \n                                    Parameters :\n                                    \n                                        \n                                            \n                                                Name\n                                                    Type\n                                                Optional\n                                            \n                                        \n                                        \n                                                \n                                                        HttpClient\n                                                  \n                                                        \n                                                                        HttpClient\n                                                        \n                                                  \n                                                    \n                                                            No\n                                                    \n                                                    \n                                                \n                                        \n                                    \n                            \n                    \n                \n            \n        \n\n\n            \n    \n    \n        Methods\n    \n    \n        \n            \n                \n                    \n                    \n                        \n                            getUsers\n                        \n                        \n                    \n                \n            \n            \n                \ngetUsers()\n                \n            \n\n\n            \n                \n                    Defined in src/app/services/users/users.service.ts:20\n                \n            \n\n\n            \n                \n\n                    \n                        Returns :         any\n\n                    \n                \n            \n        \n    \n\n            \n    \n        \n            Properties\n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                                Public\n                            ROOT_URl\n                            \n                        \n                    \n                \n                    \n                        \n                            Default value : environment.getUsers\n                        \n                    \n                        \n                            \n                                    Defined in src/app/services/users/users.service.ts:16\n                            \n                        \n\n\n            \n        \n\n\n    \n\n\n    \n        import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { environment } from 'src/environments/environment';\n\nexport interface User {\n  id: number;\n  name: string;\n  img: string;\n  username: string;\n}\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class UsersService {\n  public ROOT_URl = environment.getUsers;\n\n  constructor(private HttpClient: HttpClient) {}\n\n  getUsers() {\n    return this.HttpClient.get(this.ROOT_URl, {});\n  }\n}\n\n    \n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'coverage.html': {
+      url: 'coverage.html',
+      title: 'coverage - coverage',
+      body:
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n    Documentation coverage\n\n\n\n    \n\n\n\n    \n        \n            File\n            Type\n            Identifier\n            Statements\n        \n    \n    \n        \n            \n                \n                e2e/src/app.po.ts\n            \n            class\n            AppPage\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/app.component.ts\n            \n            component\n            AppComponent\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/components/atoms/button/button.component.ts\n            \n            component\n            ButtonComponent\n            \n                0 %\n                (0/10)\n            \n        \n        \n            \n                \n                src/app/components/atoms/logo/logo.component.ts\n            \n            component\n            LogoComponent\n            \n                0 %\n                (0/9)\n            \n        \n        \n            \n                \n                src/app/components/molecules/list/list.component.ts\n            \n            component\n            ListComponent\n            \n                0 %\n                (0/6)\n            \n        \n        \n            \n                \n                src/app/components/molecules/navbar/navbar.component.ts\n            \n            component\n            NavbarComponent\n            \n                0 %\n                (0/5)\n            \n        \n        \n            \n                \n                src/app/components/molecules/simple-modal/simple-modal.component.ts\n            \n            component\n            SimpleModalComponent\n            \n                0 %\n                (0/6)\n            \n        \n        \n            \n                \n                src/app/components/molecules/simple-modal/simple-modal.component.ts\n            \n            interface\n            DialogData\n            \n                0 %\n                (0/6)\n            \n        \n        \n            \n                \n                src/app/components/organisms/footer/footer.component.ts\n            \n            component\n            FooterComponent\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/components/organisms/header/header.component.ts\n            \n            component\n            HeaderComponent\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/directives/link/link.directive.ts\n            \n            directive\n            LinkDirective\n            \n                0 %\n                (0/5)\n            \n        \n        \n            \n                \n                src/app/pages/payment/payment.component.ts\n            \n            component\n            DialogTransaction\n            \n                9 %\n                (1/11)\n            \n        \n        \n            \n                \n                src/app/pages/payment/payment.component.ts\n            \n            component\n            PaymentComponent\n            \n                0 %\n                (0/10)\n            \n        \n        \n            \n                \n                src/app/pages/payment/payment.component.ts\n            \n            interface\n            DialogData\n            \n                0 %\n                (0/5)\n            \n        \n        \n            \n                \n                src/app/pages/payment/payment.module.ts\n            \n            variable\n            CustomCurrencyMaskConfig\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/app/services/payment/payment.service.ts\n            \n            injectable\n            PaymentService\n            \n                0 %\n                (0/3)\n            \n        \n        \n            \n                \n                src/app/services/users/users.service.ts\n            \n            injectable\n            UsersService\n            \n                0 %\n                (0/4)\n            \n        \n        \n            \n                \n                src/app/services/users/users.service.ts\n            \n            interface\n            User\n            \n                0 %\n                (0/5)\n            \n        \n        \n            \n                \n                src/environments/environment.prod.ts\n            \n            variable\n            environment\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/environments/environment.ts\n            \n            variable\n            environment\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/test.ts\n            \n            variable\n            context\n            \n                0 %\n                (0/1)\n            \n        \n        \n            \n                \n                src/test.ts\n            \n            variable\n            require\n            \n                0 %\n                (0/1)\n            \n        \n    \n\n\n\n\n\n    new Tablesort(document.getElementById(\'coverage-table\'));\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+    },
+    'dependencies.html': {
+      url: 'dependencies.html',
+      title: 'package-dependencies - dependencies',
+      body:
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    \n        Dependencies\n    \n    \n        \n            @angular/animations : ~8.2.13\n        \n            @angular/cdk : ~8.2.3\n        \n            @angular/common : ~8.2.13\n        \n            @angular/compiler : ~8.2.13\n        \n            @angular/core : ~8.2.13\n        \n            @angular/forms : ~8.2.13\n        \n            @angular/material : ^8.2.3\n        \n            @angular/platform-browser : ~8.2.13\n        \n            @angular/platform-browser-dynamic : ~8.2.13\n        \n            @angular/router : ~8.2.13\n        \n            angular-paginator : ^5.0.1\n        \n            aos : ^2.3.4\n        \n            bootstrap : ^4.5.0\n        \n            hammerjs : ^2.0.8\n        \n            ng2-currency-mask : ^9.0.2\n        \n            rxjs : ~6.4.0\n        \n            tslib : ^1.10.0\n        \n            web-animations-js : ^2.3.2\n        \n            zone.js : ~0.9.1\n    \n\n                   \n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+    },
+    'index.html': {
+      url: 'index.html',
+      title: 'getting-started - index',
+      body:
+        "\n                   \n\nDesafio Front-end PicPay\nPrimeiramente, obrigado pelo seu interesse em trabalhar na melhor plataforma de pagamentos do mundo!\nAbaixo você encontrará todos as informações necessárias para iniciar o seu teste.\nAvisos antes de começar\n\nPara a entrega do teste você precisará ter two factor habilitado na sua conta do GitHub, você poderá ver o passo a passo nesse tutorial: https://help.github.com/pt/github/authenticating-to-github/configuring-two-factor-authentication\nCom two factor habilitado, você precisa configurar a chave SSH: https://help.github.com/pt/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account\nPara iniciar o teste, crie uma branch a partir da master nesse padrão de nomenclatura: dd-mm-yy/nome-sobrenome (por exemplo, 30-04-20/meu-nome)\nVocê poderá consultar o Google, Stackoverflow ou algum projeto particular na sua máquina.\nFique à vontade para perguntar qualquer dúvida aos recrutadores.\nFique tranquilo, respire, assim como você, também já passamos por essa etapa. Boa sorte! :)\n\nSetup do projeto\n\nAngular CLI: 8.3.18\nNode: 10.15.3\nAngular: 8.2.14\n\nComo Rodar?\n\nInstale as dependências usando o comando npm install\nNa raiz do repositório, rode este comando ng serve para iniciar o servidor de desenvolvimento.\nA Aplicação estará disponível na porta http://localhost:4200/\n\nComo submeter?\n\nCommite suas alterações de forma organizada\nAbra uma pull request da sua branch para a master com a nomenclatura: Nome Sobrenome - dd-mm-yy\n\nObjetivo\nO objetivo é construir uma aplicação que simula o envio de dinheiro para uma outra pessoa, via cartão de crédito.\nFluxo das telas\nNa primeira tela terá uma listagem de usuários, onde a pessoa pode clicar em algum usuário da lista para realizar o pagamento. Quando clicado em um usuário é então aberto um modal de pagamento, contendo as informações do usuário de destino, a opção de selecionar um cartão de crédito e um botão de pagar. O usuário deve então digitar o valor, escolher o cartão e clicar em pagar. Para realização do pagamento deve-se chamar um endpoint de pagamento que aprovará/recusará a transação. E então deve-se mostrar na tela o modal de pagamento concluído com sucesso ou o de erro.\nScreenshots\nLista de usuários\n\n\nModal de pagamento e listagem de cartões\n\n\nModal de pagamento concluído com sucesso\n\n\nModal de erro no pagamento\n\n\n#\nCartões para exibir\nO cartão válido vai aprovar a transação no backend;\nlet cards = [\n  // valid card\n  {\n    card_number: '1111111111111111',\n    cvv: 789,\n    expiry_date: '01/18',\n  },\n  // invalid card\n  {\n    card_number: '4111111111111234',\n    cvv: 123,\n    expiry_date: '01/20',\n  },\n];#\nTransação\nEndpoint: https://run.mocky.io/v3/533cd5d7-63d3-4488-bf8d-4bb8c751c989\nMétodo: POST\n// Payload:\n\ninterface TransactionPayload {\n  // Card Info\n  card_number: string;\n  cvv: number;\n  expiry_date: string;\n\n  // Destination User ID\n  destination_user_id: number;\n\n  // Value of the Transaction\n  value: number;\n}Obs: Por se tratar de um mock o endpoint sempre retornará o mesmo payload, sucesso no pagamento, independente do cartão\n#\nUsuários\nEndpoint: https://www.mocky.io/v2/5d531c4f2e0000620081ddce\nMétodo: GET\n// Payload:\n\ninterface User {\n  id: number;\n  name: string;\n  img: string;\n  username: string;\n}#\nDiferenciais\n\nTeste unitário / E2E\nMelhoria no estilo da aplicação\nValidação de formulários e máscaras\nOrganização do código\n\n#\nEstamos sempre em busca de melhoria, por isso, caso tenha alguma sugestão fique a vontade pra compartilhar com a gente!\nMais uma vez, boa sorte! :green_heart:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    },
+    'modules.html': {
+      url: 'modules.html',
+      title: 'modules - modules',
+      body:
+        '\n                   \n\n\n\n\n    Modules\n\n\n    \n            \n                \n                    \n                        AppModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        AppRoutingModule\n                    \n                    \n                                \n                                    No graph available.\n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        ComponentsModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        DirectivesModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n            \n                \n                    \n                        PaymentModule\n                    \n                    \n                                \n                                    \n                                        Your browser does not support SVG\n                                    \n                                \n                        \n                            Browse\n                        \n                    \n                \n            \n    \n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+    },
+    'overview.html': {
+      url: 'overview.html',
+      title: 'overview - overview',
+      body:
+        '\n                   \n\n\n\n    Overview\n\n  \n\n    \n        \n\n\n\n\n\ndependencies\n\nLegend\n\n  Declarations\n\n  Module\n\n  Bootstrap\n\n  Providers\n\n  Exports\n\ncluster_AppModule\n\n\n\ncluster_AppModule_declarations\n\n\n\ncluster_AppModule_imports\n\n\n\ncluster_AppModule_bootstrap\n\n\n\ncluster_ComponentsModule\n\n\n\ncluster_ComponentsModule_declarations\n\n\n\ncluster_ComponentsModule_imports\n\n\n\ncluster_ComponentsModule_exports\n\n\n\ncluster_DirectivesModule\n\n\n\ncluster_DirectivesModule_declarations\n\n\n\ncluster_DirectivesModule_exports\n\n\n\ncluster_PaymentModule\n\n\n\ncluster_PaymentModule_declarations\n\n\n\n\nAppComponent\n\nAppComponent\n\n\n\nAppModule\n\nAppModule\n\nAppModule -->\n\nAppComponent->AppModule\n\n\n\n\n\nAppComponent \n\nAppComponent \n\nAppComponent  -->\n\nAppModule->AppComponent \n\n\n\n\n\nAppRoutingModule\n\nAppRoutingModule\n\nAppModule -->\n\nAppRoutingModule->AppModule\n\n\n\n\n\nButtonComponent\n\nButtonComponent\n\n\n\nComponentsModule\n\nComponentsModule\n\nComponentsModule -->\n\nButtonComponent->ComponentsModule\n\n\n\n\n\nFooterComponent\n\nFooterComponent\n\nComponentsModule -->\n\nFooterComponent->ComponentsModule\n\n\n\n\n\nHeaderComponent\n\nHeaderComponent\n\nComponentsModule -->\n\nHeaderComponent->ComponentsModule\n\n\n\n\n\nListComponent\n\nListComponent\n\nComponentsModule -->\n\nListComponent->ComponentsModule\n\n\n\n\n\nLogoComponent\n\nLogoComponent\n\nComponentsModule -->\n\nLogoComponent->ComponentsModule\n\n\n\n\n\nNavbarComponent\n\nNavbarComponent\n\nComponentsModule -->\n\nNavbarComponent->ComponentsModule\n\n\n\n\n\nSimpleModalComponent\n\nSimpleModalComponent\n\nComponentsModule -->\n\nSimpleModalComponent->ComponentsModule\n\n\n\n\n\nButtonComponent \n\nButtonComponent \n\nButtonComponent  -->\n\nComponentsModule->ButtonComponent \n\n\n\n\n\nFooterComponent \n\nFooterComponent \n\nFooterComponent  -->\n\nComponentsModule->FooterComponent \n\n\n\n\n\nHeaderComponent \n\nHeaderComponent \n\nHeaderComponent  -->\n\nComponentsModule->HeaderComponent \n\n\n\n\n\nListComponent \n\nListComponent \n\nListComponent  -->\n\nComponentsModule->ListComponent \n\n\n\n\n\nLogoComponent \n\nLogoComponent \n\nLogoComponent  -->\n\nComponentsModule->LogoComponent \n\n\n\n\n\nNavbarComponent \n\nNavbarComponent \n\nNavbarComponent  -->\n\nComponentsModule->NavbarComponent \n\n\n\n\n\nSimpleModalComponent \n\nSimpleModalComponent \n\nSimpleModalComponent  -->\n\nComponentsModule->SimpleModalComponent \n\n\n\n\n\nDirectivesModule\n\nDirectivesModule\n\nComponentsModule -->\n\nDirectivesModule->ComponentsModule\n\n\n\n\n\nLinkDirective \n\nLinkDirective \n\nLinkDirective  -->\n\nDirectivesModule->LinkDirective \n\n\n\n\n\nLinkDirective\n\nLinkDirective\n\nDirectivesModule -->\n\nLinkDirective->DirectivesModule\n\n\n\n\n\nDialogTransaction\n\nDialogTransaction\n\n\n\nPaymentModule\n\nPaymentModule\n\nPaymentModule -->\n\nDialogTransaction->PaymentModule\n\n\n\n\n\nPaymentComponent\n\nPaymentComponent\n\nPaymentModule -->\n\nPaymentComponent->PaymentModule\n\n\n\n\n\n\n    \n    \n    \n        Zoom in\n        Reset\n        Zoom out\n    \n\n  \n\n    \n        \n            \n                \n                    \n                    \n                        5 Modules\n                    \n                \n            \n        \n        \n            \n                \n                    \n                    10 Components\n                \n            \n        \n        \n            \n                \n                    \n                    1 Directive\n                \n            \n        \n        \n            \n                \n                    \n                    2 Injectables\n                \n            \n        \n        \n            \n                \n                    \n                    1 Class\n                \n            \n        \n        \n            \n                \n                    \n                    3 Interfaces\n                \n            \n        \n        \n            \n                \n                    \n                    \n                        4 Routes\n                    \n                \n            \n        \n    \n\n\n \n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+    },
+    'routes.html': {
+      url: 'routes.html',
+      title: 'routes - routes',
+      body:
+        '\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    Routes\n\n\n\n\n\n\n\n\n\n                   \n\n\n\n\n                   \n    \n         result-matching ""\n        \n    \n    \n        No results matching ""\n    \n\n'
+    },
+    'miscellaneous/variables.html': {
+      url: 'miscellaneous/variables.html',
+      title: 'miscellaneous-variables - variables',
+      body:
+        "\n                   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                   \n\n\n  Miscellaneous\n  Variables\n\n\n\n    Index\n    \n        \n            \n                \n                    \n                        \n                            context   (src/.../test.ts)\n                        \n                        \n                            CustomCurrencyMaskConfig   (src/.../payment.module.ts)\n                        \n                        \n                            environment   (src/.../environment.prod.ts)\n                        \n                        \n                            environment   (src/.../environment.ts)\n                        \n                        \n                            require   (src/.../test.ts)\n                        \n                    \n                \n            \n        \n    \n\n\n    src/test.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            context\n                            \n                        \n                    \n                \n                    \n                        \n                            Default value : require.context('./', true, /\\.spec\\.ts$/)\n                        \n                    \n\n\n            \n        \n        \n            \n                \n                    \n                        \n                        \n                            \n                            require\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         any\n\n                        \n                    \n\n\n            \n        \n\n    src/app/pages/payment/payment.module.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            CustomCurrencyMaskConfig\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :     CurrencyMaskConfig\n\n                        \n                    \n                    \n                        \n                            Default value : {\n  align: 'left',\n  allowNegative: false,\n  decimal: ',',\n  precision: 2,\n  prefix: 'R$ ',\n  suffix: '',\n  thousands: '.'\n}\n                        \n                    \n\n\n            \n        \n\n    src/environments/environment.prod.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            environment\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         object\n\n                        \n                    \n                    \n                        \n                            Default value : {\n  production: true,\n  getUsers: 'https://www.mocky.io/v2/5d531c4f2e0000620081ddce',\n  postTransaction: 'https://run.mocky.io/v3/533cd5d7-63d3-4488-bf8d-4bb8c751c989'\n}\n                        \n                    \n\n\n            \n        \n\n    src/environments/environment.ts\n    \n            \n            \n                \n                    \n                        \n                        \n                            \n                            environment\n                            \n                        \n                    \n                \n                    \n                        \n                            Type :         object\n\n                        \n                    \n                    \n                        \n                            Default value : {\n  production: false,\n  getUsers: 'https://www.mocky.io/v2/5d531c4f2e0000620081ddce',\n  postTransaction: 'https://run.mocky.io/v3/533cd5d7-63d3-4488-bf8d-4bb8c751c989'\n}\n                        \n                    \n\n\n            \n        \n\n\n\n\n                   \n    \n         result-matching \"\"\n        \n    \n    \n        No results matching \"\"\n    \n\n"
+    }
+  }
+};

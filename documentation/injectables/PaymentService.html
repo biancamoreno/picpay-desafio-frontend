@@ -27,7 +27,7 @@
                    <compodoc-menu mode="normal"></compodoc-menu>
                </div>
                <!-- START CONTENT -->
-               <div class="content class">
+               <div class="content injectable">
                    <div class="content-data">
 
 
@@ -36,13 +36,9 @@
 
 
 
-
-
-
-
 <ol class="breadcrumb">
-  <li>Classes</li>
-  <li>AppPage</li>
+  <li>Injectables</li>
+  <li>PaymentService</li>
 </ol>
 
 <ul class="nav nav-tabs" role="tablist">
@@ -60,9 +56,8 @@
             <h3>File</h3>
         </p>
         <p class="comment">
-            <code>e2e/src/app.po.ts</code>
+            <code>src/app/services/payment/payment.service.ts</code>
         </p>
-
 
 
 
@@ -81,10 +76,7 @@
                     <td class="col-md-4">
                         <ul class="index-list">
                             <li>
-                                <a href="#getTitleText">getTitleText</a>
-                            </li>
-                            <li>
-                                <a href="#navigateTo">navigateTo</a>
+                                <a href="#setPayment">setPayment</a>
                             </li>
                         </ul>
                     </td>
@@ -98,7 +90,54 @@
     </table>
 </section>
 
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(HttpClient: <a href="https://angular.io/api/common/http/HttpClient" target="_blank">HttpClient</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/app/services/payment/payment.service.ts:8</a></div>
+                            </td>
+                        </tr>
 
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>HttpClient</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/common/http/HttpClient" target="_blank" >HttpClient</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
 
             <section>
     
@@ -109,26 +148,26 @@
         <tbody>
             <tr>
                 <td class="col-md-4">
-                    <a name="getTitleText"></a>
+                    <a name="setPayment"></a>
                     <span class="name">
                         <b>
-                            getTitleText
+                            setPayment
                         </b>
-                        <a href="#getTitleText"><span class="icon ion-ios-link"></span></a>
+                        <a href="#setPayment"><span class="icon ion-ios-link"></span></a>
                     </span>
                 </td>
             </tr>
             <tr>
                 <td class="col-md-4">
-<code>getTitleText()</code>
+<code>setPayment(paymentData)</code>
                 </td>
             </tr>
 
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="8"
-                            class="link-to-prism">e2e/src/app.po.ts:8</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="11"
+                            class="link-to-prism">src/app/services/payment/payment.service.ts:11</a></div>
                 </td>
             </tr>
 
@@ -136,48 +175,36 @@
             <tr>
                 <td class="col-md-4">
 
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>paymentData</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
                     <div class="io-description">
                         <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
 
                     </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="navigateTo"></a>
-                    <span class="name">
-                        <b>
-                            navigateTo
-                        </b>
-                        <a href="#navigateTo"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
-<code>navigateTo()</code>
-                </td>
-            </tr>
-
-
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="4"
-                            class="link-to-prism">e2e/src/app.po.ts:4</a></div>
-                </td>
-            </tr>
-
-
-            <tr>
-                <td class="col-md-4">
-
                     <div class="io-description">
-                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
-
+                        
                     </div>
                 </td>
             </tr>
@@ -185,28 +212,32 @@
     </table>
 </section>
 
-
-
-
-
     </div>
 
 
     <div class="tab-pane fade  tab-source-code" id="c-source">
-        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { browser, by, element } from &#x27;protractor&#x27;;
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Injectable } from &#x27;@angular/core&#x27;;
+import { HttpClient } from &#x27;@angular/common/http&#x27;;
+import { environment } from &#x27;src/environments/environment&#x27;;
 
-export class AppPage {
-  navigateTo() {
-    return browser.get(browser.baseUrl) as Promise&lt;any&gt;;
-  }
+@Injectable({
+  providedIn: &#x27;root&#x27;
+})
+export class PaymentService {
+  constructor(private HttpClient: HttpClient) {}
 
-  getTitleText() {
-    return element(by.css(&#x27;app-root h1.title&#x27;)).getText() as Promise&lt;string&gt;;
+  setPayment(paymentData) {
+    return this.HttpClient.post(environment.postTransaction, paymentData);
   }
 }
 </code></pre>
     </div>
+
 </div>
+
+
+
+
 
 
 
@@ -231,8 +262,8 @@ export class AppPage {
 
        <script>
             var COMPODOC_CURRENT_PAGE_DEPTH = 1;
-            var COMPODOC_CURRENT_PAGE_CONTEXT = 'class';
-            var COMPODOC_CURRENT_PAGE_URL = 'AppPage.html';
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'PaymentService.html';
             var MAX_SEARCH_RESULTS = 15;
        </script>
 
