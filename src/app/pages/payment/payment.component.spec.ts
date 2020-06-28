@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PaymentComponent } from './payment.component';
+import { ListComponent } from '../../components/molecules/list/list.component';
 
 describe('PaymentComponent', () => {
   let component: PaymentComponent;
@@ -8,7 +9,7 @@ describe('PaymentComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [PaymentComponent]
+      declarations: [PaymentComponent, ListComponent]
     }).compileComponents();
   }));
 
@@ -20,5 +21,12 @@ describe('PaymentComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should render title', () => {
+    const fixture = TestBed.createComponent(PaymentComponent);
+    fixture.detectChanges();
+    const compiled = fixture.debugElement.nativeElement;
+    expect(compiled.querySelector('.title').textContent).toContain('Pagar');
   });
 });
