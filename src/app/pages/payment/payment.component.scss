@@ -9,59 +9,40 @@
   }
 }
 
+.title {
+  @include respond-to('desktop') {
+    margin-top: 20px;
+  }
+}
+
+.description {
+  @include respond-to('desktop') {
+    margin-bottom: 50px;
+  }
+}
+
 // MODAL TRANSACTION
 
 ::ng-deep {
   .transaction-dialog {
-    max-width: 100vw !important;
-    width: 100%;
-    height: 100%;
-
-    .description {
-      margin-bottom: 20px;
+    @include respond-to('tablet') {
+      min-height: 450px;
     }
 
     .mat-dialog-container {
-      border-radius: 0;
-      padding: 0;
-      background: #fff;
-
-      .mat-dialog-title {
-        color: #fff;
-        background-color: rgba(25, 25, 25, 0.8);
-        padding: 20px;
-        position: relative;
-
-        & > span {
-          color: $primary;
-        }
-
-        .close-modal {
-          position: absolute;
-          right: 10px;
-          top: 17px;
-          height: 36px;
-          width: 36px;
-          font-size: 36px;
-        }
-      }
-
-      .mat-dialog-actions {
-        padding: 20px;
-      }
-
       .mat-dialog-content {
-        box-sizing: border-box;
-        margin: 0;
         padding: 0;
       }
     }
-
     .transaction-form {
       padding: 20px;
       box-sizing: border-box;
       display: flex;
       flex-direction: column;
+
+      @include respond-to('tablet') {
+        padding: 30px 50px;
+      }
 
       .mat-form-field {
         margin-bottom: 10px;
@@ -71,8 +52,18 @@
     .app-button {
       width: 100%;
 
+      @include respond-to('tablet') {
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+      }
+
       .btn {
         max-width: 100%;
+
+        @include respond-to('tablet') {
+          max-width: 200px;
+        }
       }
     }
   }

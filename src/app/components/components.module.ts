@@ -13,6 +13,7 @@ import { AngularPaginatorModule } from 'angular-paginator';
 import { SimpleModalComponent } from './molecules/simple-modal/simple-modal.component';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,15 @@ import { MatDialogModule } from '@angular/material/dialog';
     ListComponent,
     SimpleModalComponent
   ],
-  imports: [CommonModule, DirectivesModule, RouterModule, FormsModule, AngularPaginatorModule, MatDialogModule],
+  imports: [
+    CommonModule,
+    DirectivesModule,
+    RouterModule,
+    FormsModule,
+    AngularPaginatorModule,
+    MatDialogModule,
+    MatIconModule
+  ],
   exports: [
     LogoComponent,
     ButtonComponent,

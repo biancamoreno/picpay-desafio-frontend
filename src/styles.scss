@@ -23,7 +23,7 @@ body {
 }
 
 .title {
-  color: $primary;
+  color: $dark;
   font-size: 22px;
   margin-bottom: 10px;
 
@@ -55,6 +55,66 @@ body {
   }
 }
 
+// DIALOG
+
+.custom-modal {
+  max-width: 100vw !important;
+  width: 100%;
+  height: 100%;
+
+  @include respond-to('tablet') {
+    max-width: 456px !important;
+    max-height: 80vh;
+    min-height: 260px;
+    height: auto;
+  }
+
+  .description {
+    margin-bottom: 20px;
+  }
+
+  .mat-dialog-container {
+    border-radius: 0;
+    padding: 0;
+    background: #fff;
+
+    .mat-dialog-title {
+      color: #fff;
+      background-color: rgba(25, 25, 25, 0.8);
+      padding: 20px;
+      position: relative;
+
+      @include respond-to('tablet') {
+        padding: 20px 50px;
+      }
+
+      & > span {
+        color: $primary;
+      }
+
+      .close-modal {
+        position: absolute;
+        right: 10px;
+        top: 17px;
+        height: 36px;
+        width: 36px;
+        font-size: 36px;
+        cursor: pointer;
+      }
+    }
+
+    .mat-dialog-actions {
+      padding: 20px;
+    }
+
+    .mat-dialog-content {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 20px;
+    }
+  }
+}
+
 // FORM MATERIAL
 
 .mat-input-element {
@@ -62,7 +122,8 @@ body {
 }
 
 .mat-form-field.mat-focused .mat-form-field-label,
-.mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+.mat-primary .mat-option.mat-selected:not(.mat-option-disabled),
+.mat-form-field.mat-focused.mat-primary .mat-select-arrow {
   color: $secondary;
 }
 

@@ -1,0 +1,24 @@
+@import 'src/assets/style/mixins';
+@import 'src/assets/style/colors';
+
+::ng-deep {
+  .simple-modal {
+    .app-button {
+      width: 100%;
+
+      @include respond-to('tablet') {
+        padding: 0 50px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .btn {
+        max-width: 100%;
+
+        @include respond-to('tablet') {
+          max-width: 200px;
+        }
+      }
+    }
+  }
+}

@@ -10,7 +10,8 @@
     <mat-form-field class="example-full-width">
       <mat-label>*Valor</mat-label>
       <input type="tel" name="paymentValue" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"
-        matInput formControlName="paymentValue" [errorStateMatcher]="matcher" placeholder="R$ 0,00" min="0.01" (blur)="onBlur($event)">
+        matInput formControlName="paymentValue" [errorStateMatcher]="matcher" placeholder="R$ 0,00" min="0.01"
+        (blur)="onBlur($event)" [attr.disabled]="loading">
       <mat-error *ngIf="transactionForm.controls['paymentValue'].hasError('min') &&
         !transactionForm.controls['paymentValue'].hasError('required')">
         Insira um valor correto
@@ -22,7 +23,7 @@
 
     <mat-form-field class="select example-full-width">
       <mat-label>*Cartão de Crédito</mat-label>
-      <mat-select formControlName="creditCard" name="creditCard">
+      <mat-select formControlName="creditCard" name="creditCard" [disabled]="loading">
         <mat-option value="" disabled>Selecione</mat-option>
         <mat-option *ngFor="let card of cards" [value]="card.card_number.slice(-4)">
           Cartão final {{ card.card_number.slice(-4) }}

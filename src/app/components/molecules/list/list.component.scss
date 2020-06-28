@@ -54,6 +54,10 @@
   .pagination {
     justify-content: center;
     margin: 30px 0;
+
+    @include respond-to('desktop') {
+      margin: 50px 0 70px;
+    }
   }
 }
 
