@@ -1,5 +1,8 @@
 <p mat-dialog-title>{{ data.title }}</p>
-<div mat-dialog-content [innerHTML]="data.text"></div>
+<div mat-dialog-content>
+  <mat-icon aria-hidden="false" [ngClass]="{'fail': !data.success}">{{ data.success ? 'check_circle_outline' : 'highlight_off'}}</mat-icon>
+  <p [innerHTML]="data.text"></p>
+</div>
 <div mat-dialog-actions>
   <app-button class="app-button" [text]="data.btn" (click)="closeModal()"></app-button>
 </div>

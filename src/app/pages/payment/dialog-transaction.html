@@ -7,23 +7,23 @@
   <form class="transaction-form" id="transactionForm" [formGroup]="transactionForm" *ngIf="transactionForm">
     <fieldset class="description">Insira os dados para efetuar o pagamento:</fieldset>
 
-    <mat-form-field class="example-full-width">
+    <mat-form-field class="example-full-width" [ngClass]="{'disabled': loading}">
       <mat-label>*Valor</mat-label>
       <input type="tel" name="paymentValue" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"
         matInput formControlName="paymentValue" [errorStateMatcher]="matcher" placeholder="R$ 0,00" min="0.01"
-        (blur)="onBlur($event)" [attr.disabled]="loading">
-      <mat-error *ngIf="transactionForm.controls['paymentValue'].hasError('min') &&
+        (change)="onChange($event)">
+      <mat-error *ngIf="(transactionForm.controls['paymentValue'].hasError('min') || transactionForm.controls['paymentValue'].hasError('pattern')) &&
         !transactionForm.controls['paymentValue'].hasError('required')">
-        Insira um valor correto
+        Insira um valor válido
       </mat-error>
       <mat-error *ngIf="transactionForm.controls['paymentValue'].hasError('required')">
         O valor é <strong>obrigatório</strong>
       </mat-error>
     </mat-form-field>
 
-    <mat-form-field class="select example-full-width">
+    <mat-form-field class="select example-full-width" [ngClass]="{'disabled': loading}">
       <mat-label>*Cartão de Crédito</mat-label>
-      <mat-select formControlName="creditCard" name="creditCard" [disabled]="loading">
+      <mat-select formControlName="creditCard" name="creditCard">
         <mat-option value="" disabled>Selecione</mat-option>
         <mat-option *ngFor="let card of cards" [value]="card.card_number.slice(-4)">
           Cartão final {{ card.card_number.slice(-4) }}

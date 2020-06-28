@@ -65,7 +65,7 @@ body {
   @include respond-to('tablet') {
     max-width: 456px !important;
     max-height: 80vh;
-    min-height: 260px;
+    min-height: 280px;
     height: auto;
   }
 
@@ -111,6 +111,10 @@ body {
       box-sizing: border-box;
       margin: 0;
       padding: 20px;
+
+      @include respond-to('tablet') {
+        padding: 20px 50px;
+      }
     }
   }
 }
@@ -129,4 +133,9 @@ body {
 
 .mat-form-field.mat-focused .mat-form-field-ripple {
   background-color: $secondary;
+}
+
+.disabled.mat-form-field {
+  pointer-events: none;
+  opacity: 0.8;
 }

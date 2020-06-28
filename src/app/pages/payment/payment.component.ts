@@ -46,8 +46,8 @@ export class PaymentComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result => {
       if (result) {
         this.textFeedback = result.success
-          ? '<mat-icon aria-hidden="false" aria-label="Success icon">check_circle_outline</mat-icon> O pagamento foi concluído com sucesso!'
-          : '<mat-icon aria-hidden="false" aria-label="Failed icon">highlight_off</mat-icon> O pagamento <strong>não</strong> foi concluído com sucesso.';
+          ? 'O pagamento foi concluído com sucesso!'
+          : 'O pagamento <strong>não</strong> foi concluído com sucesso.';
         this.openFeedbackDialog(result);
       }
     });
@@ -97,7 +97,7 @@ export class DialogTransaction {
     private _formBuilder: FormBuilder,
     private _paymentService: PaymentService
   ) {
-    /** Formulário de pagamento e validações */
+    // Formulário de pagamento e validações
     this.transactionForm = this._formBuilder.group({
       paymentValue: [0, [Validators.required]],
       creditCard: ['', [Validators.required]]
@@ -117,15 +117,18 @@ export class DialogTransaction {
     paymentData['destination_user_id'] = this.data['user'].id;
     paymentData['value'] = paymentValue;
 
-    // this._paymentService.setPayment(paymentData).subscribe(data => {
-    //   this.loading = false;
-    //   this.clearForm();
-    this.dialogRef.close({ success: true, status: 'Aprovada' });
-    // });
+    this._paymentService.setPayment(paymentData).subscribe(data => {
+      this.loading = false;
+      this.clearForm();
+      this.dialogRef.close(data);
+    });
   }
 
-  onBlur(e): void {
+  onChange(e): void {
     this.transactionForm.controls[e.target.name].markAsTouched;
+
+    // Garante que o campo de valor terá o valor monetário limpo
+    this.transactionForm.controls[e.target.name].setValue(this.transactionForm.controls[e.target.name].value);
   }
 
   clearForm(): void {
