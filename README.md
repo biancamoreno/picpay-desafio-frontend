@@ -23,6 +23,7 @@ Abaixo você encontrará todos as informações necessárias para iniciar o seu 
 - Instale as dependências usando o comando `npm install`
 - Na raiz do repositório, rode este comando `ng serve` para iniciar o servidor de desenvolvimento.
 - A Aplicação estará disponível na porta `http://localhost:4200/`
+- Para executar a documentação no endereço `http://localhost:4200/`, rode o comando `npm run doc`
 
 ## Como submeter?
 
@@ -67,14 +68,14 @@ let cards = [
   {
     card_number: '1111111111111111',
     cvv: 789,
-    expiry_date: '01/18',
+    expiry_date: '01/18'
   },
   // invalid card
   {
     card_number: '4111111111111234',
     cvv: 123,
-    expiry_date: '01/20',
-  },
+    expiry_date: '01/20'
+  }
 ];
 ```
 

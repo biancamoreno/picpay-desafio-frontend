@@ -776,7 +776,7 @@ export class DialogTransaction {
 
     <div class="tab-pane fade " id="c-templateData">
         <pre class="line-numbers"><code class="language-html">&lt;p mat-dialog-title&gt;
-  Pagamento para &lt;span&gt;{{ data.user.name }}&lt;/span&gt;
+  Pagamento para &lt;span&gt;{{ data[&#x27;user&#x27;][&#x27;name&#x27;] }}&lt;/span&gt;
   &lt;mat-icon class&#x3D;&quot;close-modal&quot; (click)&#x3D;&quot;closeModal()&quot;&gt;close&lt;/mat-icon&gt;
 &lt;/p&gt;
 
@@ -787,7 +787,7 @@ export class DialogTransaction {
     &lt;mat-form-field class&#x3D;&quot;example-full-width&quot; [ngClass]&#x3D;&quot;{&#x27;disabled&#x27;: loading}&quot;&gt;
       &lt;mat-label&gt;*Valor&lt;/mat-label&gt;
       &lt;input type&#x3D;&quot;tel&quot; name&#x3D;&quot;paymentValue&quot; currencyMask [options]&#x3D;&quot;{ prefix: &#x27;R$ &#x27;, thousands: &#x27;.&#x27;, decimal: &#x27;,&#x27; }&quot;
-        matInput formControlName&#x3D;&quot;paymentValue&quot; [errorStateMatcher]&#x3D;&quot;matcher&quot; placeholder&#x3D;&quot;R$ 0,00&quot; min&#x3D;&quot;0.01&quot;
+        matInput formControlName&#x3D;&quot;paymentValue&quot; placeholder&#x3D;&quot;R$ 0,00&quot; min&#x3D;&quot;0.01&quot;
         (change)&#x3D;&quot;onChange($event)&quot;&gt;
       &lt;mat-error *ngIf&#x3D;&quot;(transactionForm.controls[&#x27;paymentValue&#x27;].hasError(&#x27;min&#x27;) || transactionForm.controls[&#x27;paymentValue&#x27;].hasError(&#x27;pattern&#x27;)) &amp;&amp;
         !transactionForm.controls[&#x27;paymentValue&#x27;].hasError(&#x27;required&#x27;)&quot;&gt;
@@ -812,7 +812,7 @@ export class DialogTransaction {
 
 &lt;/div&gt;
 &lt;div mat-dialog-actions&gt;
-  &lt;app-button [type]&#x3D;&quot;submit&quot; class&#x3D;&quot;app-button&quot; [text]&#x3D;&quot;&#x27;Pagar&#x27;&quot; [disabled]&#x3D;&quot;transactionForm.invalid || loading&quot;
+  &lt;app-button [type]&#x3D;&quot;&#x27;submit&#x27;&quot; class&#x3D;&quot;app-button&quot; [text]&#x3D;&quot;&#x27;Pagar&#x27;&quot; [disabled]&#x3D;&quot;transactionForm.invalid || loading&quot;
     [status]&#x3D;&quot;loading ? &#x27;loading&#x27; : &#x27;&#x27;&quot; (click)&#x3D;&quot;onSubmit()&quot;&gt;&lt;/app-button&gt;
 &lt;/div&gt;</code></pre>
     </div>
@@ -843,7 +843,7 @@ export class DialogTransaction {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><p mat-dialog-title>  Pagamento para <span>{{ data.user.name }}</span>  <mat-icon class="close-modal" (click)="closeModal()">close</mat-icon></p><div mat-dialog-content>  <form class="transaction-form" id="transactionForm" [formGroup]="transactionForm" *ngIf="transactionForm">    <fieldset class="description">Insira os dados para efetuar o pagamento:</fieldset>    <mat-form-field class="example-full-width" [ngClass]="{\'disabled\': loading}">      <mat-label>*Valor</mat-label>      <input type="tel" name="paymentValue" currencyMask [options]="{ prefix: \'R$ \', thousands: \'.\', decimal: \',\' }"        matInput formControlName="paymentValue" [errorStateMatcher]="matcher" placeholder="R$ 0,00" min="0.01"        (change)="onChange($event)">      <mat-error *ngIf="(transactionForm.controls[\'paymentValue\'].hasError(\'min\') || transactionForm.controls[\'paymentValue\'].hasError(\'pattern\')) &&        !transactionForm.controls[\'paymentValue\'].hasError(\'required\')">        Insira um valor válido      </mat-error>      <mat-error *ngIf="transactionForm.controls[\'paymentValue\'].hasError(\'required\')">        O valor é <strong>obrigatório</strong>      </mat-error>    </mat-form-field>    <mat-form-field class="select example-full-width" [ngClass]="{\'disabled\': loading}">      <mat-label>*Cartão de Crédito</mat-label>      <mat-select formControlName="creditCard" name="creditCard">        <mat-option value="" disabled>Selecione</mat-option>        <mat-option *ngFor="let card of cards" [value]="card.card_number.slice(-4)">          Cartão final {{ card.card_number.slice(-4) }}        </mat-option>      </mat-select>    </mat-form-field>  </form></div><div mat-dialog-actions>  <app-button [type]="submit" class="app-button" [text]="\'Pagar\'" [disabled]="transactionForm.invalid || loading"    [status]="loading ? \'loading\' : \'\'" (click)="onSubmit()"></app-button></div></div>'
+        var COMPONENT_TEMPLATE = '<div><p mat-dialog-title>  Pagamento para <span>{{ data[\'user\'][\'name\'] }}</span>  <mat-icon class="close-modal" (click)="closeModal()">close</mat-icon></p><div mat-dialog-content>  <form class="transaction-form" id="transactionForm" [formGroup]="transactionForm" *ngIf="transactionForm">    <fieldset class="description">Insira os dados para efetuar o pagamento:</fieldset>    <mat-form-field class="example-full-width" [ngClass]="{\'disabled\': loading}">      <mat-label>*Valor</mat-label>      <input type="tel" name="paymentValue" currencyMask [options]="{ prefix: \'R$ \', thousands: \'.\', decimal: \',\' }"        matInput formControlName="paymentValue" placeholder="R$ 0,00" min="0.01"        (change)="onChange($event)">      <mat-error *ngIf="(transactionForm.controls[\'paymentValue\'].hasError(\'min\') || transactionForm.controls[\'paymentValue\'].hasError(\'pattern\')) &&        !transactionForm.controls[\'paymentValue\'].hasError(\'required\')">        Insira um valor válido      </mat-error>      <mat-error *ngIf="transactionForm.controls[\'paymentValue\'].hasError(\'required\')">        O valor é <strong>obrigatório</strong>      </mat-error>    </mat-form-field>    <mat-form-field class="select example-full-width" [ngClass]="{\'disabled\': loading}">      <mat-label>*Cartão de Crédito</mat-label>      <mat-select formControlName="creditCard" name="creditCard">        <mat-option value="" disabled>Selecione</mat-option>        <mat-option *ngFor="let card of cards" [value]="card.card_number.slice(-4)">          Cartão final {{ card.card_number.slice(-4) }}        </mat-option>      </mat-select>    </mat-form-field>  </form></div><div mat-dialog-actions>  <app-button [type]="\'submit\'" class="app-button" [text]="\'Pagar\'" [disabled]="transactionForm.invalid || loading"    [status]="loading ? \'loading\' : \'\'" (click)="onSubmit()"></app-button></div></div>'
     var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];
     var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];
     var ACTUAL_COMPONENT = {'name': 'DialogTransaction'};
