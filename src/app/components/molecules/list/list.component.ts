@@ -8,6 +8,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class ListComponent implements OnInit {
   @Input() items: Array<any>;
   @Output() itemSelected = new EventEmitter<{ data: any }>();
+  currentPage: any;
 
   constructor() {}
 

@@ -1,5 +1,5 @@
 <p mat-dialog-title>
-  Pagamento para <span>{{ data.user.name }}</span>
+  Pagamento para <span>{{ data['user']['name'] }}</span>
   <mat-icon class="close-modal" (click)="closeModal()">close</mat-icon>
 </p>
 
@@ -10,7 +10,7 @@
     <mat-form-field class="example-full-width" [ngClass]="{'disabled': loading}">
       <mat-label>*Valor</mat-label>
       <input type="tel" name="paymentValue" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"
-        matInput formControlName="paymentValue" [errorStateMatcher]="matcher" placeholder="R$ 0,00" min="0.01"
+        matInput formControlName="paymentValue" placeholder="R$ 0,00" min="0.01"
         (change)="onChange($event)">
       <mat-error *ngIf="(transactionForm.controls['paymentValue'].hasError('min') || transactionForm.controls['paymentValue'].hasError('pattern')) &&
         !transactionForm.controls['paymentValue'].hasError('required')">
@@ -35,6 +35,6 @@
 
 </div>
 <div mat-dialog-actions>
-  <app-button [type]="submit" class="app-button" [text]="'Pagar'" [disabled]="transactionForm.invalid || loading"
+  <app-button [type]="'submit'" class="app-button" [text]="'Pagar'" [disabled]="transactionForm.invalid || loading"
     [status]="loading ? 'loading' : ''" (click)="onSubmit()"></app-button>
 </div>
