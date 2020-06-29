@@ -371,7 +371,7 @@ export class NavbarComponent implements OnInit {
       &lt;a link [routerLink]&#x3D;&quot;[link.router]&quot; routerLinkActive&#x3D;&quot;router-link-active&quot; class&#x3D;&quot;item__link&quot; *ngFor&#x3D;&quot;let link of links&quot;&gt;{{ link.text }}&lt;/a&gt;
     &lt;/li&gt;
     &lt;li class&#x3D;&quot;navbar__list__item item&quot;&gt;
-      &lt;a *ngFor&#x3D;&quot;let social of socials&quot; [href]&#x3D;&quot;social.href&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;item__social&quot;&gt;
+      &lt;a *ngFor&#x3D;&quot;let social of socials; let i &#x3D; index&quot; data-aos&#x3D;&quot;zoom-out&quot; data-aos-duration&#x3D;&quot;1000&quot; [href]&#x3D;&quot;social.href&quot; target&#x3D;&quot;_blank&quot; class&#x3D;&quot;item__social&quot;&gt;
         &lt;img [src]&#x3D;&quot;social.src&quot; width&#x3D;&quot;34px&quot; [alt]&#x3D;&quot;social.alt&quot; /&gt;
       &lt;/a&gt;
     &lt;/li&gt;
@@ -464,7 +464,7 @@ export class NavbarComponent implements OnInit {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><nav class="navbar">  <ul class="navbar__list">    <li class="m-r-10 navbar__list__item item">      <a link [routerLink]="[link.router]" routerLinkActive="router-link-active" class="item__link" *ngFor="let link of links">{{ link.text }}</a>    </li>    <li class="navbar__list__item item">      <a *ngFor="let social of socials" [href]="social.href" target="_blank" class="item__social">        <img [src]="social.src" width="34px" [alt]="social.alt" />      </a>    </li>  </ul></nav></div>'
+        var COMPONENT_TEMPLATE = '<div><nav class="navbar">  <ul class="navbar__list">    <li class="m-r-10 navbar__list__item item">      <a link [routerLink]="[link.router]" routerLinkActive="router-link-active" class="item__link" *ngFor="let link of links">{{ link.text }}</a>    </li>    <li class="navbar__list__item item">      <a *ngFor="let social of socials; let i = index" data-aos="zoom-out" data-aos-duration="1000" [href]="social.href" target="_blank" class="item__social">        <img [src]="social.src" width="34px" [alt]="social.alt" />      </a>    </li>  </ul></nav></div>'
     var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];
     var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];
     var ACTUAL_COMPONENT = {'name': 'NavbarComponent'};

@@ -236,7 +236,7 @@ export class HeaderComponent implements OnInit {
     <div class="tab-pane fade " id="c-templateData">
         <pre class="line-numbers"><code class="language-html">&lt;header class&#x3D;&quot;header&quot;&gt;
   &lt;div class&#x3D;&quot;container&quot;&gt;
-    &lt;app-logo&gt;&lt;/app-logo&gt;
+    &lt;app-logo data-aos&#x3D;&quot;zoom-out&quot; data-aos-duration&#x3D;&quot;1500&quot;&gt;&lt;/app-logo&gt;
     &lt;app-navbar&gt;&lt;/app-navbar&gt;
   &lt;/div&gt;
 &lt;/header&gt;</code></pre>
@@ -301,7 +301,7 @@ export class HeaderComponent implements OnInit {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><header class="header">  <div class="container">    <app-logo></app-logo>    <app-navbar></app-navbar>  </div></header></div>'
+        var COMPONENT_TEMPLATE = '<div><header class="header">  <div class="container">    <app-logo data-aos="zoom-out" data-aos-duration="1500"></app-logo>    <app-navbar></app-navbar>  </div></header></div>'
     var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];
     var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];
     var ACTUAL_COMPONENT = {'name': 'HeaderComponent'};

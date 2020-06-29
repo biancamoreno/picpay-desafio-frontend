@@ -183,7 +183,7 @@
             <tbody>
                 <tr>
                     <td class="col-md-4">
-<code>constructor(dialogRef: <a href="../components/DialogTransaction.html">MatDialogRef<DialogTransaction></a>, data: <a href="../interfaces/DialogData.html">DialogData</a>, _formBuilder: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, _paymentService: <a href="../injectables/PaymentService.html">PaymentService</a>)</code>
+<code>constructor(dialogRef: <a href="../components/DialogTransaction.html">MatDialogRef<DialogTransaction></a>, data: <a href="../interfaces/FeedbackModal.html">FeedbackModal</a>, _formBuilder: <a href="https://angular.io/api/forms/FormBuilder" target="_blank">FormBuilder</a>, _paymentService: <a href="../injectables/PaymentService.html">PaymentService</a>)</code>
                     </td>
                 </tr>
                         <tr>
@@ -221,7 +221,7 @@
                                                         <td>data</td>
                                                   
                                                         <td>
-                                                                        <code><a href="../interfaces/DialogData.html" target="_self" >DialogData</a></code>
+                                                                        <code><a href="../interfaces/FeedbackModal.html" target="_self" >FeedbackModal</a></code>
                                                         </td>
                                                   
                                                     <td>
@@ -522,7 +522,7 @@
                 </tr>
                     <tr>
                         <td class="col-md-4">
-                            <i>Type : </i>        <code><a href="../interfaces/DialogData.html" target="_self" >DialogData</a></code>
+                            <i>Type : </i>        <code><a href="../interfaces/FeedbackModal.html" target="_self" >FeedbackModal</a></code>
 
                         </td>
                     </tr>
@@ -639,7 +639,7 @@ import { FormBuilder, Validators, FormGroup } from &#x27;@angular/forms&#x27;;
 import { PaymentService } from &#x27;../../services/payment/payment.service&#x27;;
 import { SimpleModalComponent } from &#x27;src/app/components/molecules/simple-modal/simple-modal.component&#x27;;
 
-export interface DialogData {
+export interface FeedbackModal {
   id: number;
   name: string;
   img: string;
@@ -726,7 +726,7 @@ export class DialogTransaction {
 
   constructor(
     public dialogRef: MatDialogRef&lt;DialogTransaction&gt;,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData,
+    @Inject(MAT_DIALOG_DATA) public data: FeedbackModal,
     private _formBuilder: FormBuilder,
     private _paymentService: PaymentService
   ) {

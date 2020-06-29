@@ -251,10 +251,10 @@ customElements.define(
                             : 'id="xs-interfaces-links"'
                         }>
                             <li class="link">
-                                <a href="interfaces/DialogData.html" data-type="entity-link">DialogData</a>
+                                <a href="interfaces/FeedbackModal.html" data-type="entity-link">FeedbackModal</a>
                             </li>
                             <li class="link">
-                                <a href="interfaces/DialogData-1.html" data-type="entity-link">DialogData</a>
+                                <a href="interfaces/SimpleModal.html" data-type="entity-link">SimpleModal</a>
                             </li>
                             <li class="link">
                                 <a href="interfaces/User.html" data-type="entity-link">User</a>

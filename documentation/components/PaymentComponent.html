@@ -629,7 +629,7 @@ import { FormBuilder, Validators, FormGroup } from &#x27;@angular/forms&#x27;;
 import { PaymentService } from &#x27;../../services/payment/payment.service&#x27;;
 import { SimpleModalComponent } from &#x27;src/app/components/molecules/simple-modal/simple-modal.component&#x27;;
 
-export interface DialogData {
+export interface FeedbackModal {
   id: number;
   name: string;
   img: string;
@@ -716,7 +716,7 @@ export class DialogTransaction {
 
   constructor(
     public dialogRef: MatDialogRef&lt;DialogTransaction&gt;,
-    @Inject(MAT_DIALOG_DATA) public data: DialogData,
+    @Inject(MAT_DIALOG_DATA) public data: FeedbackModal,
     private _formBuilder: FormBuilder,
     private _paymentService: PaymentService
   ) {
