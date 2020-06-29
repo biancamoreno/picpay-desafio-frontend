@@ -12,11 +12,7 @@
       <input type="tel" name="paymentValue" currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"
         matInput formControlName="paymentValue" placeholder="R$ 0,00" min="0.01"
         (change)="onChange($event)">
-      <mat-error *ngIf="(transactionForm.controls['paymentValue'].hasError('min') || transactionForm.controls['paymentValue'].hasError('pattern')) &&
-        !transactionForm.controls['paymentValue'].hasError('required')">
-        Insira um valor válido
-      </mat-error>
-      <mat-error *ngIf="transactionForm.controls['paymentValue'].hasError('required')">
+      <mat-error *ngIf="transactionForm.controls['paymentValue'].errors">
         O valor é <strong>obrigatório</strong>
       </mat-error>
     </mat-form-field>

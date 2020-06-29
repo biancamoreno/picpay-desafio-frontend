@@ -108,27 +108,30 @@ export class DialogTransaction {
     this.dialogRef.close();
   }
 
-  onSubmit(): void {
+  async onSubmit() {
     this.loading = true;
     let creditCardNumber = this.transactionForm.get('creditCard').value,
       paymentValue = this.transactionForm.get('paymentValue').value,
-      paymentData = this.cards.find(card => creditCardNumber === card.card_number.slice(-4));
+      paymentData = this.cards.find(
+        card => creditCardNumber === card.card_number.slice(-4)
+      );
 
     paymentData['destination_user_id'] = this.data['user'].id;
     paymentData['value'] = paymentValue;
 
-    this._paymentService.setPayment(paymentData).subscribe(data => {
-      this.loading = false;
-      this.clearForm();
-      this.dialogRef.close(data);
-    });
+    let response = await this._paymentService.setPayment(paymentData);
+    this.loading = false;
+    this.clearForm();
+    this.dialogRef.close(response);
   }
 
   onChange(e): void {
     this.transactionForm.controls[e.target.name].markAsTouched;
 
     // Garante que o campo de valor terá o valor monetário limpo
-    this.transactionForm.controls[e.target.name].setValue(this.transactionForm.controls[e.target.name].value);
+    this.transactionForm.controls[e.target.name].setValue(
+      this.transactionForm.controls[e.target.name].value
+    );
   }
 
   clearForm(): void {
