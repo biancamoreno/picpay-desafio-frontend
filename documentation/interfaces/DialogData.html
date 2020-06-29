@@ -332,27 +332,30 @@ export class DialogTransaction {
     this.dialogRef.close();
   }
 
-  onSubmit(): void {
+  async onSubmit() {
     this.loading &#x3D; true;
     let creditCardNumber &#x3D; this.transactionForm.get(&#x27;creditCard&#x27;).value,
       paymentValue &#x3D; this.transactionForm.get(&#x27;paymentValue&#x27;).value,
-      paymentData &#x3D; this.cards.find(card &#x3D;&gt; creditCardNumber &#x3D;&#x3D;&#x3D; card.card_number.slice(-4));
+      paymentData &#x3D; this.cards.find(
+        card &#x3D;&gt; creditCardNumber &#x3D;&#x3D;&#x3D; card.card_number.slice(-4)
+      );
 
     paymentData[&#x27;destination_user_id&#x27;] &#x3D; this.data[&#x27;user&#x27;].id;
     paymentData[&#x27;value&#x27;] &#x3D; paymentValue;
 
-    this._paymentService.setPayment(paymentData).subscribe(data &#x3D;&gt; {
-      this.loading &#x3D; false;
-      this.clearForm();
-      this.dialogRef.close(data);
-    });
+    let response &#x3D; await this._paymentService.setPayment(paymentData);
+    this.loading &#x3D; false;
+    this.clearForm();
+    this.dialogRef.close(response);
   }
 
   onChange(e): void {
     this.transactionForm.controls[e.target.name].markAsTouched;
 
     // Garante que o campo de valor terá o valor monetário limpo
-    this.transactionForm.controls[e.target.name].setValue(this.transactionForm.controls[e.target.name].value);
+    this.transactionForm.controls[e.target.name].setValue(
+      this.transactionForm.controls[e.target.name].value
+    );
   }
 
   clearForm(): void {

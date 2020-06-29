@@ -162,6 +162,7 @@
                                 <a href="#onChange">onChange</a>
                             </li>
                             <li>
+                                    <span class="modifier">Async</span>
                                 <a href="#onSubmit">onSubmit</a>
                             </li>
                         </ul>
@@ -292,8 +293,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="134"
-                            class="link-to-prism">src/app/pages/payment/payment.component.ts:134</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="137"
+                            class="link-to-prism">src/app/pages/payment/payment.component.ts:137</a></div>
                 </td>
             </tr>
 
@@ -370,8 +371,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="127"
-                            class="link-to-prism">src/app/pages/payment/payment.component.ts:127</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="128"
+                            class="link-to-prism">src/app/pages/payment/payment.component.ts:128</a></div>
                 </td>
             </tr>
 
@@ -421,6 +422,7 @@
                     <a name="onSubmit"></a>
                     <span class="name">
                         <b>
+                            <span class="modifier">Async</span>
                             onSubmit
                         </b>
                         <a href="#onSubmit"><span class="icon ion-ios-link"></span></a>
@@ -429,7 +431,8 @@
             </tr>
             <tr>
                 <td class="col-md-4">
-<code>onSubmit()</code>
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>onSubmit()</code>
                 </td>
             </tr>
 
@@ -446,7 +449,7 @@
                 <td class="col-md-4">
 
                     <div class="io-description">
-                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
 
                     </div>
                 </td>
@@ -738,27 +741,30 @@ export class DialogTransaction {
     this.dialogRef.close();
   }
 
-  onSubmit(): void {
+  async onSubmit() {
     this.loading &#x3D; true;
     let creditCardNumber &#x3D; this.transactionForm.get(&#x27;creditCard&#x27;).value,
       paymentValue &#x3D; this.transactionForm.get(&#x27;paymentValue&#x27;).value,
-      paymentData &#x3D; this.cards.find(card &#x3D;&gt; creditCardNumber &#x3D;&#x3D;&#x3D; card.card_number.slice(-4));
+      paymentData &#x3D; this.cards.find(
+        card &#x3D;&gt; creditCardNumber &#x3D;&#x3D;&#x3D; card.card_number.slice(-4)
+      );
 
     paymentData[&#x27;destination_user_id&#x27;] &#x3D; this.data[&#x27;user&#x27;].id;
     paymentData[&#x27;value&#x27;] &#x3D; paymentValue;
 
-    this._paymentService.setPayment(paymentData).subscribe(data &#x3D;&gt; {
-      this.loading &#x3D; false;
-      this.clearForm();
-      this.dialogRef.close(data);
-    });
+    let response &#x3D; await this._paymentService.setPayment(paymentData);
+    this.loading &#x3D; false;
+    this.clearForm();
+    this.dialogRef.close(response);
   }
 
   onChange(e): void {
     this.transactionForm.controls[e.target.name].markAsTouched;
 
     // Garante que o campo de valor terá o valor monetário limpo
-    this.transactionForm.controls[e.target.name].setValue(this.transactionForm.controls[e.target.name].value);
+    this.transactionForm.controls[e.target.name].setValue(
+      this.transactionForm.controls[e.target.name].value
+    );
   }
 
   clearForm(): void {
@@ -789,11 +795,7 @@ export class DialogTransaction {
       &lt;input type&#x3D;&quot;tel&quot; name&#x3D;&quot;paymentValue&quot; currencyMask [options]&#x3D;&quot;{ prefix: &#x27;R$ &#x27;, thousands: &#x27;.&#x27;, decimal: &#x27;,&#x27; }&quot;
         matInput formControlName&#x3D;&quot;paymentValue&quot; placeholder&#x3D;&quot;R$ 0,00&quot; min&#x3D;&quot;0.01&quot;
         (change)&#x3D;&quot;onChange($event)&quot;&gt;
-      &lt;mat-error *ngIf&#x3D;&quot;(transactionForm.controls[&#x27;paymentValue&#x27;].hasError(&#x27;min&#x27;) || transactionForm.controls[&#x27;paymentValue&#x27;].hasError(&#x27;pattern&#x27;)) &amp;&amp;
-        !transactionForm.controls[&#x27;paymentValue&#x27;].hasError(&#x27;required&#x27;)&quot;&gt;
-        Insira um valor válido
-      &lt;/mat-error&gt;
-      &lt;mat-error *ngIf&#x3D;&quot;transactionForm.controls[&#x27;paymentValue&#x27;].hasError(&#x27;required&#x27;)&quot;&gt;
+      &lt;mat-error *ngIf&#x3D;&quot;transactionForm.controls[&#x27;paymentValue&#x27;].errors&quot;&gt;
         O valor é &lt;strong&gt;obrigatório&lt;/strong&gt;
       &lt;/mat-error&gt;
     &lt;/mat-form-field&gt;
@@ -843,7 +845,7 @@ export class DialogTransaction {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><p mat-dialog-title>  Pagamento para <span>{{ data[\'user\'][\'name\'] }}</span>  <mat-icon class="close-modal" (click)="closeModal()">close</mat-icon></p><div mat-dialog-content>  <form class="transaction-form" id="transactionForm" [formGroup]="transactionForm" *ngIf="transactionForm">    <fieldset class="description">Insira os dados para efetuar o pagamento:</fieldset>    <mat-form-field class="example-full-width" [ngClass]="{\'disabled\': loading}">      <mat-label>*Valor</mat-label>      <input type="tel" name="paymentValue" currencyMask [options]="{ prefix: \'R$ \', thousands: \'.\', decimal: \',\' }"        matInput formControlName="paymentValue" placeholder="R$ 0,00" min="0.01"        (change)="onChange($event)">      <mat-error *ngIf="(transactionForm.controls[\'paymentValue\'].hasError(\'min\') || transactionForm.controls[\'paymentValue\'].hasError(\'pattern\')) &&        !transactionForm.controls[\'paymentValue\'].hasError(\'required\')">        Insira um valor válido      </mat-error>      <mat-error *ngIf="transactionForm.controls[\'paymentValue\'].hasError(\'required\')">        O valor é <strong>obrigatório</strong>      </mat-error>    </mat-form-field>    <mat-form-field class="select example-full-width" [ngClass]="{\'disabled\': loading}">      <mat-label>*Cartão de Crédito</mat-label>      <mat-select formControlName="creditCard" name="creditCard">        <mat-option value="" disabled>Selecione</mat-option>        <mat-option *ngFor="let card of cards" [value]="card.card_number.slice(-4)">          Cartão final {{ card.card_number.slice(-4) }}        </mat-option>      </mat-select>    </mat-form-field>  </form></div><div mat-dialog-actions>  <app-button [type]="\'submit\'" class="app-button" [text]="\'Pagar\'" [disabled]="transactionForm.invalid || loading"    [status]="loading ? \'loading\' : \'\'" (click)="onSubmit()"></app-button></div></div>'
+        var COMPONENT_TEMPLATE = '<div><p mat-dialog-title>  Pagamento para <span>{{ data[\'user\'][\'name\'] }}</span>  <mat-icon class="close-modal" (click)="closeModal()">close</mat-icon></p><div mat-dialog-content>  <form class="transaction-form" id="transactionForm" [formGroup]="transactionForm" *ngIf="transactionForm">    <fieldset class="description">Insira os dados para efetuar o pagamento:</fieldset>    <mat-form-field class="example-full-width" [ngClass]="{\'disabled\': loading}">      <mat-label>*Valor</mat-label>      <input type="tel" name="paymentValue" currencyMask [options]="{ prefix: \'R$ \', thousands: \'.\', decimal: \',\' }"        matInput formControlName="paymentValue" placeholder="R$ 0,00" min="0.01"        (change)="onChange($event)">      <mat-error *ngIf="transactionForm.controls[\'paymentValue\'].errors">        O valor é <strong>obrigatório</strong>      </mat-error>    </mat-form-field>    <mat-form-field class="select example-full-width" [ngClass]="{\'disabled\': loading}">      <mat-label>*Cartão de Crédito</mat-label>      <mat-select formControlName="creditCard" name="creditCard">        <mat-option value="" disabled>Selecione</mat-option>        <mat-option *ngFor="let card of cards" [value]="card.card_number.slice(-4)">          Cartão final {{ card.card_number.slice(-4) }}        </mat-option>      </mat-select>    </mat-form-field>  </form></div><div mat-dialog-actions>  <app-button [type]="\'submit\'" class="app-button" [text]="\'Pagar\'" [disabled]="transactionForm.invalid || loading"    [status]="loading ? \'loading\' : \'\'" (click)="onSubmit()"></app-button></div></div>'
     var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];
     var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];
     var ACTUAL_COMPONENT = {'name': 'DialogTransaction'};
