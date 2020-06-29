@@ -12,13 +12,13 @@ export class PaymentService {
   setPayment(paymentData) {
     return new Promise(resolve => {
       if (paymentData.card_number.slice(-4) === '1234')
-        return resolve({ success: false, status: 'Reprovada' });
+        return resolve({ success: false, status: 'Reprovada' })
       this.HttpClient.post(environment.postTransaction, paymentData).subscribe(
         data => {
-          return resolve(data);
+          return resolve(data)
         },
         error => {
-          return resolve({ success: false, status: 'Reprovada' });
+          return resolve({ success: false, status: 'Reprovada' })
         }
       );
     });
