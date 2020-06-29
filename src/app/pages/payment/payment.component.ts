@@ -109,6 +109,7 @@ export class DialogTransaction {
   }
 
   async onSubmit() {
+    if (this.transactionForm.invalid) return;
     this.loading = true;
     let creditCardNumber = this.transactionForm.get('creditCard').value,
       paymentValue = this.transactionForm.get('paymentValue').value,
