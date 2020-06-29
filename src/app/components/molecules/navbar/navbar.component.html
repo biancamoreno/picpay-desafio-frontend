@@ -4,7 +4,7 @@
       <a link [routerLink]="[link.router]" routerLinkActive="router-link-active" class="item__link" *ngFor="let link of links">{{ link.text }}</a>
     </li>
     <li class="navbar__list__item item">
-      <a *ngFor="let social of socials" [href]="social.href" target="_blank" class="item__social">
+      <a *ngFor="let social of socials; let i = index" data-aos="zoom-out" data-aos-duration="1000" [href]="social.href" target="_blank" class="item__social">
         <img [src]="social.src" width="34px" [alt]="social.alt" />
       </a>
     </li>

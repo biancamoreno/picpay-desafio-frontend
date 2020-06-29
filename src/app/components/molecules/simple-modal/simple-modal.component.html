@@ -1,6 +1,6 @@
 <p mat-dialog-title>{{ data.title }}</p>
 <div mat-dialog-content>
-  <mat-icon aria-hidden="false" [ngClass]="{'fail': !data.success}">{{ data.success ? 'check_circle_outline' : 'highlight_off'}}</mat-icon>
+  <mat-icon data-aos="zoom-out" data-aos-duration="2000" aria-hidden="false" [ngClass]="{'fail': !data.success}">{{ data.success ? 'check_circle_outline' : 'highlight_off'}}</mat-icon>
   <p [innerHTML]="data.text"></p>
 </div>
 <div mat-dialog-actions>

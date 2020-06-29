@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
-export interface DialogData {
+export interface SimpleModal {
   title: string;
   text: string;
   success: boolean;
@@ -15,7 +15,10 @@ export interface DialogData {
   styleUrls: ['./simple-modal.component.scss']
 })
 export class SimpleModalComponent implements OnInit {
-  constructor(public dialogRef: MatDialogRef<SimpleModalComponent>, @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+  constructor(
+    public dialogRef: MatDialogRef<SimpleModalComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: SimpleModal
+  ) {}
 
   ngOnInit() {}
 
