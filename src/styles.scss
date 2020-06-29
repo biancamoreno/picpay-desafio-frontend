@@ -24,8 +24,9 @@ body {
 
 .title {
   color: $dark;
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 10px;
+  font-weight: bold;
 
   @include respond-to('desktop') {
     font-size: 30px;
@@ -34,13 +35,8 @@ body {
 }
 
 .description {
-  color: $light-text;
-  font-size: 16px;
-  margin-bottom: 10px;
-
-  @include respond-to('desktop') {
-    margin-bottom: 15px;
-  }
+  color: #fff;
+  margin-bottom: 0;
 }
 
 .loading-page {

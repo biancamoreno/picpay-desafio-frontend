@@ -1,8 +1,11 @@
 <section class="list-users">
+  <div class="list-users__welcome">
+    <div class="container">
+      <h1 class="title">Pagar</h1>
+      <p class="description">Escolha uma pessoa para enviar um pagamento:</p>
+    </div>
+  </div>
   <div class="container">
-    <h1 class="title">Pagar</h1>
-    <p class="description">Escolha uma pessoa para enviar um pagamento:</p>
-
     <div class="list-users__pagination m-t-30" *ngIf="users else loading">
       <app-list [items]="users" (itemSelected)="handleItem($event)"></app-list>
     </div>

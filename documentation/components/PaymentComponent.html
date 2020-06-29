@@ -772,10 +772,13 @@ export class DialogTransaction {
 
     <div class="tab-pane fade " id="c-templateData">
         <pre class="line-numbers"><code class="language-html">&lt;section class&#x3D;&quot;list-users&quot;&gt;
+  &lt;div class&#x3D;&quot;list-users__welcome&quot;&gt;
+    &lt;div class&#x3D;&quot;container&quot;&gt;
+      &lt;h1 class&#x3D;&quot;title&quot;&gt;Pagar&lt;/h1&gt;
+      &lt;p class&#x3D;&quot;description&quot;&gt;Escolha uma pessoa para enviar um pagamento:&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
   &lt;div class&#x3D;&quot;container&quot;&gt;
-    &lt;h1 class&#x3D;&quot;title&quot;&gt;Pagar&lt;/h1&gt;
-    &lt;p class&#x3D;&quot;description&quot;&gt;Escolha uma pessoa para enviar um pagamento:&lt;/p&gt;
-
     &lt;div class&#x3D;&quot;list-users__pagination m-t-30&quot; *ngIf&#x3D;&quot;users else loading&quot;&gt;
       &lt;app-list [items]&#x3D;&quot;users&quot; (itemSelected)&#x3D;&quot;handleItem($event)&quot;&gt;&lt;/app-list&gt;
     &lt;/div&gt;
@@ -797,23 +800,26 @@ export class DialogTransaction {
 @import &#x27;src/assets/style/colors&#x27;;
 
 .list-users {
-  padding-top: 20px;
+  &amp;__welcome {
+    background: rgb(17, 199, 111);
+    background: linear-gradient(
+      90deg,
+      rgba(17, 199, 111, 1) 0%,
+      rgba(13, 152, 85, 1) 100%
+    );
+    padding: 30px 0;
+    margin-bottom: 30px;
 
-  @include respond-to(&#x27;desktop&#x27;) {
-    padding-top: 40px;
+    @include respond-to(&#x27;tablet&#x27;) {
+      padding: 40px 0;
+      margin-bottom: 70px;
+    }
   }
 }
 
-.title {
-  @include respond-to(&#x27;desktop&#x27;) {
-    margin-top: 20px;
-  }
-}
-
+.title,
 .description {
-  @include respond-to(&#x27;desktop&#x27;) {
-    margin-bottom: 50px;
-  }
+  color: #fff;
 }
 
 // MODAL TRANSACTION
@@ -891,7 +897,7 @@ export class DialogTransaction {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><section class="list-users">  <div class="container">    <h1 class="title">Pagar</h1>    <p class="description">Escolha uma pessoa para enviar um pagamento:</p>    <div class="list-users__pagination m-t-30" *ngIf="users else loading">      <app-list [items]="users" (itemSelected)="handleItem($event)"></app-list>    </div>    <ng-template #loading>      <div class="loading-page">        <img class="loading-page__loader" alt="loading" src="../../../assets/images/loading-green.gif" />      </div>    </ng-template>  </div></section></div>'
+        var COMPONENT_TEMPLATE = '<div><section class="list-users">  <div class="list-users__welcome">    <div class="container">      <h1 class="title">Pagar</h1>      <p class="description">Escolha uma pessoa para enviar um pagamento:</p>    </div>  </div>  <div class="container">    <div class="list-users__pagination m-t-30" *ngIf="users else loading">      <app-list [items]="users" (itemSelected)="handleItem($event)"></app-list>    </div>    <ng-template #loading>      <div class="loading-page">        <img class="loading-page__loader" alt="loading" src="../../../assets/images/loading-green.gif" />      </div>    </ng-template>  </div></section></div>'
     var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'ButtonComponent', 'selector': 'app-button'},{'name': 'DialogTransaction', 'selector': 'dialog-transaction'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'HeaderComponent', 'selector': 'app-header'},{'name': 'ListComponent', 'selector': 'app-list'},{'name': 'LogoComponent', 'selector': 'app-logo'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PaymentComponent', 'selector': 'app-payment'},{'name': 'SimpleModalComponent', 'selector': 'app-simple-modal'}];
     var DIRECTIVES = [{'name': 'LinkDirective', 'selector': '[link]'}];
     var ACTUAL_COMPONENT = {'name': 'PaymentComponent'};

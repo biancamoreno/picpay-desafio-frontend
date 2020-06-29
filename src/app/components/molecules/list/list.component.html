@@ -1,5 +1,5 @@
 <ul class="list">
-  <li class="list__item" data-aos="zoom-in" *ngFor="let item of items | angularPaginator: { currentPage: currentPage }; let i = index">
+  <li class="list__item" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" *ngFor="let item of items | angularPaginator: { currentPage: currentPage }; let i = index">
     <div class="list__item__infos info">
       <img class="info__img" [src]="item.img" />
       <p class="info__text">

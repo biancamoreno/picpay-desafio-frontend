@@ -2,23 +2,26 @@
 @import 'src/assets/style/colors';
 
 .list-users {
-  padding-top: 20px;
+  &__welcome {
+    background: rgb(17, 199, 111);
+    background: linear-gradient(
+      90deg,
+      rgba(17, 199, 111, 1) 0%,
+      rgba(13, 152, 85, 1) 100%
+    );
+    padding: 30px 0;
+    margin-bottom: 30px;
 
-  @include respond-to('desktop') {
-    padding-top: 40px;
+    @include respond-to('tablet') {
+      padding: 40px 0;
+      margin-bottom: 70px;
+    }
   }
 }
 
-.title {
-  @include respond-to('desktop') {
-    margin-top: 20px;
-  }
-}
-
+.title,
 .description {
-  @include respond-to('desktop') {
-    margin-bottom: 50px;
-  }
+  color: #fff;
 }
 
 // MODAL TRANSACTION

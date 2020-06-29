@@ -271,7 +271,10 @@ export interface SimpleModal {
   styleUrls: [&#x27;./simple-modal.component.scss&#x27;]
 })
 export class SimpleModalComponent implements OnInit {
-  constructor(public dialogRef: MatDialogRef&lt;SimpleModalComponent&gt;, @Inject(MAT_DIALOG_DATA) public data: SimpleModal) {}
+  constructor(
+    public dialogRef: MatDialogRef&lt;SimpleModalComponent&gt;,
+    @Inject(MAT_DIALOG_DATA) public data: SimpleModal
+  ) {}
 
   ngOnInit() {}
 
